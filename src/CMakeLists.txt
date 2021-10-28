@@ -10,7 +10,6 @@ target_link_libraries(hashvalidator
     Qt5::Quick
     Qt5::QuickControls2
     Qt5::Svg
-    QCoro::QCoroCore
     KF5::I18n
     KF5::CoreAddons)
 
