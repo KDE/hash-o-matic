@@ -41,6 +41,7 @@ Kirigami.ApplicationWindow {
                 page: 'qrc:AboutPage.qml'
                 pagePool: mainPagePool
                 checkable: false
+                useLayers: true
             }
         ]
     }
