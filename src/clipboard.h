@@ -1,10 +1,9 @@
-// SPDX-FileCopyrightText: 2019 Black Hat <bhat@encom.eu.org>
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
+// SPDX-License-Identifier: LGPL-2.1-or-later
 
 #pragma once
 
 #include <QObject>
-#include <QImage>
 
 class QClipboard;
 
@@ -14,22 +13,10 @@ class QClipboard;
 class Clipboard : public QObject
 {
     Q_OBJECT
-    Q_PROPERTY(bool hasImage READ hasImage NOTIFY imageChanged)
-    Q_PROPERTY(QImage image READ image NOTIFY imageChanged)
-
 public:
     explicit Clipboard(QObject *parent = nullptr);
-
-    [[nodiscard]] bool hasImage() const;
-    [[nodiscard]] QImage image() const;
-
-    Q_INVOKABLE bool saveImage(const QUrl &localPath) const;
-
     Q_INVOKABLE void saveText(QString message);
 
 private:
     QClipboard *m_clipboard;
-
-Q_SIGNALS:
-    void imageChanged();
 };

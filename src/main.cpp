@@ -1,7 +1,5 @@
-/*
-    SPDX-License-Identifier: GPL-2.0-or-later
-    SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
-*/
+// SPDX-License-Identifier: LGPL-2.1-or-later
+// SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 
 #include <KAboutData>
 #include <KLocalizedContext>
