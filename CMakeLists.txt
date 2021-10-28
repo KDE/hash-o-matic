@@ -53,6 +53,7 @@ add_subdirectory(src)
 
 install(PROGRAMS org.kde.hashvalidator.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.hashvalidator.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.hashvalidator.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
 

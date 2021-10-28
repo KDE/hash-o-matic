@@ -5,7 +5,7 @@ Name=hashvalidator
 Comment=Check hashes for your files
 Version=1.0
 Exec=hashvalidator
-Icon=applications-development
+Icon=org.kde.hashvalidator
 Type=Application
 Terminal=false
 # Add an actual main category here (and possibly applicable additional ones)
