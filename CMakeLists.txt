@@ -27,11 +27,6 @@ include(ECMPoQmTools)
 include(KDEGitCommitHooks)
 include(KDEClangFormat)
 
-find_package(QCoro REQUIRED)
-
-qcoro_enable_coroutines()
-
-
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.c)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
 
