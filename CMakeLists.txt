@@ -37,7 +37,15 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config)
+
+if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
+    find_package(KF5DBusAddons ${KF5_MIN_VERSION} REQUIRED)
+endif()
+
+if (NOT ANDROID)
+    find_package(KF5WindowSystem ${KF5_MIN_VERSION} REQUIRED)
+endif()
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)

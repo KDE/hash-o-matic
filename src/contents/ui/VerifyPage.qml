@@ -51,4 +51,32 @@ Kirigami.Page {
             color: type === 0 ? Kirigami.Theme.positiveTextColor : Kirigami.Theme.negativeTextColor
         }
     }
+
+    DropArea {
+        id: dropAreaFile
+        anchors.fill: parent
+        onDropped: if (drop.urls.length > 0) {
+            hashHelper.file = drop.urls[0];
+        } else if (drop.hasText) {
+            hashField.text = drop.text;
+        }
+    }
+
+    QQC2.Popup {
+        visible: dropAreaFile.containsDrag
+        height: parent ? parent.height -  Kirigami.Units.gridUnit * 2 : 0
+        width: parent ? parent.width - Kirigami.Units.gridUnit * 2 : 0
+        x: Kirigami.Units.gridUnit
+        y: Kirigami.Units.gridUnit
+        modal: true
+        parent: page.QQC2.Overlay.overlay
+        Kirigami.Theme.colorSet: Kirigami.Theme.View
+        Kirigami.Theme.inherit: false
+
+        Kirigami.PlaceholderMessage {
+            anchors.centerIn: parent
+            width: parent.width - (Kirigami.Units.largeSpacing * 4)
+            text: i18n("Drag items here to verify them")
+        }
+    }
 }

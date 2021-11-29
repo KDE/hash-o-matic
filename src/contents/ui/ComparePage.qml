@@ -72,4 +72,62 @@ Kirigami.Page {
             color: type === 0 ? Kirigami.Theme.positiveTextColor : Kirigami.Theme.negativeTextColor
         }
     }
+
+    DropArea {
+        id: dropAreaFile1
+        height: parent.height / 2
+        width: parent.width
+        onDropped: hashHelper.file = drop.urls[0]
+    }
+
+    DropArea {
+        id: dropAreaFile2
+        y: parent.height / 2
+        height: parent.height / 2
+        width: parent.width
+        onDropped: hashHelper2.file = drop.urls[0]
+    }
+
+    QQC2.Popup {
+        visible: dropAreaFile1.containsDrag || dropAreaFile2.containsDrag
+        height: parent ? parent.height -  Kirigami.Units.gridUnit * 2 : 0
+        width: parent ? parent.width - Kirigami.Units.gridUnit * 2 : 0
+        x: Kirigami.Units.gridUnit
+        y: Kirigami.Units.gridUnit
+        modal: true
+        parent: page.QQC2.Overlay.overlay
+
+        background: Item {}
+
+        contentItem: ColumnLayout {
+            spacing: Kirigami.Units.gridUnit
+            QQC2.Pane {
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Kirigami.Theme.colorSet: dropAreaFile1.containsDrag ? Kirigami.Theme.View : Kirigami.Theme.Window
+                Kirigami.Theme.inherit: false
+                Kirigami.PlaceholderMessage {
+                    anchors.centerIn: parent
+                    width: parent.width - (Kirigami.Units.largeSpacing * 4)
+                    text: i18n("Drag file here to compare it")
+                    explanation: hashHelper.md5sum.length > 0 ? hashHelper.fileName : ''
+                    icon.name: hashHelper.md5sum === "" ? "document-open-folder" : hashHelper.minetypeIcon
+                }
+            }
+            QQC2.Pane {
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Kirigami.Theme.colorSet: dropAreaFile2.containsDrag ? Kirigami.Theme.View : Kirigami.Theme.Window
+                Kirigami.Theme.inherit: false
+                Kirigami.PlaceholderMessage {
+                    anchors.centerIn: parent
+                    width: parent.width - (Kirigami.Units.largeSpacing * 4)
+                    text: i18n("Drag file here to compare it")
+                    explanation: hashHelper2.md5sum.length > 0 ? hashHelper2.fileName : ''
+                    icon.name: hashHelper2.md5sum === "" ? "document-open-folder" : hashHelper2.minetypeIcon
+                }
+            }
+        }
+    }
+
 }

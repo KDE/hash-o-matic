@@ -14,7 +14,6 @@ Kirigami.Page {
     title: i18n("Generate Hash")
 
     ColumnLayout {
-        anchors.centerIn: parent
         width: parent.width
         QQC2.Button {
             icon.name: hashHelper.md5sum === "" ? "document-open-folder" : hashHelper.minetypeIcon
@@ -24,14 +23,17 @@ Kirigami.Page {
         }
 
         Kirigami.FormLayout {
-            visible: hashHelper.md5sum !== ""
-            Row {
-                Kirigami.FormData.label: "MD5:"
+            visible: hashHelper.md5sum.length > 0
+            RowLayout {
+                Layout.fillWidth: true
+                Kirigami.FormData.label: i18nc('Hashing algorithm', 'MD5:')
                 QQC2.TextArea {
                     text: hashHelper.md5sum
+                    wrapMode: TextEdit.WrapAnywhere
                     readOnly: true
+                    leftPadding: 0
                     background: null
-                    width: sha256Text.width
+                    Layout.fillWidth: true
                 }
                 QQC2.Button {
                     text: i18n('Copy hash')
@@ -42,13 +44,16 @@ Kirigami.Page {
                     }
                 }
             }
-            Row {
-                Kirigami.FormData.label: "SHA1:"
+            RowLayout {
+                Layout.fillWidth: true
+                Kirigami.FormData.label: i18nc('Hashing algorithm', 'SHA1:')
                 QQC2.TextArea {
                     text: hashHelper.sha1sum
                     readOnly: true
                     background: null
-                    width: sha256Text.width
+                    leftPadding: 0
+                    Layout.fillWidth: true
+                    wrapMode: TextEdit.WrapAnywhere
                 }
                 QQC2.Button {
                     text: i18n('Copy hash')
@@ -59,14 +64,19 @@ Kirigami.Page {
                     }
                 }
             }
-            Row {
-                Kirigami.FormData.label: "SHA256:"
+            RowLayout {
+                Layout.fillWidth: true
+                Kirigami.FormData.label: i18nc('Hashing algorithm', 'SHA256:')
                 QQC2.TextArea {
                     id: sha256Text
                     text: hashHelper.sha256sum
                     readOnly: true
-                    wrapMode: TextEdit.WordWrap
+                    leftPadding: 0
+                    wrapMode: TextEdit.WrapAnywhere
                     background: null
+                    Layout.fillWidth: true
+                    Layout.preferredWidth: page.width - Kirigami.Units.gridUnit * 3
+                    Layout.maximumWidth: Kirigami.Units.gridUnit * 30
                 }
                 QQC2.Button {
                     text: i18n('Copy hash')
@@ -77,6 +87,30 @@ Kirigami.Page {
                     }
                 }
             }
+        }
+    }
+
+    DropArea {
+        id: dropAreaFile
+        anchors.fill: parent
+        onDropped: hashHelper.file = drop.urls[0]
+    }
+
+    QQC2.Popup {
+        visible: dropAreaFile.containsDrag
+        height: parent ? parent.height -  Kirigami.Units.gridUnit * 2 : 0
+        width: parent ? parent.width - Kirigami.Units.gridUnit * 2 : 0
+        x: Kirigami.Units.gridUnit
+        y: Kirigami.Units.gridUnit
+        modal: true
+        parent: page.QQC2.Overlay.overlay
+        Kirigami.Theme.colorSet: Kirigami.Theme.View
+        Kirigami.Theme.inherit: false
+
+        Kirigami.PlaceholderMessage {
+            anchors.centerIn: parent
+            width: parent.width - (Kirigami.Units.largeSpacing * 4)
+            text: i18n("Drag items here to share them")
         }
     }
 }
