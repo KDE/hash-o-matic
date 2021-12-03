@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC0-1.0
+SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
+-->
+
 ## Hash validator
 
 Hash Validator is an application allowing to generate sha256, sha1 and md5 checksum from files.
