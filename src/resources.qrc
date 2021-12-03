@@ -6,6 +6,7 @@
     <qresource prefix="/">
         <file alias="main.qml">contents/ui/main.qml</file>
         <file alias="GeneratePage.qml">contents/ui/GeneratePage.qml</file>
+        <file alias="GlobalMenu.qml">contents/ui/GlobalMenu.qml</file>
         <file alias="WelcomePage.qml">contents/ui/WelcomePage.qml</file>
         <file alias="ComparePage.qml">contents/ui/ComparePage.qml</file>
         <file alias="VerifyPage.qml">contents/ui/VerifyPage.qml</file>

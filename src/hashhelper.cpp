@@ -3,12 +3,11 @@
 
 #include "hashhelper.h"
 
-#include <QProcess>
-#include <QFileInfo>
+#include <KLocalizedString>
 #include <QCryptographicHash>
 #include <QFile>
-#include <QDebug>
-#include <KLocalizedString>
+#include <QFileInfo>
+#include <QProcess>
 
 HashHelper::HashHelper(QObject *parent)
     : QObject(parent)
@@ -23,6 +22,11 @@ QUrl HashHelper::file() const
 void HashHelper::setFile(const QUrl &url)
 {
     if (url == m_file) {
+        return;
+    }
+    QFileInfo info(url.toLocalFile());
+    if (info.isDir()) {
+        Q_EMIT errorOccured(i18n("Hash Validator doesn't support directories."));
         return;
     }
     m_file = url;
@@ -49,7 +53,7 @@ void HashHelper::computeHash()
 {
     QFile file(m_file.toLocalFile());
     if (!file.open(QIODevice::ReadOnly)) {
-        Q_EMIT errorOccured(i18n("The file doesn't exist or is not readable"));
+        Q_EMIT errorOccured(i18n("The file doesn't exist or is not readable."));
         m_file = QUrl();
         Q_EMIT fileChanged();
         return;

@@ -33,14 +33,18 @@ Kirigami.ApplicationWindow {
 
     property bool wasEmpty: true
 
+    Loader {
+        active: !Kirigami.Settings.isMobile
+        source: Qt.resolvedUrl("qrc:/GlobalMenu.qml")
+    }
+
     HashHelper {
         id: hashHelper
-        onMd5sumChanged: if (wasEmpty && hashHelper.md5sum !== "") {
+        onMd5sumChanged: if (wasEmpty && hashHelper.md5sum.length > 0) {
             wasEmpty = false;
             generateAction.trigger();
         }
         onErrorOccured: applicationWindow().showPassiveNotification(error, 'short')
-        file: Controller.initialFile
     }
 
     Connections {
@@ -56,21 +60,17 @@ Kirigami.ApplicationWindow {
 
     globalDrawer: Kirigami.GlobalDrawer {
         titleIcon: "applications-graphics"
-        isMenu: true
-        actions: [
-            Kirigami.PagePoolAction {
-                text: i18n("About")
-                icon.name: "help-about"
-                page: 'qrc:AboutPage.qml'
-                pagePool: mainPagePool
-                checkable: false
-                useLayers: true
-            }
-        ]
-    }
-
-    contextDrawer: Kirigami.ContextDrawer {
-        id: contextDrawer
+        isMenu: enabled
+        enabled: !Kirigami.Settings.hasPlatformMenuBar
+        actions: Kirigami.PagePoolAction {
+            id: aboutAction
+            text: i18n("About")
+            icon.name: "help-about"
+            page: 'qrc:AboutPage.qml'
+            pagePool: mainPagePool
+            checkable: false
+            useLayers: true
+        }
     }
 
     Kirigami.PagePool {
@@ -81,19 +81,21 @@ Kirigami.ApplicationWindow {
         actions: [
             Kirigami.PagePoolAction {
                 id: generateAction
-                text: i18n("Generate")
+                text: i18nc("@action:inmenu", "Generate")
                 icon.name: "password-generate"
                 page: "qrc:/GeneratePage.qml"
                 pagePool: mainPagePool
             },
             Kirigami.PagePoolAction {
-                text: i18n("Compare")
+                id: compareAction
+                text: i18nc("@action:inmenu", "Compare")
                 icon.name: "kompare"
                 page: "qrc:/ComparePage.qml"
                 pagePool: mainPagePool
             },
             Kirigami.PagePoolAction {
-                text: i18n("Verify")
+                id: verifyAction
+                text: i18nc("@action:inmenu", "Verify")
                 icon.name: "document-edit-decrypt-verify"
                 page: "qrc:/VerifyPage.qml"
                 pagePool: mainPagePool
