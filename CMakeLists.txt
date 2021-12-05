@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-project(hashvalidator VERSION 1.0)
+project(hashomatic VERSION 1.0)
 
 set(QT_MIN_VERSION "5.15.2")
 set(KF5_MIN_VERSION "5.86.0")
@@ -33,7 +33,7 @@ kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX HASHVALIDATOR
     SOVERSION ${PROJECT_VERSION_MAJOR}
-    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-hashvalidator.h"
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-hashomatic.h"
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
@@ -54,9 +54,9 @@ add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
 
 add_subdirectory(src)
 
-install(PROGRAMS org.kde.hashvalidator.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-install(FILES org.kde.hashvalidator.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
-install(FILES org.kde.hashvalidator.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
+install(PROGRAMS org.kde.hashomatic.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+install(FILES org.kde.hashomatic.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.hashomatic.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
 

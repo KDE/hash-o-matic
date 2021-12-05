@@ -8,6 +8,6 @@ Actions=generateFileHash
 
 [Desktop Action generateFileHash]
 Name=Generate file hash
-Icon=org.kde.hashvalidator
-Exec=hashvalidator %u
+Icon=org.kde.hashomatic
+Exec=hashomatic %u
 

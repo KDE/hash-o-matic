@@ -4,8 +4,8 @@
   SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
  -->
 <component type="desktop-application">
-  <id>org.kde.hashvalidator</id>
-  <name>Hash Validator</name>
+  <id>org.kde.hashomatic</id>
+  <name>Hash-o-matic</name>
   <summary>Check hashes for your files</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
@@ -18,7 +18,7 @@
       to the mass increase of malicious webpages and other actors.
     </p>
     <p>
-      This tool aims to solve that. Hash Validator comes with a simple &amp; clean UI, allowing
+      This tool aims to solve that. Hash-o-matic comes with a simple &amp; clean UI, allowing
       anyone, from any age and experience group, to generate, compare and verify MD5,
       SHA-256 and SHA-1 hashes.
     </p>

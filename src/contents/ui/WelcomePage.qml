@@ -5,15 +5,16 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.19 as Kirigami
-import org.kde.hashvalidator 1.0
+import org.kde.hashomatic 1.0
 import Qt.labs.platform 1.1
 
 Kirigami.Page {
     id: page
+    title: i18nc('@title', 'Welcome')
     Kirigami.PlaceholderMessage {
         anchors.centerIn: parent
         width: parent - Kirigami.Units.gridUnit * 4
-        text: i18n('Welcome to HashValidator')
+        text: i18n('Welcome to Hash-o-Matic')
         helpfulAction: Kirigami.Action {
             icon.name: "document-open-folder"
             text: i18nc("@action:button", "Select file")

@@ -26,7 +26,7 @@ void HashHelper::setFile(const QUrl &url)
     }
     QFileInfo info(url.toLocalFile());
     if (info.isDir()) {
-        Q_EMIT errorOccured(i18n("Hash Validator doesn't support directories."));
+        Q_EMIT errorOccured(i18n("Hash-o-matic doesn't support directories."));
         return;
     }
     m_file = url;

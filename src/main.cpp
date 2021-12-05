@@ -27,7 +27,7 @@
 
 #include "about.h"
 #include "clipboard.h"
-#include "config-hashvalidator.h"
+#include "config-hashomatic.h"
 #include "controller.h"
 #include "hashhelper.h"
 
@@ -76,15 +76,15 @@ int main(int argc, char *argv[])
     app.setFont(font);
 #endif
 
-    KLocalizedString::setApplicationDomain("hashvalidator");
+    KLocalizedString::setApplicationDomain("hashomatic");
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("HashValidator"));
+    QCoreApplication::setApplicationName(QStringLiteral("Hash-o-Matic"));
 
     KAboutData aboutData(
         // The program name used internally.
-        QStringLiteral("hashvalidator"),
+        QStringLiteral("hashomatic"),
         // A displayable program name string.
-        i18nc("@title", "Hash Validator"),
+        i18nc("@title", "Hash-o-matic"),
         QStringLiteral(HASHVALIDATOR_VERSION_STRING),
         // Short description of what the app does.
         i18n("Check hashes for your files"),
@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
                         QStringLiteral("carl@carlschwan.eu"),
                         QStringLiteral("https://carlschwan.eu"));
     KAboutData::setApplicationData(aboutData);
-    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.hashvalidator")));
+    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.hashomatic")));
 
     QCommandLineParser parser;
     parser.setApplicationDescription(i18n("Generate hashes for file"));
@@ -110,10 +110,10 @@ int main(int argc, char *argv[])
     Controller controller;
     Clipboard clipboard;
     AboutType aboutType;
-    qmlRegisterSingletonInstance("org.kde.hashvalidator", 1, 0, "Clipboard", &clipboard);
-    qmlRegisterType<HashHelper>("org.kde.hashvalidator", 1, 0, "HashHelper");
-    qmlRegisterSingletonInstance("org.kde.hashvalidator", 1, 0, "AboutType", &aboutType);
-    qmlRegisterSingletonInstance("org.kde.hashvalidator", 1, 0, "Controller", &controller);
+    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Clipboard", &clipboard);
+    qmlRegisterType<HashHelper>("org.kde.hashomatic", 1, 0, "HashHelper");
+    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "AboutType", &aboutType);
+    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Controller", &controller);
 
 #ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);

@@ -22,7 +22,7 @@ Labs.MenuBar {
         Labs.MenuSeparator {}
 
         Labs.MenuItem {
-            text: i18nc("@action:inmenu", "About Hash Validator")
+            text: i18nc("@action:inmenu", "About Hash-o-matic")
             onTriggered: aboutAction.trigger()
             icon.name: "help-about"
         }
