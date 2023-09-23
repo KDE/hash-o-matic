@@ -3,22 +3,18 @@
 
 #include "controller.h"
 
-#ifdef HAVE_WINDOWSYSTEM
 #include <KConfigGroup>
 #include <KSharedConfig>
 #include <KWindowConfig>
 #include <QQuickWindow>
-#endif
 
 void Controller::saveWindowGeometry(QQuickWindow *window)
 {
-#ifdef HAVE_WINDOWSYSTEM
     KConfig dataResource(QStringLiteral("data"), KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
     KConfigGroup windowGroup(&dataResource, QStringLiteral("Window"));
     KWindowConfig::saveWindowPosition(window, windowGroup);
     KWindowConfig::saveWindowSize(window, windowGroup);
     dataResource.sync();
-#endif
 }
 
 QUrl Controller::initialFile() const

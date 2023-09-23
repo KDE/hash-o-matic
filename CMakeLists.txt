@@ -1,11 +1,11 @@
 # SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: BSD-2-Clause
 
 cmake_minimum_required(VERSION 3.16)
 
 project(hashomatic VERSION 1.0)
 
-set(QT_MIN_VERSION "6.5.2")
+set(QT_MIN_VERSION "6.5.0")
 set(KF_MIN_VERSION "5.240.0")
 set(KDE_COMPILERSETTINGS_LEVEL "5.240")
 
@@ -24,6 +24,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
+include(ECMAddTests)
 include(KDEGitCommitHooks)
 include(KDEClangFormat)
 
@@ -41,14 +42,20 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
     find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)
+    find_package(KF6WindowSystem ${KF_MIN_VERSION} REQUIRED)
 endif()
 
 if (NOT ANDROID)
-    find_package(KF6WindowSystem ${KF_MIN_VERSION} REQUIRED)
     find_package(Qt6Widgets ${QT_MIN_VERSION} REQUIRED)
 endif()
 
 add_subdirectory(src)
+
+if (BUILD_TESTING)
+    find_package(Qt6Test ${QT_MIN_VERSION} REQUIRED)
+    add_subdirectory(autotests)
+endif()
+
 
 install(PROGRAMS org.kde.hashomatic.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.hashomatic.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})

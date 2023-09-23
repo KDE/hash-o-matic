@@ -4,9 +4,14 @@
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#ifdef Q_OS_ANDROID
+#include <QGuiApplication>
+#else
 #include <QApplication>
+#endif
 #include <QCommandLineParser>
 #include <QDir>
+#include <QFont>
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QQuickStyle>
@@ -23,6 +28,10 @@
 
 #ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
+#endif
+
+#ifdef Q_OS_WINDOWS
+#include <Windows.h>
 #endif
 
 #include "clipboard.h"
@@ -46,8 +55,6 @@ Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
     QNetworkProxyFactory::setUseSystemConfiguration(true);
 
 #ifdef Q_OS_ANDROID
@@ -55,7 +62,11 @@ int main(int argc, char *argv[])
     QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
 #else
     QIcon::setFallbackThemeName(QStringLiteral("breeze"));
+#ifdef Q_OS_ANDROID
+    QGuiApplication app(argc, argv);
+#else
     QApplication app(argc, argv);
+#endif
     // Default to org.kde.desktop style unless the user forces another style
     if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
@@ -121,7 +132,7 @@ int main(int argc, char *argv[])
         auto args = arguments;
         args.removeFirst();
         if (args.count() > 0) {
-            Q_EMIT controller.setInitialFile(QUrl::fromUserInput(args.at(0), workingDirectory, QUrl::AssumeLocalFile));
+            controller.setInitialFile(QUrl::fromUserInput(args.at(0), workingDirectory, QUrl::AssumeLocalFile));
         }
     });
 #endif
@@ -134,7 +145,8 @@ int main(int argc, char *argv[])
     }
 
     if (parser.positionalArguments().length() > 0) {
-        controller.setInitialFile(QUrl::fromUserInput(parser.positionalArguments()[0], QDir::currentPath(), QUrl::AssumeLocalFile));
+        const auto args = parser.positionalArguments();
+        controller.setInitialFile(QUrl::fromUserInput(args[0], QDir::currentPath(), QUrl::AssumeLocalFile));
     }
 
 #ifdef HAVE_KDBUSADDONS
