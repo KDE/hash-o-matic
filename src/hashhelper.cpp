@@ -52,7 +52,7 @@ QString HashHelper::sha256sum() const
 void HashHelper::computeHash()
 {
     QFile file(m_file.toLocalFile());
-    if (!file.open(QIODevice::ReadOnly)) {
+    if (!file.open(QIODevice::ReadOnly | QIODeviceBase::Text)) {
         Q_EMIT errorOccured(i18n("The file doesn't exist or is not readable."));
         m_file = QUrl();
         Q_EMIT fileChanged();

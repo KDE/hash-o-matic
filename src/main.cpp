@@ -11,6 +11,7 @@
 #endif
 #include <QCommandLineParser>
 #include <QDir>
+#include <QFont>
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QQuickStyle>
@@ -27,6 +28,10 @@
 
 #ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
+#endif
+
+#ifdef Q_OS_WINDOWS
+#include <Windows.h>
 #endif
 
 #include "clipboard.h"

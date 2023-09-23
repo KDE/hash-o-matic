@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: BSD-2-Clause
 
 cmake_minimum_required(VERSION 3.16)
 
@@ -24,6 +24,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
+include(ECMAddTests)
 include(KDEGitCommitHooks)
 include(KDEClangFormat)
 
@@ -49,6 +50,12 @@ if (NOT ANDROID)
 endif()
 
 add_subdirectory(src)
+
+if (BUILD_TESTING)
+    find_package(Qt6Test ${QT_MIN_VERSION} REQUIRED)
+    add_subdirectory(autotests)
+endif()
+
 
 install(PROGRAMS org.kde.hashomatic.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.hashomatic.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
