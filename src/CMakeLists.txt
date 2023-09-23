@@ -6,30 +6,30 @@ add_executable(hashomatic
     clipboard.cpp
     controller.cpp
     hashhelper.cpp
-    about.cpp
     resources.qrc)
 
 target_link_libraries(hashomatic
-PRIVATE
-    Qt5::Core
-    Qt5::Gui
-    Qt5::Qml
-    Qt5::Quick
-    Qt5::QuickControls2
-    Qt5::Svg
-    KF5::I18n
-    KF5::CoreAddons)
+    PRIVATE
+        Qt6::Core
+        Qt6::Gui
+        Qt6::Qml
+        Qt6::Quick
+        Qt6::QuickControls2
+        Qt6::Svg
+        KF6::I18n
+        KF6::CoreAddons
+)
 
-if(TARGET KF5::DBusAddons)
-    target_link_libraries(hashomatic PRIVATE KF5::DBusAddons)
+if(TARGET KF6::DBusAddons)
+    target_link_libraries(hashomatic PRIVATE KF6::DBusAddons Qt6::Widgets)
     target_compile_definitions(hashomatic PRIVATE -DHAVE_KDBUSADDONS)
 endif()
 
 if(NOT ANDROID)
-    target_link_libraries(hashomatic PRIVATE KF5::ConfigGui KF5::WindowSystem KF5::ConfigCore)
+    target_link_libraries(hashomatic PRIVATE KF6::ConfigGui KF6::WindowSystem KF6::ConfigCore)
     target_compile_definitions(hashomatic PRIVATE -DHAVE_WINDOWSYSTEM)
 endif()
 
 
 install(TARGETS hashomatic ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-install(FILES hashFile.desktop DESTINATION ${KSERVICESDIR}/ServiceMenus)
+install(FILES hashFile.desktop DESTINATION ${KDE_INSTALL_DATADIR}/kio/servicemenus)

@@ -25,7 +25,6 @@
 #include <KDBusService>
 #endif
 
-#include "about.h"
 #include "clipboard.h"
 #include "config-hashomatic.h"
 #include "controller.h"
@@ -36,7 +35,6 @@ static void raiseWindow(QWindow *window)
 {
     if (KWindowSystem::isPlatformWayland()) {
         KWindowSystem::setCurrentXdgActivationToken(qEnvironmentVariable("XDG_ACTIVATION_TOKEN"));
-        KWindowSystem::activateWindow(window->winId());
     } else {
         window->raise();
     }
@@ -109,10 +107,8 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     Controller controller;
     Clipboard clipboard;
-    AboutType aboutType;
     qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Clipboard", &clipboard);
     qmlRegisterType<HashHelper>("org.kde.hashomatic", 1, 0, "HashHelper");
-    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "AboutType", &aboutType);
     qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Controller", &controller);
 
 #ifdef HAVE_KDBUSADDONS

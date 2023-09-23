@@ -11,7 +11,8 @@ import Qt.labs.platform 1.1
 Kirigami.ApplicationWindow {
     id: root
 
-    minimumWidth: Kirigami.Units.gridUnit * 20
+    minimumWidth: Kirigami.Units.gridUnit * 15
+    width: Kirigami.Units.gridUnit * 28
     minimumHeight: Kirigami.Units.gridUnit * 20
 
     onClosing: Controller.saveWindowGeometry(root)
@@ -40,10 +41,6 @@ Kirigami.ApplicationWindow {
 
     HashHelper {
         id: hashHelper
-        onMd5sumChanged: if (wasEmpty && hashHelper.md5sum.length > 0) {
-            wasEmpty = false;
-            generateAction.trigger();
-        }
         onErrorOccured: applicationWindow().showPassiveNotification(error, 'short')
     }
 
@@ -103,5 +100,5 @@ Kirigami.ApplicationWindow {
         ]
     }
 
-    pageStack.initialPage: mainPagePool.loadPage('qrc:/WelcomePage.qml')
+    pageStack.initialPage: mainPagePool.loadPage('qrc:/GeneratePage.qml')
 }

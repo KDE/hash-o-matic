@@ -5,14 +5,14 @@ cmake_minimum_required(VERSION 3.16)
 
 project(hashomatic VERSION 1.0)
 
-set(QT_MIN_VERSION "5.15.2")
-set(KF5_MIN_VERSION "5.86.0")
-set(KDE_COMPILERSETTINGS_LEVEL "5.84")
+set(QT_MIN_VERSION "6.5.2")
+set(KF_MIN_VERSION "5.240.0")
+set(KDE_COMPILERSETTINGS_LEVEL "5.240")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
@@ -36,21 +36,17 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-hashomatic.h"
 )
 
-find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config)
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
-    find_package(KF5DBusAddons ${KF5_MIN_VERSION} REQUIRED)
+    find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 
 if (NOT ANDROID)
-    find_package(KF5WindowSystem ${KF5_MIN_VERSION} REQUIRED)
+    find_package(KF6WindowSystem ${KF_MIN_VERSION} REQUIRED)
+    find_package(Qt6Widgets ${QT_MIN_VERSION} REQUIRED)
 endif()
-
-add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
-add_definitions(-DQT_USE_QSTRINGBUILDER)
-add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
-add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
 
 add_subdirectory(src)
 
