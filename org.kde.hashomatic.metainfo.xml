@@ -10,6 +10,11 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
   <developer_name>Carl Schwan</developer_name>
+  <provides>
+    <binary>hashomatic</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.hashomatic.desktop</launchable>
+  <content_rating type="oars-1.1" />
   <description>
     <p>
       Verifying that a file you downloaded or received is actually the one you were

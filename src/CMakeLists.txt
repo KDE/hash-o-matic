@@ -18,6 +18,7 @@ target_link_libraries(hashomatic
         Qt6::Svg
         KF6::I18n
         KF6::CoreAddons
+        KF6::ConfigGui
 )
 
 if(TARGET KF6::DBusAddons)
@@ -25,8 +26,8 @@ if(TARGET KF6::DBusAddons)
     target_compile_definitions(hashomatic PRIVATE -DHAVE_KDBUSADDONS)
 endif()
 
-if(NOT ANDROID)
-    target_link_libraries(hashomatic PRIVATE KF6::ConfigGui KF6::WindowSystem KF6::ConfigCore)
+if(TARGET KF6::WindowSystem)
+    target_link_libraries(hashomatic PRIVATE KF6::WindowSystem)
     target_compile_definitions(hashomatic PRIVATE -DHAVE_WINDOWSYSTEM)
 endif()
 
