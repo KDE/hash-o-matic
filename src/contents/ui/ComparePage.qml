@@ -19,7 +19,7 @@ FormCard.FormCardPage {
         Layout.preferredWidth: parent.width - Kirigami.Units.gridUnit * 4
         Layout.topMargin: Kirigami.Units.gridUnit
         Layout.alignment: Qt.AlignHCenter
-        text: i18n("Compare two files to see if they match")
+        text: i18nc("@title", "Compare Two Files")
     }
 
     FormCard.FormHeader {

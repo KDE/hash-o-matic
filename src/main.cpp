@@ -30,6 +30,10 @@
 #include <KDBusService>
 #endif
 
+#ifdef HAVE_GPGME
+#include "urlhandler.h"
+#endif
+
 #ifdef Q_OS_WINDOWS
 #include <Windows.h>
 #endif
@@ -121,6 +125,11 @@ int main(int argc, char *argv[])
     qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Clipboard", &clipboard);
     qmlRegisterType<HashHelper>("org.kde.hashomatic", 1, 0, "HashHelper");
     qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Controller", &controller);
+
+#ifdef HAVE_GPGME
+    UrlHandler urlHandler;
+    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "UrlHandler", &urlHandler);
+#endif
 
 #ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);

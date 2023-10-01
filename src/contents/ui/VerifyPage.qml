@@ -6,6 +6,7 @@ import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard 1 as FormCard
+import org.kde.hashomatic
 
 FormCard.FormCardPage {
     id: root
@@ -17,7 +18,7 @@ FormCard.FormCardPage {
         Layout.preferredWidth: parent.width - Kirigami.Units.gridUnit * 4
         Layout.topMargin: Kirigami.Units.gridUnit
         Layout.alignment: Qt.AlignHCenter
-        text: i18n("Verify that file match checksum")
+        text: hashHelper.gpgAvailable ? i18n("Verify checksums and signatures") : i18n("Verify checksums")
     }
 
     FormCard.FormHeader {
@@ -41,12 +42,13 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormHeader {
-        title: i18nc("@title:group", "Verification")
+        title: i18nc("@title:group", "Checksum Verification")
     }
 
     FormCard.FormCard {
         FormCard.FormTextFieldDelegate {
             id: hashField
+            enabled: hashHelper.file.toString().length  > 0
             label: i18nc("@label", "Checksum")
         }
     }
@@ -71,7 +73,63 @@ FormCard.FormCardPage {
         visible: resultCard.type !== 1
 
         FormCard.FormTextDelegate {
-            text: resultCard.type === 0 ? i18n("They match!") : i18n("They don't match!")
+            text: resultCard.type === 0 ? i18n("Checksum match with the file!") : i18n("Checksum doesn't match with the file!")
+        }
+    }
+
+    FormCard.FormHeader {
+        visible: hashHelper.gpgAvailable
+        title: i18nc("@title:group", "Signature Verification")
+    }
+
+    FormCard.FormCard {
+        visible: hashHelper.gpgAvailable
+        FormCard.FormButtonDelegate {
+            icon.name: "document-open-folder"
+            text: i18nc("@action:button", "Select signature file")
+            onClicked: fileDialog.open()
+            enabled: hashHelper.file.toString().length  > 0
+        }
+
+        FormCard.FormDelegateSeparator { visible: hashHelper.sigFile.toString().length > 0 }
+
+        FormCard.FormTextDelegate {
+            visible: hashHelper.sigFileName.length  > 0
+            text: hashHelper.sigFileName
+            icon.name: hashHelper.sigMinetypeIcon
+        }
+    }
+
+    FormCard.FormCard {
+        id: sigResultCard
+
+        Layout.topMargin: Kirigami.Units.gridUnit
+
+        readonly property bool isValid: hashHelper.signatureInfo.keyId
+            && !hashHelper.signatureInfo.keyExpired
+            && !hashHelper.signatureInfo.keyMissing
+            && !hashHelper.signatureInfo.keyRevoked
+            && !hashHelper.signatureInfo.sigExpired
+            && !hashHelper.signatureInfo.crlMissing
+            && !hashHelper.signatureInfo.crlTooOld
+
+        Kirigami.Theme.inherit: false
+        Kirigami.Theme.backgroundColor: isValid ? Kirigami.Theme.positiveBackgroundColor : Kirigami.Theme.negativeBackgroundColor
+
+        visible: hashHelper.hasSignature
+
+        FormCard.FormTextDelegate {
+            id: details
+            text: hashHelper.signatureInfo.details
+            textItem.wrapMode: Text.WordWrap
+            textItem.elide: Text.ElideNone
+
+            Connections {
+                target: details.textItem
+                function onLinkActivated(link: string) {
+                    UrlHandler.handleClick(link, applicationWindow());
+                }
+            }
         }
     }
 

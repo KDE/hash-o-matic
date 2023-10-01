@@ -7,6 +7,7 @@ project(hashomatic VERSION 1.0)
 
 set(QT_MIN_VERSION "6.5.0")
 set(KF_MIN_VERSION "5.240.0")
+set(KPIM_LIBKLEO_VERSION "5.240.40")
 set(KDE_COMPILERSETTINGS_LEVEL "5.240")
 
 set(CMAKE_CXX_STANDARD 20)
@@ -49,6 +50,29 @@ if (NOT ANDROID)
     find_package(Qt6Widgets ${QT_MIN_VERSION} REQUIRED)
 endif()
 
+find_package(KPim6Libkleo ${KPIM_LIBKLEO_VERSION} CONFIG)
+set_package_properties(Gpgmepp PROPERTIES
+    DESCRIPTION "LibKleo Library"
+    URL "https://invent.kde.org/pim/libkleo/"
+    TYPE OPTIONAL
+    PURPOSE "LibKleo is required for OpenPGP support"
+)
+
+find_package(Gpgmepp ${GPGME_REQUIRED_VERSION} CONFIG)
+set_package_properties(Gpgmepp PROPERTIES
+    DESCRIPTION "GpgME++ Library"
+    URL "https://www.gnupg.org"
+    TYPE OPTIONAL
+    PURPOSE "GpgME++ is required for OpenPGP support"
+)
+
+find_package(QGpgmeQt6 ${GPGME_REQUIRED_VERSION} CONFIG)
+set_package_properties(Gpgmepp PROPERTIES
+    DESCRIPTION "QGpgME Library"
+    URL "https://www.gnupg.org"
+    TYPE OPTIONAL
+    PURPOSE "QGpgME is required for OpenPGP support"
+)
 add_subdirectory(src)
 
 if (BUILD_TESTING)

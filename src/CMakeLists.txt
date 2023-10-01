@@ -27,6 +27,12 @@ if(TARGET KF6::WindowSystem)
     target_compile_definitions(hashomatic_static PUBLIC -DHAVE_WINDOWSYSTEM)
 endif()
 
+if(TARGET Gpgmepp)
+    target_link_libraries(hashomatic_static PUBLIC Gpgmepp QGpgmeQt6 KPim6::Libkleo)
+    target_compile_definitions(hashomatic_static PUBLIC -DHAVE_GPGME)
+    target_sources(hashomatic_static PUBLIC urlhandler.cpp urlhandler.h)
+endif()
+
 add_executable(hashomatic
     main.cpp
     resources.qrc

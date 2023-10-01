@@ -19,7 +19,7 @@ FormCard.FormCardPage {
         Layout.preferredWidth: parent.width - Kirigami.Units.gridUnit * 4
         Layout.topMargin: Kirigami.Units.gridUnit
         Layout.alignment: Qt.AlignHCenter
-        text: i18n("Display checksum of your files")
+        text: i18n("Display Checksums")
     }
 
     FormCard.FormCard {
