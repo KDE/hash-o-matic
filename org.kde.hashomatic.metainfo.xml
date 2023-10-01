@@ -27,6 +27,23 @@
       anyone, from any age and experience group, to generate, compare and verify MD5,
       SHA-256 and SHA-1 hashes.
     </p>
+    <p>
+      Hash-o-Matic also support verifying a file with the help of a PGP signature.
+    </p>
   </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://cdn.kde.org/screenshots/hashomatic/generate.png</image>
+      <caption>Generate checksums</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://cdn.kde.org/screenshots/hashomatic/compare.png</image>
+      <caption>Compare two files</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://cdn.kde.org/screenshots/hashomatic/verify.png</image>
+      <caption>Verify the validity of a file</caption>
+    </screenshot>
+</screenshots>
 </component>
 
