@@ -63,20 +63,20 @@ QString getDetails(const SignatureInfo &signatureDetails)
     if (signatureDetails.keyMissing) {
         if (Kleo::DeVSCompliance::isCompliant() && signatureDetails.isCompliant) {
             details += i18nc("@label",
-                             "This message has been signed VS-NfD compliant using the key <a href=\"%1\">%2</a>.",
+                             "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</a>.",
                              href,
                              QString::fromUtf8(signatureDetails.keyId))
                 + QLatin1Char('\n');
         } else {
-            details += i18nc("@label", "This message has been signed using the key <a href=\"%1\">%2</a>.", href, QString::fromUtf8(signatureDetails.keyId))
+            details += i18nc("@label", "This file has been signed using the key <a href=\"%1\">%2</a>.", href, QString::fromUtf8(signatureDetails.keyId))
                 + QLatin1Char('\n');
         }
         details += i18nc("@label", "The key details are not available.");
     } else {
         if (Kleo::DeVSCompliance::isCompliant() && signatureDetails.isCompliant) {
-            details += i18nc("@label", "This message has been signed VS-NfD compliant by %1.", signatureDetails.signers.toHtmlEscaped());
+            details += i18nc("@label", "This file has been signed VS-NfD compliant by %1.", signatureDetails.signers.toHtmlEscaped());
         } else {
-            details += i18nc("@label", "This message has been signed by %1.", signatureDetails.signers.toHtmlEscaped());
+            details += i18nc("@label", "This file has been signed by %1.", signatureDetails.signers.toHtmlEscaped());
         }
         if (signatureDetails.keyRevoked) {
             details += QLatin1Char('\n') + i18nc("@label", "The <a href=\"%1\">key</a> was revoked.", href);
