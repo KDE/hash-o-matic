@@ -7,11 +7,11 @@ SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 
 Hash-o-matic is an application allowing to generate sha256, sha1 and md5 checksum from files.
 
-![Generate](generate.png)
+![Generate](https://cdn.kde.org/screenshots/hashomatic/generate.png)
 
-![Compare](compare.png)
+![Compare](https://cdn.kde.org/screenshots/hashomatic/compare.png)
 
-![Verify](verify.png)
+![Verify](https://cdn.kde.org/screenshots/hashomatic/verify.png)
 
 ## License
 
