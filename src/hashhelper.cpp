@@ -260,9 +260,9 @@ void HashHelper::computeHash()
 {
     QFile file(m_file.toLocalFile());
 #ifdef Q_OS_WINDOWS
-    if (!file.open(QIODevice::ReadOnly)) {
-#else
     if (!file.open(QIODevice::ReadOnly | QIODeviceBase::Text)) {
+#else
+    if (!file.open(QIODevice::ReadOnly)) {
 #endif
         Q_EMIT errorOccured(i18n("The file doesn't exist or is not readable."));
         m_file = QUrl();
