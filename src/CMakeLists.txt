@@ -5,8 +5,11 @@ add_library(hashomatic_static STATIC)
 
 target_sources(hashomatic_static PUBLIC
     clipboard.cpp
+    clipboard.h
     controller.cpp
+    controller.h
     hashhelper.cpp
+    hashhelper.h
 )
 
 target_link_libraries(hashomatic_static
