@@ -1,0 +1,375 @@
+# Translation of hashomatic.po to Catalan
+# Copyright (C) 2023 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"PO-Revision-Date: 2023-10-04 12:21+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep M. Ferrer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: contents/ui/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Compara fitxers"
+
+#: contents/ui/ComparePage.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Compara dos fitxers"
+
+#: contents/ui/ComparePage.qml:26
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "Fitxer 1"
+
+#: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
+#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Selecció de fitxer"
+
+#: contents/ui/ComparePage.qml:46
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "Fitxer 2"
+
+#: contents/ui/ComparePage.qml:85
+#, kde-format
+msgid "They match!"
+msgstr "Coincideixen!"
+
+#: contents/ui/ComparePage.qml:85
+#, kde-format
+msgid "They don't match!"
+msgstr "No coincideixen!"
+
+#: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Arrossegueu aquí el fitxer per a comparar-lo"
+
+#: contents/ui/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Genera un resum"
+
+#: contents/ui/GeneratePage.qml:22
+#, kde-format
+msgid "Display Checksums"
+msgstr "Mostra les sumes de verificació"
+
+#: contents/ui/GeneratePage.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "Resums"
+
+#: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
+#: contents/ui/GeneratePage.qml:89
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "El resum s'ha copiat al porta-retalls"
+
+#: contents/ui/GeneratePage.qml:117
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Arrossegueu aquí els elements per a compartir"
+
+#: contents/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Fitxer"
+
+#: contents/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Obre…"
+
+#: contents/ui/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "Quant al Hash-o-matic"
+
+#: contents/ui/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Surt"
+
+#: contents/ui/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Visualitza"
+
+#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Genera"
+
+#: contents/ui/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Compara"
+
+#: contents/ui/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Comprova"
+
+#: contents/ui/main.qml:64
+#, kde-format
+msgid "About"
+msgstr "Quant a"
+
+#: contents/ui/main.qml:88
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Compara"
+
+#: contents/ui/main.qml:95
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Comprova"
+
+#: contents/ui/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Comprova el resum"
+
+#: contents/ui/VerifyPage.qml:21
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Comprova les sumes de verificació i les signatures"
+
+#: contents/ui/VerifyPage.qml:21
+#, kde-format
+msgid "Verify checksums"
+msgstr "Comprova les sumes de verificació"
+
+#: contents/ui/VerifyPage.qml:25
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Fitxer"
+
+#: contents/ui/VerifyPage.qml:45
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Comprovació de la suma de verificació"
+
+#: contents/ui/VerifyPage.qml:52
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Suma de verificació"
+
+#: contents/ui/VerifyPage.qml:76
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "La suma de verificació coincideix amb el fitxer!"
+
+#: contents/ui/VerifyPage.qml:76
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "La suma de verificació no coincideix amb el fitxer!"
+
+#: contents/ui/VerifyPage.qml:82
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Comprovació de la signatura"
+
+#: contents/ui/VerifyPage.qml:89
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Selecció del fitxer de signatura"
+
+#: contents/ui/VerifyPage.qml:162
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Arrossegueu aquí els elements per a comprovar-los"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr ""
+"Aquest fitxer s'ha signat conforme amb VS-NfD utilitzant la clau <a href="
+"\"%1\">%2</a>."
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "Aquest fitxer s'ha signat utilitzant la clau <a href=\"%1\">%2</a>."
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "Els detalls de la clau no són disponibles."
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "Aquest fitxer està signat conforme amb VS-NfD per %1."
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "Aquest fitxer està signat per %1."
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "S'ha revocat la <a href=\"%1\">clau</a>."
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "La <a href=\"%1\">clau</a> ha caducat."
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr ""
+"La signatura és vàlida, però no es coneix la validesa de la <a href="
+"\"%1\">clau</a>."
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr ""
+"La signatura és vàlida, però la <a href=\"%1\">clau</a> és de confiança "
+"parcial."
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr ""
+"La signatura és vàlida i la <a href=\"%1\">clau</a> és de plena confiança."
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr ""
+"La signatura és vàlida i la <a href=\"%1\">clau</a> és de confiança absoluta."
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr ""
+"La signatura és vàlida, però la <a href=\"%1\">clau</a> no és de confiança."
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "La signatura no és vàlida."
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: hashhelper.cpp:195
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "El Hash-o-matic no permet directoris."
+
+#: hashhelper.cpp:267
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "El fitxer no existeix o no es pot llegir."
+
+#: main.cpp:100
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "Hash-o-matic"
+
+#: main.cpp:103
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "Comprova els resums de fitxers"
+
+#: main.cpp:107
+#, kde-format
+msgid "(c) KDE Community 2021"
+msgstr "(c) KDE Community 2021"
+
+#: main.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Mantenidor"
+
+#: main.cpp:116
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "Genera resums d'un fitxer"
+
+#: main.cpp:117
+#, kde-format
+msgid "Local file url"
+msgstr "URL d'un fitxer local"
