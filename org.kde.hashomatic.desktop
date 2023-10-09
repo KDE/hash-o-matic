@@ -4,6 +4,7 @@
 Name=hashomatic
 Name[ca]=hashomatic
 Name[ca@valencia]=hashomatic
+Name[eo]=hashomatic
 Name[es]=hashomatic
 Name[eu]=hashomatic
 Name[fr]=hashomatic
@@ -17,6 +18,7 @@ Name[x-test]=xxhashomaticxx
 Comment=Check hashes for your files
 Comment[ca]=Comprova els resums de fitxers
 Comment[ca@valencia]=Comprova els resums de fitxers
+Comment[eo]=Kontroli haketkodojn de viaj dosieroj
 Comment[es]=Comprobar hash de archivos
 Comment[eu]=Egiaztatu zure fitxategientzako «hash»ak
 Comment[fr]=Vérifier les codes de hachage de vos fichiers
