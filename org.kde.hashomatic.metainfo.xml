@@ -11,6 +11,7 @@
   <name xml:lang="eo">Hash-o-matic</name>
   <name xml:lang="es">Hash-o-matic</name>
   <name xml:lang="eu">Hash-o-matic</name>
+  <name xml:lang="ia">Hash-o-matic</name>
   <name xml:lang="ka">Hash-o-matic</name>
   <name xml:lang="nl">Hash-o-matic</name>
   <name xml:lang="pl">Hash-o-matic</name>
@@ -39,6 +40,7 @@
   <developer_name xml:lang="eo">Carl Schwan</developer_name>
   <developer_name xml:lang="es">Carl Schwan</developer_name>
   <developer_name xml:lang="eu">Carl Schwan</developer_name>
+  <developer_name xml:lang="ia">Carl Schwan</developer_name>
   <developer_name xml:lang="ka">Carl Schwan</developer_name>
   <developer_name xml:lang="nl">Carl Schwan</developer_name>
   <developer_name xml:lang="pl">Carl Schwan</developer_name>
@@ -95,6 +97,7 @@
     <p xml:lang="eo">Hash-o-Matic ankaŭ subtenas kontroli dosieron helpe de PGP-subskribo.</p>
     <p xml:lang="es">Hash-o-Matic también permite verificar un archivo con la ayuda de una firma PGP.</p>
     <p xml:lang="eu">«Hash-o-Matic»ek ere badu, PGP sinadura baten laguntzarekin fitxategi bat egiaztatzeko euskarria.</p>
+    <p xml:lang="ia">Hash-o-Matic anque supporta verificar un file con le adjuta de un signatura PGP.</p>
     <p xml:lang="ka">Hash-o-Matic-ს ფაილის შემოწმებაც შეუძლია, PGP ხელმოწერის დახმარებით.</p>
     <p xml:lang="nl">Hash-o-Matic ondersteunt het verifiëren van een bestand met de hulp van een PGP ondertekening.</p>
     <p xml:lang="pl">Hash-o-Matic obsługuje także sprawdzanie plików przy pomocy podpisów PGP.</p>
@@ -112,6 +115,7 @@
       <caption xml:lang="eo">Generi haketkodojn</caption>
       <caption xml:lang="es">Generar sumas de verificación</caption>
       <caption xml:lang="eu">Sortu egiaztapen-baturak</caption>
+      <caption xml:lang="ia">Genera checksums</caption>
       <caption xml:lang="ka">საკონტროლო ჯამებიs გენერაცია</caption>
       <caption xml:lang="nl">Controlesommen genereren</caption>
       <caption xml:lang="pl">Obliczaj sumy sprawdzające</caption>
@@ -128,6 +132,7 @@
       <caption xml:lang="eo">Kompari du dosierojn</caption>
       <caption xml:lang="es">Comparar dos archivos</caption>
       <caption xml:lang="eu">Alderatu bi fitxategi</caption>
+      <caption xml:lang="ia">Compara duo files</caption>
       <caption xml:lang="ka">შეადარეთ ორ ფაილი</caption>
       <caption xml:lang="nl">Twee bestanden vergelijken</caption>
       <caption xml:lang="pl">Porównaj dwa pliki</caption>
@@ -144,6 +149,7 @@
       <caption xml:lang="eo">Kontroli la validecon de dosiero</caption>
       <caption xml:lang="es">Verificar la validez de un archivo</caption>
       <caption xml:lang="eu">Egiaztatu fitxategi baten baliozkotasuna</caption>
+      <caption xml:lang="ia">Verifica le validitate de un file</caption>
       <caption xml:lang="ka">გადაამოწმეთ ფაილის ვარგისიანობა</caption>
       <caption xml:lang="nl">De geldigheid van een bestand verifiëren</caption>
       <caption xml:lang="pl">Sprawdzaj poprawności plików</caption>
