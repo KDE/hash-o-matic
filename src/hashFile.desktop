@@ -10,6 +10,7 @@ Actions=generateFileHash
 Name=Generate file hash
 Name[ca]=Genera el resum d'un fitxer
 Name[ca@valencia]=Genera el resum d'un fitxer
+Name[cs]=Vytvořit hash souboru
 Name[eo]=Generi dosieran haketkodon
 Name[es]=Generar hash de archivos
 Name[eu]=Sortu fitxategi baten «hash»a
