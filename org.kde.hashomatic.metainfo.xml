@@ -6,6 +6,7 @@
 <component type="desktop-application">
   <id>org.kde.hashomatic</id>
   <name>Hash-o-matic</name>
+  <name xml:lang="ast">Hash-o-matic</name>
   <name xml:lang="ca">Hash-o-matic</name>
   <name xml:lang="ca-valencia">Hash-o-Matic</name>
   <name xml:lang="eo">Hash-o-matic</name>
