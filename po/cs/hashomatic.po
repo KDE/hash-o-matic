@@ -1,0 +1,365 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+# SPDX-FileCopyrightText: 2023 Vit Pelcak <vit@pelcak.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"PO-Revision-Date: 2023-11-06 10:11+0100\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vít Pelčák"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vit@pelcak.org"
+
+#: contents/ui/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Porovnat soubory"
+
+#: contents/ui/ComparePage.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Porovnat dva soubory"
+
+#: contents/ui/ComparePage.qml:26
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "Soubor 1"
+
+#: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
+#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Vyberte soubor"
+
+#: contents/ui/ComparePage.qml:46
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "Soubor 2"
+
+#: contents/ui/ComparePage.qml:85
+#, kde-format
+msgid "They match!"
+msgstr "Jsou stejné."
+
+#: contents/ui/ComparePage.qml:85
+#, kde-format
+msgid "They don't match!"
+msgstr "Nejsou stejné."
+
+#: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr ""
+
+#: contents/ui/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Vytvořit hash souboru"
+
+#: contents/ui/GeneratePage.qml:22
+#, kde-format
+msgid "Display Checksums"
+msgstr "Zobrazit kontrolní součty"
+
+#: contents/ui/GeneratePage.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr ""
+
+#: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
+#: contents/ui/GeneratePage.qml:89
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr ""
+
+#: contents/ui/GeneratePage.qml:117
+#, kde-format
+msgid "Drag items here to share them"
+msgstr ""
+
+#: contents/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Soubor"
+
+#: contents/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Otevřít…"
+
+#: contents/ui/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr ""
+
+#: contents/ui/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Ukončit"
+
+#: contents/ui/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Pohled"
+
+#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Vygenerovat"
+
+#: contents/ui/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Porovnat"
+
+#: contents/ui/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Ověřit"
+
+#: contents/ui/main.qml:64
+#, kde-format
+msgid "About"
+msgstr "O aplikaci"
+
+#: contents/ui/main.qml:88
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Porovnat"
+
+#: contents/ui/main.qml:95
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Ověřit"
+
+#: contents/ui/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:21
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:21
+#, kde-format
+msgid "Verify checksums"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:25
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Soubor"
+
+#: contents/ui/VerifyPage.qml:45
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:52
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Kontrolní součet"
+
+#: contents/ui/VerifyPage.qml:76
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:76
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:82
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:89
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr ""
+
+#: contents/ui/VerifyPage.qml:162
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr ""
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr ""
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr ""
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "Podrobnosti klíče nejsou nedostupné."
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr ""
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr ""
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr ""
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr ""
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr ""
+"Podpis je v pořádku, ale platnost  <a href=\"%1\">klíče</a> je neznámá."
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr ""
+"Podpis je v pořádku a <a href=\"%1\">klíč</a> je na hranici důvěryhodnosti."
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr "Podpis je v pořádku a <a href=\"%1\">klíč</a> je plně důvěryhodný."
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr "Podpis je v pořádku a <a href=\"%1\">klíč</a> je naprosto důvěryhodný."
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "Podpis je v pořádku, ale <a href=\"%1\">klíč</a> není důvěryhodný."
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "Podpis není platný."
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: hashhelper.cpp:195
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr ""
+
+#: hashhelper.cpp:267
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr ""
+
+#: main.cpp:100
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr ""
+
+#: main.cpp:103
+#, kde-format
+msgid "Check hashes for your files"
+msgstr ""
+
+#: main.cpp:107
+#, kde-format
+msgid "(c) KDE Community 2021"
+msgstr "(c) Komunita KDE 2021"
+
+#: main.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Správce"
+
+#: main.cpp:116
+#, kde-format
+msgid "Generate hashes for file"
+msgstr ""
+
+#: main.cpp:117
+#, kde-format
+msgid "Local file url"
+msgstr "URL místního souboru"
