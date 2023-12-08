@@ -23,6 +23,7 @@
   <name xml:lang="tr">Haşmatik</name>
   <name xml:lang="uk">Hash-o-matic</name>
   <name xml:lang="x-test">xxHash-o-maticxx</name>
+  <name xml:lang="zh-TW">Hash-o-matic</name>
   <summary>Check hashes for your files</summary>
   <summary xml:lang="ca">Comprova els resums de fitxers</summary>
   <summary xml:lang="ca-valencia">Comprova els resums de fitxers</summary>
@@ -38,6 +39,7 @@
   <summary xml:lang="tr">Dosya Sağlamalarını Denetle</summary>
   <summary xml:lang="uk">Перевірка хеш-сум ваших файлів</summary>
   <summary xml:lang="x-test">xxCheck hashes for your filesxx</summary>
+  <summary xml:lang="zh-TW">檢查您的檔案的雜湊值</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
   <developer_name>Carl Schwan</developer_name>
@@ -57,6 +59,7 @@
   <developer_name xml:lang="tr">Carl Schwan</developer_name>
   <developer_name xml:lang="uk">Carl Schwan</developer_name>
   <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
+  <developer_name xml:lang="zh-TW">Carl Schwan</developer_name>
   <provides>
     <binary>hashomatic</binary>
   </provides>
@@ -140,6 +143,7 @@
       <caption xml:lang="tr">Sağlama toplamları oluştur</caption>
       <caption xml:lang="uk">Створення контрольних сум</caption>
       <caption xml:lang="x-test">xxGenerate checksumsxx</caption>
+      <caption xml:lang="zh-TW">產生總和檢查碼</caption>
     </screenshot>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/hashomatic/compare.png</image>
@@ -160,6 +164,7 @@
       <caption xml:lang="tr">İki dosyayı karşılaştır</caption>
       <caption xml:lang="uk">Порівняння двох файлів</caption>
       <caption xml:lang="x-test">xxCompare two filesxx</caption>
+      <caption xml:lang="zh-TW">比對兩個檔案</caption>
     </screenshot>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/hashomatic/verify.png</image>
@@ -179,6 +184,7 @@
       <caption xml:lang="tr">Dosyanın geçerliliğini doğrula</caption>
       <caption xml:lang="uk">Перевірка ідентичності файла</caption>
       <caption xml:lang="x-test">xxVerify the validity of a filexx</caption>
+      <caption xml:lang="zh-TW">檢查檔案是否有效</caption>
     </screenshot>
   </screenshots>
 </component>
