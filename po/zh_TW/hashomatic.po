@@ -1,0 +1,363 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+#
+# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"PO-Revision-Date: 2023-12-07 23:52+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.01.80\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kisaragi Hiu"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mail@kisaragi-hiu.com"
+
+#: contents/ui/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "比對檔案"
+
+#: contents/ui/ComparePage.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "比對兩個檔案"
+
+#: contents/ui/ComparePage.qml:26
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "檔案 1"
+
+#: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
+#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "選擇檔案"
+
+#: contents/ui/ComparePage.qml:46
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "檔案 2"
+
+#: contents/ui/ComparePage.qml:85
+#, kde-format
+msgid "They match!"
+msgstr "它們相符！"
+
+#: contents/ui/ComparePage.qml:85
+#, kde-format
+msgid "They don't match!"
+msgstr "它們不符！"
+
+#: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "將檔案拖曳至此來比對它"
+
+#: contents/ui/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "產生雜湊值"
+
+#: contents/ui/GeneratePage.qml:22
+#, kde-format
+msgid "Display Checksums"
+msgstr "顯示總和檢查碼"
+
+#: contents/ui/GeneratePage.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "雜湊值"
+
+#: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
+#: contents/ui/GeneratePage.qml:89
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "雜湊值已複製到剪貼簿"
+
+#: contents/ui/GeneratePage.qml:117
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "將項目拖曳至此來分享它們"
+
+#: contents/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "檔案"
+
+#: contents/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "開啟…"
+
+#: contents/ui/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "關於 Hash-o-matic"
+
+#: contents/ui/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "離開"
+
+#: contents/ui/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "檢視"
+
+#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "產生"
+
+#: contents/ui/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "比對"
+
+#: contents/ui/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "驗證"
+
+#: contents/ui/main.qml:64
+#, kde-format
+msgid "About"
+msgstr "關於"
+
+#: contents/ui/main.qml:88
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "比對"
+
+#: contents/ui/main.qml:95
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "驗證"
+
+#: contents/ui/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "驗證雜湊值"
+
+#: contents/ui/VerifyPage.qml:21
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "驗證總和檢查碼和簽章"
+
+#: contents/ui/VerifyPage.qml:21
+#, kde-format
+msgid "Verify checksums"
+msgstr "驗證總和檢查碼"
+
+#: contents/ui/VerifyPage.qml:25
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "檔案"
+
+#: contents/ui/VerifyPage.qml:45
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "總和檢查碼驗證"
+
+#: contents/ui/VerifyPage.qml:52
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "總和檢查碼"
+
+#: contents/ui/VerifyPage.qml:76
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "總和檢查碼與檔案相符！"
+
+#: contents/ui/VerifyPage.qml:76
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "總和檢查碼與檔案不符！"
+
+#: contents/ui/VerifyPage.qml:82
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "簽章驗證"
+
+#: contents/ui/VerifyPage.qml:89
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "選擇簽章檔案"
+
+#: contents/ui/VerifyPage.qml:162
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "將項目拖曳至此來驗證它們"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr "檔案已使用金鑰 <a href=\"%1\">%2</a> 簽署為遵守 VS-NfD。"
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "檔案已使用金鑰 <a href=\"%1\">%2</a> 簽署。"
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "沒有可用的金鑰細節。"
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "檔案已由 %1 簽署為遵守 VS-NfD。"
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "檔案已由 %1 簽署。"
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "<a href=\"%1\">金鑰</a>已被撤銷。"
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "<a href=\"%1\">金鑰</a>已過期。"
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr "簽章有效，但無法辨識<a href=\"%1\">金鑰</a>是否有效。"
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr "簽章有效，而<a href=\"%1\">金鑰</a>有最低可信度。"
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr "簽章有效，且<a href=\"%1\">金鑰</a>完全可信。"
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr "簽章有效，且<a href=\"%1\">金鑰</a>絕對可信。"
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "簽章有效，但<a href=\"%1\">金鑰</a>未受信任。"
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "簽章無效。"
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr "、"
+
+#: hashhelper.cpp:195
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "Hash-o-matic 不支援目錄。"
+
+#: hashhelper.cpp:267
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "檔案不存在或並非可讀。"
+
+#: main.cpp:100
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "Hash-o-matic"
+
+#: main.cpp:103
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "檢查您的檔案的雜湊值"
+
+#: main.cpp:107
+#, kde-format
+msgid "(c) KDE Community 2021"
+msgstr "(c) KDE 社群 2021"
+
+#: main.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "維護者"
+
+#: main.cpp:116
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "產生檔案的雜湊值"
+
+#: main.cpp:117
+#, kde-format
+msgid "Local file url"
+msgstr "本地檔案 URL"
