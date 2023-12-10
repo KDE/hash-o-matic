@@ -19,6 +19,7 @@
   <name xml:lang="nl">Hash-o-matic</name>
   <name xml:lang="pl">Hash-o-matic</name>
   <name xml:lang="ru">Hash-o-matic</name>
+  <name xml:lang="sk">Hash-o-matic</name>
   <name xml:lang="sl">Hash-o-matic</name>
   <name xml:lang="tr">Haşmatik</name>
   <name xml:lang="uk">Hash-o-matic</name>
@@ -35,6 +36,7 @@
   <summary xml:lang="ka">თქვენი ფაილის ჰეშების შემოწმება</summary>
   <summary xml:lang="nl">Hashes voor uw bestanden controleren</summary>
   <summary xml:lang="pl">Sprawdzaj hasze swoich plików</summary>
+  <summary xml:lang="sk">Skontroluje hash vašich súborov</summary>
   <summary xml:lang="sl">Preveri zgoščene vrednosti vaših datotek</summary>
   <summary xml:lang="tr">Dosya Sağlamalarını Denetle</summary>
   <summary xml:lang="uk">Перевірка хеш-сум ваших файлів</summary>
@@ -55,6 +57,7 @@
   <developer_name xml:lang="ka">Carl Schwan</developer_name>
   <developer_name xml:lang="nl">Carl Schwan</developer_name>
   <developer_name xml:lang="pl">Carl Schwan</developer_name>
+  <developer_name xml:lang="sk">Carl Schwan</developer_name>
   <developer_name xml:lang="sl">Carl Schwan</developer_name>
   <developer_name xml:lang="tr">Carl Schwan</developer_name>
   <developer_name xml:lang="uk">Carl Schwan</developer_name>
