@@ -1,37 +1,35 @@
+# translation of hashomatic.po to Slovak
+# SPDX-FileCopyrightText: 2023 Roman Paholík <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: hashomatic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2023-12-09 09:25\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2023-12-09 09:31+0100\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/hash-o-matic/hashomatic.pot\n"
-"X-Crowdin-File-ID: 46482\n"
+"X-Generator: Lokalize 23.08.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roman Paholík"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "wizzardsk@gmail.com"
 
 #: contents/ui/ComparePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr ""
+msgstr "Porovnať súbory"
 
 #: contents/ui/ComparePage.qml:22
 #, kde-format
@@ -43,20 +41,20 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr ""
+msgstr "Súbor 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
 #: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr ""
+msgstr "Vyberte súbor"
 
 #: contents/ui/ComparePage.qml:46
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr ""
+msgstr "Súbor 2"
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
@@ -99,19 +97,19 @@ msgstr ""
 #: contents/ui/GeneratePage.qml:117
 #, kde-format
 msgid "Drag items here to share them"
-msgstr ""
+msgstr "Presuňte položky sem na zdieľanie"
 
 #: contents/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr ""
+msgstr "Súbor"
 
 #: contents/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr ""
+msgstr "Otvoriť..."
 
 #: contents/ui/GlobalMenu.qml:25
 #, kde-format
@@ -123,46 +121,46 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "Ukončiť"
 
 #: contents/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr ""
+msgstr "Zobraziť"
 
 #: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr ""
+msgstr "Generovať"
 
 #: contents/ui/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr ""
+msgstr "Porovnať"
 
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr ""
+msgstr "Overiť"
 
 #: contents/ui/main.qml:64
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "O aplikácii"
 
 #: contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr ""
+msgstr "Porovnať"
 
 #: contents/ui/main.qml:95
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr ""
+msgstr "Overiť"
 
 #: contents/ui/VerifyPage.qml:14
 #, kde-format
@@ -184,7 +182,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr ""
+msgstr "Súbor"
 
 #: contents/ui/VerifyPage.qml:45
 #, kde-format
@@ -196,7 +194,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr ""
+msgstr "Kontrolný súčet"
 
 #: contents/ui/VerifyPage.qml:76
 #, kde-format
@@ -243,7 +241,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr ""
+msgstr "Podrobnosti o kľúči nie sú k dispozícii."
 
 #: hashhelper.cpp:77
 #, kde-format
@@ -261,7 +259,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr ""
+msgstr "Platnosť <a href=\"%1\">kľúča</a> bola zrušená."
 
 #: hashhelper.cpp:85
 #, kde-format
@@ -275,44 +273,46 @@ msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
 msgstr ""
+"Podpis je platný, ale bezpečnosť <a href=\"%1\">kľúča</a> nie je známa."
 
 #: hashhelper.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
-msgstr ""
+msgstr "Podpis je platný a <a href=\"%1\">kľúč</a> je čiastočne bezpečný."
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
-msgstr ""
+msgstr "Podpis je platný a <a href=\"%1\">kľúč</a> je plne bezpečný."
 
 #: hashhelper.cpp:95
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
-msgstr ""
+msgstr "Podpis je platný a <a href=\"%1\">kľúč</a> je nekonečne bezpečný."
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
 msgstr ""
+"Podpis je platný, ale <a href=\"%1\">kľúč</a> nie je považovaný za bezpečný."
 
 #: hashhelper.cpp:101
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr ""
+msgstr "Podpis nie je platný."
 
 #: hashhelper.cpp:159
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: hashhelper.cpp:195
 #, kde-format
@@ -328,29 +328,29 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr ""
+msgstr "Hash-o-matic"
 
 #: main.cpp:103
 #, kde-format
 msgid "Check hashes for your files"
-msgstr ""
+msgstr "Skontroluje hash vašich súborov"
 
 #: main.cpp:107
 #, kde-format
 msgid "(c) KDE Community 2021"
-msgstr ""
+msgstr "(c) KDE komunita 2021"
 
 #: main.cpp:108
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:109
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Správca"
 
 #: main.cpp:116
 #, kde-format
@@ -360,4 +360,4 @@ msgstr ""
 #: main.cpp:117
 #, kde-format
 msgid "Local file url"
-msgstr ""
+msgstr "URL lokálneho súboru"
