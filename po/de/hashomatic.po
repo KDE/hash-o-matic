@@ -4,19 +4,21 @@
 # This file is distributed under the same license as the hash-o-matic package.
 # Automatically generated, 2023.
 #
+# Johannes Obermayr <johannesobermayr@gmx.de>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2023-10-04 08:56+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-17 18:59+0100\n"
+"Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,42 +34,42 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr ""
+msgstr "Dateien vergleichen"
 
 #: contents/ui/ComparePage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr ""
+msgstr "Zwei Dateien vergleichen"
 
 #: contents/ui/ComparePage.qml:26
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr ""
+msgstr "Datei 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
 #: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr ""
+msgstr "Datei auswählen"
 
 #: contents/ui/ComparePage.qml:46
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr ""
+msgstr "Datei 2"
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
 msgid "They match!"
-msgstr ""
+msgstr "Sie stimmen überein."
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
 msgid "They don't match!"
-msgstr ""
+msgstr "Sie unterscheiden sich."
 
 #: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
 #, kde-format
@@ -106,42 +108,42 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: contents/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr ""
+msgstr "Öffnen …"
 
 #: contents/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr ""
+msgstr "Über Hash-o-matic"
 
 #: contents/ui/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "Beenden"
 
 #: contents/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr ""
+msgstr "Ansicht"
 
 #: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr ""
+msgstr "Erstellen"
 
 #: contents/ui/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr ""
+msgstr "Vergleichen"
 
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
@@ -151,13 +153,13 @@ msgstr ""
 #: contents/ui/main.qml:64
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr ""
+msgstr "Vergleichen"
 
 #: contents/ui/main.qml:95
 #, kde-format
@@ -185,7 +187,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: contents/ui/VerifyPage.qml:45
 #, kde-format
@@ -219,7 +221,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr ""
+msgstr "Signaturdatei auswählen"
 
 #: contents/ui/VerifyPage.qml:162
 #, kde-format
@@ -307,29 +309,29 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr ""
+msgstr "Die Signatur ist ungültig."
 
 #: hashhelper.cpp:159
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: hashhelper.cpp:195
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr ""
+msgstr "Hash-o-matic unterstützt keine Ordner."
 
 #: hashhelper.cpp:267
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr ""
+msgstr "Die Datei ist nicht vorhanden oder lesbar."
 
 #: main.cpp:100
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr ""
+msgstr "Hash-o-matic"
 
 #: main.cpp:103
 #, kde-format
@@ -345,13 +347,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:109
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Betreuer"
 
 #: main.cpp:116
 #, kde-format
