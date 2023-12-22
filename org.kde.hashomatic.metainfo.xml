@@ -48,6 +48,7 @@
   <developer_name xml:lang="ca">Carl Schwan</developer_name>
   <developer_name xml:lang="ca-valencia">Carl Schwan</developer_name>
   <developer_name xml:lang="cs">Carl Schwan</developer_name>
+  <developer_name xml:lang="de">Carl Schwan</developer_name>
   <developer_name xml:lang="eo">Carl Schwan</developer_name>
   <developer_name xml:lang="es">Carl Schwan</developer_name>
   <developer_name xml:lang="eu">Carl Schwan</developer_name>
@@ -154,6 +155,7 @@
       <caption xml:lang="ca">Compara dos fitxers</caption>
       <caption xml:lang="ca-valencia">Compara dos fitxers</caption>
       <caption xml:lang="cs">Porovnat dva soubory</caption>
+      <caption xml:lang="de">Zwei Dateien vergleichen</caption>
       <caption xml:lang="eo">Kompari du dosierojn</caption>
       <caption xml:lang="es">Comparar dos archivos</caption>
       <caption xml:lang="eu">Alderatu bi fitxategi</caption>
