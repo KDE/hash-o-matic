@@ -2,12 +2,13 @@
 # This file is distributed under the same license as the hash-o-matic package.
 #
 # SPDX-FileCopyrightText: 2023 giovanni <g.sora@tiscali.it>
+# giovanni <g.sora@tiscali.it>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2023-10-10 10:38+0200\n"
+"PO-Revision-Date: 2023-12-28 19:34+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -243,7 +244,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr ""
+msgstr "Le detalios de clave non es disponibile."
 
 #: hashhelper.cpp:77
 #, kde-format
@@ -261,13 +262,13 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr ""
+msgstr "Le clave <a href=\"%1\"></a> esseva revocate."
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr ""
+msgstr "Le  clave <a href=\"%1\"></a> esseva expirate."
 
 #: hashhelper.cpp:89
 #, kde-format
@@ -341,7 +342,7 @@ msgstr "Hash-o-matic"
 #: main.cpp:103
 #, kde-format
 msgid "Check hashes for your files"
-msgstr ""
+msgstr "Verifica hashes per tu files"
 
 #: main.cpp:107
 #, kde-format
