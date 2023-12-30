@@ -2,15 +2,15 @@
 # German translation for hash-o-matic.
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the hash-o-matic package.
+# SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
 # Automatically generated, 2023.
 #
-# Johannes Obermayr <johannesobermayr@gmx.de>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2023-12-17 18:59+0100\n"
+"PO-Revision-Date: 2023-12-21 16:03+0100\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -23,12 +23,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Johannes Obermayr"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "johannesobermayr@gmx.de"
 
 #: contents/ui/ComparePage.qml:15
 #, kde-format
@@ -74,35 +74,35 @@ msgstr "Sie unterscheiden sich."
 #: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr ""
+msgstr "Zum Vergleichen die Datei hier einfügen"
 
 #: contents/ui/GeneratePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr ""
+msgstr "Hashwerte erstellen"
 
 #: contents/ui/GeneratePage.qml:22
 #, kde-format
 msgid "Display Checksums"
-msgstr ""
+msgstr "Prüfsummen anzeigen"
 
 #: contents/ui/GeneratePage.qml:44
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr ""
+msgstr "Hashwerte"
 
 #: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
 #: contents/ui/GeneratePage.qml:89
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr ""
+msgstr "Der Hashwert ist in die Zwischenablage kopiert"
 
 #: contents/ui/GeneratePage.qml:117
 #, kde-format
 msgid "Drag items here to share them"
-msgstr ""
+msgstr "Zum Teilen die Einträge hier einfügen"
 
 #: contents/ui/GlobalMenu.qml:14
 #, kde-format
@@ -148,7 +148,7 @@ msgstr "Vergleichen"
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr ""
+msgstr "Verifizieren"
 
 #: contents/ui/main.qml:64
 #, kde-format
@@ -165,23 +165,23 @@ msgstr "Vergleichen"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr ""
+msgstr "Verifizieren"
 
 #: contents/ui/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr ""
+msgstr "Hashwerte verifizieren"
 
 #: contents/ui/VerifyPage.qml:21
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr ""
+msgstr "Prüfsummen und Signaturen überprüfen"
 
 #: contents/ui/VerifyPage.qml:21
 #, kde-format
 msgid "Verify checksums"
-msgstr ""
+msgstr "Prüfsummen überprüfen"
 
 #: contents/ui/VerifyPage.qml:25
 #, kde-format
@@ -193,29 +193,29 @@ msgstr "Datei"
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr ""
+msgstr "Prüfsummenprüfung"
 
 #: contents/ui/VerifyPage.qml:52
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr ""
+msgstr "Prüfsumme"
 
 #: contents/ui/VerifyPage.qml:76
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr ""
+msgstr "Die Prüfsumme passt zur Datei."
 
 #: contents/ui/VerifyPage.qml:76
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr ""
+msgstr "Die Prüfsumme passt nicht zur Datei."
 
 #: contents/ui/VerifyPage.qml:82
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr ""
+msgstr "Signaturprüfung"
 
 #: contents/ui/VerifyPage.qml:89
 #, kde-format
@@ -226,7 +226,7 @@ msgstr "Signaturdatei auswählen"
 #: contents/ui/VerifyPage.qml:162
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr ""
+msgstr "Zum Prüfen die Einträge hier einfügen"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -235,42 +235,46 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
+"Die Datei wurde als VS - Nur für den Dienstgebrauch (VS-NfD) eingestuft und "
+"mit dem Schlüssel <a href=\"%1\">%2</a> signiert."
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr ""
+msgstr "Die Datei wurde mit dem Schlüssel <a href=\"%1\">%2</a> signiert."
 
 #: hashhelper.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr ""
+msgstr "Es sind keine Details für den Schlüssel verfügbar."
 
 #: hashhelper.cpp:77
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
 msgstr ""
+"Die Datei wurde VS - Nur für den Dienstgebrauch (VS-NfD) eingestuft und von "
+"%1 signiert."
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr ""
+msgstr "Die Datei wurde von %1 signiert."
 
 #: hashhelper.cpp:82
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr ""
+msgstr "Der <a href=\"%1\">Schlüssel</a> wurde zurückgezogen."
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr ""
+msgstr "Der <a href=\"%1\">Schlüssel</a> ist abgelaufen."
 
 #: hashhelper.cpp:89
 #, kde-format
@@ -278,6 +282,8 @@ msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
 msgstr ""
+"Die Signatur ist gültig, aber die Gültigkeit des <a href=\"%1\">Schlüssels</"
+"a> ist unbekannt."
 
 #: hashhelper.cpp:91
 #, kde-format
@@ -285,12 +291,16 @@ msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
 msgstr ""
+"Die Signatur ist gültig, aber das Vertrauen in die Gültigkeit des <a href="
+"\"%1\">Schlüssels</a> ist nur marginal."
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
 msgstr ""
+"Die Signatur ist gültig und es besteht volles Vertrauen in die Gültigkeit "
+"des <a href=\"%1\">Schlüssels</a>."
 
 #: hashhelper.cpp:95
 #, kde-format
@@ -298,12 +308,16 @@ msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
 msgstr ""
+"Die Signatur ist gültig und es besteht ultimatives Vertrauen in die "
+"Gültigkeit des <a href=\"%1\">Schlüssels</a>."
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
 msgstr ""
+"Die Signatur ist gültig, aber es besteht kein Vertrauen in die Gültigkeit "
+"des <a href=\"%1\">Schlüssels</a>."
 
 #: hashhelper.cpp:101
 #, kde-format
@@ -336,12 +350,12 @@ msgstr "Hash-o-matic"
 #: main.cpp:103
 #, kde-format
 msgid "Check hashes for your files"
-msgstr ""
+msgstr "Hashwerte Ihrer Dateien überprüfen"
 
 #: main.cpp:107
 #, kde-format
 msgid "(c) KDE Community 2021"
-msgstr ""
+msgstr "© 2021 KDE-Gemeinschaft"
 
 #: main.cpp:108
 #, kde-format
@@ -358,9 +372,9 @@ msgstr "Betreuer"
 #: main.cpp:116
 #, kde-format
 msgid "Generate hashes for file"
-msgstr ""
+msgstr "Hashwerte für Datei erstellen"
 
 #: main.cpp:117
 #, kde-format
 msgid "Local file url"
-msgstr ""
+msgstr "Lokale Datei (URL)"
