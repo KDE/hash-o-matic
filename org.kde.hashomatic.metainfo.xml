@@ -18,6 +18,7 @@
   <name xml:lang="it">Hash-o-matic</name>
   <name xml:lang="ka">Hash-o-matic</name>
   <name xml:lang="nl">Hash-o-matic</name>
+  <name xml:lang="pa">ਹੈਸ਼-ਓ-ਮੈਟਿਕ</name>
   <name xml:lang="pl">Hash-o-matic</name>
   <name xml:lang="ru">Hash-o-matic</name>
   <name xml:lang="sk">Hash-o-matic</name>
@@ -37,6 +38,7 @@
   <summary xml:lang="it">Controlla gli hash dei tuoi file</summary>
   <summary xml:lang="ka">თქვენი ფაილის ჰეშების შემოწმება</summary>
   <summary xml:lang="nl">Hashes voor uw bestanden controleren</summary>
+  <summary xml:lang="pa">ਆਪਣੀਆਂ ਫਾਇਲਾਂ ਲਈ ਹੈਸ਼ ਜਾਂਚੋ</summary>
   <summary xml:lang="pl">Sprawdzaj hasze swoich plików</summary>
   <summary xml:lang="sk">Skontroluje hash vašich súborov</summary>
   <summary xml:lang="sl">Preveri zgoščene vrednosti vaših datotek</summary>
@@ -59,6 +61,7 @@
   <developer_name xml:lang="it">Carl Schwan</developer_name>
   <developer_name xml:lang="ka">Carl Schwan</developer_name>
   <developer_name xml:lang="nl">Carl Schwan</developer_name>
+  <developer_name xml:lang="pa">ਕਾਰਲ ਸਚਵਾਨ</developer_name>
   <developer_name xml:lang="pl">Carl Schwan</developer_name>
   <developer_name xml:lang="sk">Carl Schwan</developer_name>
   <developer_name xml:lang="sl">Carl Schwan</developer_name>
@@ -173,6 +176,7 @@
       <caption xml:lang="it">Confronta due file</caption>
       <caption xml:lang="ka">შეადარეთ ორ ფაილი</caption>
       <caption xml:lang="nl">Twee bestanden vergelijken</caption>
+      <caption xml:lang="pa">ਦੋ ਫਾਇਲਾਂ ਦਾ ਟਾਕਰਾ ਕਰੋ</caption>
       <caption xml:lang="pl">Porównaj dwa pliki</caption>
       <caption xml:lang="sl">Primerja dve datoteki</caption>
       <caption xml:lang="tr">İki dosyayı karşılaştır</caption>
