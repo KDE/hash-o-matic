@@ -1,69 +1,72 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+#
+# SPDX-FileCopyrightText: 2023 A S Alam <aalam@punlinux.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2023-10-04 23:14-0700\n"
-"Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
-"Language-Team: Japanese <kde-jp@kde.org>\n"
-"Language: ja\n"
+"PO-Revision-Date: 2023-12-31 09:35-0600\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ ੨੦੨੩"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "aalam@punlinux.org"
 
 #: contents/ui/ComparePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਦਾ ਟਾਕਰਾ ਕਰੋ"
 
 #: contents/ui/ComparePage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr ""
+msgstr "ਦੋ ਫਾਇਲਾਂ ਦਾ ਟਾਕਰਾ ਕਰੋ"
 
 #: contents/ui/ComparePage.qml:26
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr ""
+msgstr "ਫਾਇਲ 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
 #: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr ""
+msgstr "ਫਾਇਲ ਚੁਣੋ"
 
 #: contents/ui/ComparePage.qml:46
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr ""
+msgstr "ਫਾਇਲ 2"
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
 msgid "They match!"
-msgstr ""
+msgstr "ਉਹ ਮਿਲਦੀਆਂ ਹਨ!"
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
 msgid "They don't match!"
-msgstr ""
+msgstr "ਉਹ ਨਹੀਂ ਮਿਲਦੀਆਂ ਹਨ!"
 
 #: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
 #, kde-format
@@ -74,7 +77,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr ""
+msgstr "ਹੈਸ਼ ਤਿਆਰ ਕਰੋ"
 
 #: contents/ui/GeneratePage.qml:22
 #, kde-format
@@ -85,7 +88,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr ""
+msgstr "ਹੈਸ਼"
 
 #: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
 #: contents/ui/GeneratePage.qml:89
@@ -102,70 +105,70 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr ""
+msgstr "ਫਾਇਲ"
 
 #: contents/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr ""
+msgstr "…ਖੋਲ੍ਹੋ"
 
 #: contents/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr ""
+msgstr "ਹੈਸ਼-ਓ-ਮੈਟਿਕ ਬਾਰੇ"
 
 #: contents/ui/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "ਬਾਹਰ"
 
 #: contents/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr ""
+msgstr "ਵੇਖੋ"
 
 #: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr ""
+msgstr "ਬਣਾਓ"
 
 #: contents/ui/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr ""
+msgstr "ਤੁਲਨਾ"
 
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr ""
+msgstr "ਜਾਂਚ"
 
 #: contents/ui/main.qml:64
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "ਇਸ ਬਾਰੇ"
 
 #: contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr ""
+msgstr "ਤੁਲਨਾ"
 
 #: contents/ui/main.qml:95
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr ""
+msgstr "ਜਾਂਚੋ"
 
 #: contents/ui/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr ""
+msgstr "ਹੈਸ਼ ਨੂੰ ਜਾਂਚੋ"
 
 #: contents/ui/VerifyPage.qml:21
 #, kde-format
@@ -181,7 +184,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr ""
+msgstr "ਫਾਇਲ"
 
 #: contents/ui/VerifyPage.qml:45
 #, kde-format
@@ -309,7 +312,7 @@ msgstr ""
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: hashhelper.cpp:195
 #, kde-format
@@ -325,7 +328,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr ""
+msgstr "ਹੈਸ਼-ਓ-ਮੈਟਿਕ"
 
 #: main.cpp:103
 #, kde-format
@@ -341,20 +344,20 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "ਕਾਰਲ ਸਚਵਾਨ"
 
 #: main.cpp:109
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "ਪਰਬੰਧਕ"
 
 #: main.cpp:116
 #, kde-format
 msgid "Generate hashes for file"
-msgstr ""
+msgstr "ਫਾਇਲ ਲਈ ਹੈਸ਼ ਤਿਆਰ ਕਰੋ"
 
 #: main.cpp:117
 #, kde-format
 msgid "Local file url"
-msgstr ""
+msgstr "ਲੋਕਲ ਫਾਈਲ URL"
