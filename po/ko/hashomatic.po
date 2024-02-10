@@ -1,229 +1,229 @@
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the hash-o-matic package.
+# SPDX-FileCopyrightText: 2024 Shinjo Park <kde@peremen.name>
 #
-# SPDX-FileCopyrightText: 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2024-02-09 17:45+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
-"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2024-02-09 23:09+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Emir SARI"
+msgstr "박신조"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "emir_sari@icloud.com"
+msgstr "kde@peremen.name"
 
 #: contents/ui/ComparePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr "Dosyalar Karşılaştır"
+msgstr "파일 비교"
 
 #: contents/ui/ComparePage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr "İki Dosyayı Karşılaştır"
+msgstr "두 파일 비교"
 
 #: contents/ui/ComparePage.qml:26
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr "Dosya 1"
+msgstr "파일 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
 #: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr "Dosya Seç"
+msgstr "파일 선택"
 
 #: contents/ui/ComparePage.qml:46
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr "Dosya 2"
+msgstr "파일 2"
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
 msgid "They match!"
-msgstr "Eşleşiyorlar!"
+msgstr "일치합니다!"
 
 #: contents/ui/ComparePage.qml:85
 #, kde-format
 msgid "They don't match!"
-msgstr "Eşleşmiyorlar!"
+msgstr "일치하지 않습니다!"
 
 #: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr "Karşılaştırmak için buraya sürükle"
+msgstr "비교할 파일을 여기에 드래그하십시오"
 
 #: contents/ui/GeneratePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr "Sağlama Oluştur"
+msgstr "해시 생성"
 
 #: contents/ui/GeneratePage.qml:22
 #, kde-format
 msgid "Display Checksums"
-msgstr "Sağlama Toplamlarını Görüntüle"
+msgstr "체크섬 표시"
 
 #: contents/ui/GeneratePage.qml:44
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr "Sağlamalar"
+msgstr "해시"
 
 #: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
 #: contents/ui/GeneratePage.qml:89
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr "Sağlama panoya kopyalandı"
+msgstr "클립보드에 해시 복사됨"
 
 #: contents/ui/GeneratePage.qml:117
 #, kde-format
 msgid "Drag items here to share them"
-msgstr "Onları paylaşmak için buraya sürükle"
+msgstr "공유할 항목을 여기에 드래그"
 
 #: contents/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr "Dosya"
+msgstr "파일"
 
 #: contents/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr "Aç…"
+msgstr "열기…"
 
 #: contents/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr "Haşmatik Hakkında"
+msgstr "Hash-o-matic 정보"
 
 #: contents/ui/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr "Çık"
+msgstr "끝내기"
 
 #: contents/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr "Görüntüle"
+msgstr "보기"
 
 #: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr "Üret"
+msgstr "생성"
 
 #: contents/ui/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr "Karşılaştır"
+msgstr "비교"
 
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr "Doğrula"
+msgstr "검증"
 
 #: contents/ui/main.qml:64
 #, kde-format
 msgid "About"
-msgstr "Hakkında"
+msgstr "정보"
 
 #: contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr "Karşılaştır"
+msgstr "비교"
 
 #: contents/ui/main.qml:95
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr "Doğrula"
+msgstr "검증"
 
 #: contents/ui/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr "Sağlamayı Doğrula"
+msgstr "해시 검증"
 
 #: contents/ui/VerifyPage.qml:21
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr "Sağlama toplamlarını ve imzaları doğrula"
+msgstr "해시와 서명 검증"
 
 #: contents/ui/VerifyPage.qml:21
 #, kde-format
 msgid "Verify checksums"
-msgstr "Sağlama toplamlarını doğrula"
+msgstr "체크섬 검증"
 
 #: contents/ui/VerifyPage.qml:25
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr "Dosya"
+msgstr "파일"
 
 #: contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr "Sağlama Toplamı Doğrulaması"
+msgstr "체크섬 검증"
 
 #: contents/ui/VerifyPage.qml:52
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr "Sağlama Toplamı"
+msgstr "체크섬"
 
 #: contents/ui/VerifyPage.qml:76
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr "Sağlama toplamı dosyayla eşleşiyor!"
+msgstr "파일과 체크섬이 일치합니다!"
 
 #: contents/ui/VerifyPage.qml:76
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr "Sağlama toplamı dosyayla eşleşmiyor!"
+msgstr "파일과 체크섬이 일치하지 않습니다!"
 
 #: contents/ui/VerifyPage.qml:82
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr "İmza Doğrulaması"
+msgstr "서명 검증"
 
 #: contents/ui/VerifyPage.qml:89
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr "İmza Dosyası Seç"
+msgstr "서명 파일 선택"
 
 #: contents/ui/VerifyPage.qml:162
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr "Onları doğrulamak için buraya sürükle"
+msgstr "검증할 항목을 여기에 드래그"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -232,85 +232,83 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
-"Bu dosya, <a href=\"%1\">%2</a> anahtarı kullanılarak VS-NfD uyumlu olarak "
-"imzalandı."
+"이 파일은 VS-NfD를 준수하는 방법으로 키 <a href=\"%1\">%2</a>(으)로 서명되었"
+"습니다."
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr "Bu dosya, <a href=\"%1\">%2</a> anahtarı kullanılarak imzalandı."
+msgstr "이 파일은 키 <a href=\"%1\">%2</a>(으)로 서명되었습니다."
 
 #: hashhelper.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr "Anahtar ayrıntıları kullanılamıyor."
+msgstr "키 정보를 알 수 없습니다."
 
 #: hashhelper.cpp:77
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr "Bu dosya, %1 tarafından VS-NfD uyumlu olarak imzalandı."
+msgstr "이 파일은 VS-NfD를 준수하는 방법으로 %1 님에 의해서 서명되었습니다."
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr "Bu dosya, %1 tarafından imzalandı."
+msgstr "이 파일은 %1 님에 의해서 서명되었습니다."
 
 #: hashhelper.cpp:82
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr "<a href=\"%1\">Anahtar</a> yürürlükten kaldırıldı."
+msgstr "<a href=\"%1\">키</a>가 취소되었습니다."
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr "<a href=\"%1\">Anahtarın</a> süresi geçti."
+msgstr "<a href=\"%1\">키</a>가 만료되었습니다."
 
 #: hashhelper.cpp:89
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
-msgstr ""
-"İmza geçerli; ancak <a href=\"%1\">anahtarın</a> geçerliliği bilinmiyor."
+msgstr "서명이 올바르지만 <a href=\"%1\">키</a> 유효성을 알 수 없습니다."
 
 #: hashhelper.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
-msgstr "İmza geçerli; ancak <a href=\"%1\">anahtara</a> pek az güveniliyor."
+msgstr "서명이 올바르지만 <a href=\"%1\">키</a>를 그럭저럭 신뢰합니다."
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
-msgstr "İmza geçerli ve <a href=\"%1\">anahtara</a> güveniliyor."
+msgstr "서명이 올바르고 <a href=\"%1\">키</a>를 웬만큼 신뢰합니다."
 
 #: hashhelper.cpp:95
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
-msgstr ""
-"İmza geçerli ve <a href=\"%1\">anahtara</a> en yüksek düzeyde güveniliyor."
+msgstr "서명이 올바르고 <a href=\"%1\">키</a>를 완전히 신뢰합니다."
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
-msgstr "İmza geçerli; ancak <a href=\"%1\">anahtara</a> güvenilmiyor."
+msgstr "서명이 올바르지만 <a href=\"%1\">키</a>를 신뢰할 수 없습니다."
 
 #: hashhelper.cpp:101
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr "İmza geçersiz."
+msgstr "서명이 잘못되었습니다."
 
 #: hashhelper.cpp:159
 #, kde-format
@@ -321,28 +319,28 @@ msgstr ", "
 #: hashhelper.cpp:195
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr "Haşmatik dizinleri desteklemiyor."
+msgstr "Hash-o-matic은 디렉터리를 지원하지 않습니다.파일"
 
 #: hashhelper.cpp:267
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr "Dosya yok veya okunabilir değil."
+msgstr "파일이 없거나 읽을 수 없습니다."
 
 #: main.cpp:100
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr "Haşmatik"
+msgstr "Hash-o-matic"
 
 #: main.cpp:103
 #, kde-format
 msgid "Check hashes for your files"
-msgstr "Dosyalarınızın sağlamalarını denetleyin"
+msgstr "파일의 해시 검사"
 
 #: main.cpp:107
 #, kde-format
 msgid "(c) KDE Community 2021"
-msgstr "(c) KDE Topluluğu 2021"
+msgstr "(c) KDE Community 2021"
 
 #: main.cpp:108
 #, kde-format
@@ -354,14 +352,14 @@ msgstr "Carl Schwan"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr "Bakımcı"
+msgstr "관리자"
 
 #: main.cpp:116
 #, kde-format
 msgid "Generate hashes for file"
-msgstr "Dosyalar için sağlamalar üret"
+msgstr "파일의 해시 생성"
 
 #: main.cpp:117
 #, kde-format
 msgid "Local file url"
-msgstr "Yerel dosya URL’si"
+msgstr "로컬 파일 URL"
