@@ -13,12 +13,26 @@ FormCard.FormCardPage {
 
     title: i18nc("@title", "Verify Hash")
 
-    Kirigami.PlaceholderMessage {
-        icon.name: "org.kde.hashomatic"
-        Layout.preferredWidth: parent.width - Kirigami.Units.gridUnit * 4
-        Layout.topMargin: Kirigami.Units.gridUnit
+    Kirigami.Icon {
+        source: "org.kde.hashomatic"
+
         Layout.alignment: Qt.AlignHCenter
+        Layout.preferredWidth: Math.round(Kirigami.Units.iconSizes.huge * 1.5)
+        Layout.preferredHeight: Math.round(Kirigami.Units.iconSizes.huge * 1.5)
+        Layout.topMargin: Kirigami.Units.largeSpacing
+    }
+
+    Kirigami.Heading {
         text: hashHelper.gpgAvailable ? i18n("Verify checksums and signatures") : i18n("Verify checksums")
+        visible: text.length > 0
+
+        type: Kirigami.Heading.Primary
+        horizontalAlignment: Qt.AlignHCenter
+        verticalAlignment: Qt.AlignVCenter
+        wrapMode: Text.WordWrap
+
+        Layout.fillWidth: true
+        Layout.topMargin: Kirigami.Units.largeSpacing
     }
 
     FormCard.FormHeader {
