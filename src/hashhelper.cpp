@@ -165,6 +165,7 @@ SignatureInfo extractSignatureInfo(const std::vector<Signature> &signatures, QGp
                     signatureInfo.signers += email;
                 }
             }
+            i++;
         }
         signatureInfo.keyTrust = signature.validity();
     }
