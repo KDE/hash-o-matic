@@ -43,6 +43,8 @@
 #include "controller.h"
 #include "hashhelper.h"
 
+using namespace Qt::Literals::StringLiterals;
+
 #ifdef HAVE_WINDOWSYSTEM
 static void raiseWindow(QWindow *window)
 {
@@ -63,9 +65,9 @@ int main(int argc, char *argv[])
 
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
-    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
+    QQuickStyle::setStyle(u"org.kde.breeze"_s);
 #else
-    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
+    QIcon::setFallbackThemeName(u"breeze"_s);
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
 #else
@@ -73,7 +75,7 @@ int main(int argc, char *argv[])
 #endif
     // Default to org.kde.desktop style unless the user forces another style
     if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
-        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+        QQuickStyle::setStyle(u"org.kde.desktop"_s);
     }
 #endif
 
@@ -83,19 +85,19 @@ int main(int argc, char *argv[])
         freopen("CONOUT$", "w", stderr);
     }
 
-    QApplication::setStyle(QStringLiteral("breeze"));
+    QApplication::setStyle(u"breeze"_s);
     auto font = app.font();
     font.setPointSize(10);
     app.setFont(font);
 #endif
 
     KLocalizedString::setApplicationDomain("hashomatic");
-    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("Hash-o-Matic"));
+    QCoreApplication::setOrganizationName(u"KDE"_s);
+    QCoreApplication::setApplicationName(u"Hash-o-Matic"_s);
 
     KAboutData aboutData(
         // The program name used internally.
-        QStringLiteral("hashomatic"),
+        u"hashomatic"_s,
         // A displayable program name string.
         i18nc("@title", "Hash-o-matic"),
         QStringLiteral(HASHVALIDATOR_VERSION_STRING),
@@ -105,16 +107,13 @@ int main(int argc, char *argv[])
         KAboutLicense::GPL,
         // Copyright Statement.
         i18n("(c) KDE Community 2021"));
-    aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"),
-                        i18nc("@info:credit", "Maintainer"),
-                        QStringLiteral("carl@carlschwan.eu"),
-                        QStringLiteral("https://carlschwan.eu"));
+    aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"), i18nc("@info:credit", "Maintainer"), u"carl@carlschwan.eu"_s, u"https://carlschwan.eu"_s);
     KAboutData::setApplicationData(aboutData);
-    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.hashomatic")));
+    QGuiApplication::setWindowIcon(QIcon::fromTheme(u"org.kde.hashomatic"_s));
 
     QCommandLineParser parser;
     parser.setApplicationDescription(i18n("Generate hashes for file"));
-    parser.addPositionalArgument(QStringLiteral("url"), i18n("Local file url"));
+    parser.addPositionalArgument(u"url"_s, i18n("Local file url"));
     aboutData.setupCommandLine(&parser);
     parser.process(app);
     aboutData.processCommandLine(&parser);
@@ -147,7 +146,7 @@ int main(int argc, char *argv[])
 #endif
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.load(QUrl(u"qrc:///main.qml"_s));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
@@ -177,8 +176,8 @@ int main(int argc, char *argv[])
     for (auto obj : rootObjects) {
         auto view = qobject_cast<QQuickWindow *>(obj);
         if (view) {
-            KConfig dataResource(QStringLiteral("data"), KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
-            KConfigGroup windowGroup(&dataResource, QStringLiteral("Window"));
+            KConfig dataResource(u"data"_s, KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+            KConfigGroup windowGroup(&dataResource, u"Window"_s);
             KWindowConfig::restoreWindowSize(view, windowGroup);
             KWindowConfig::restoreWindowPosition(view, windowGroup);
             break;
