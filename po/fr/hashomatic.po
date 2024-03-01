@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"POT-Creation-Date: 2024-03-01 00:40+0000\n"
 "PO-Revision-Date: 2023-11-01 18:50+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -44,7 +44,7 @@ msgid "File 1"
 msgstr "Fichier 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
-#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
+#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
@@ -168,57 +168,57 @@ msgctxt "@title"
 msgid "Verify Hash"
 msgstr "Vérifiez la valeur de hachage"
 
-#: contents/ui/VerifyPage.qml:21
+#: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
 msgstr "Vérifiez les sommes de contrôle et les signatures"
 
-#: contents/ui/VerifyPage.qml:21
+#: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
 msgstr "Vérifiez les sommes de contrôle"
 
-#: contents/ui/VerifyPage.qml:25
+#: contents/ui/VerifyPage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
 msgstr "Fichier"
 
-#: contents/ui/VerifyPage.qml:45
+#: contents/ui/VerifyPage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
 msgstr "Vérification de somme de contrôle"
 
-#: contents/ui/VerifyPage.qml:52
+#: contents/ui/VerifyPage.qml:66
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
 msgstr "Somme de contrôle"
 
-#: contents/ui/VerifyPage.qml:76
+#: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum match with the file!"
 msgstr "La somme de contrôle ne correspond pas à celle du fichier !"
 
-#: contents/ui/VerifyPage.qml:76
+#: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum doesn't match with the file!"
 msgstr "La somme de contrôle ne correspond pas à celle du fichier !"
 
-#: contents/ui/VerifyPage.qml:82
+#: contents/ui/VerifyPage.qml:96
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
 msgstr "Vérification de signature"
 
-#: contents/ui/VerifyPage.qml:89
+#: contents/ui/VerifyPage.qml:103
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
 msgstr "Sélectionner un fichier de signature"
 
-#: contents/ui/VerifyPage.qml:162
+#: contents/ui/VerifyPage.qml:176
 #, kde-format
 msgid "Drag items here to verify them"
 msgstr "Faites glisser les éléments ici pour les vérifier"
@@ -320,50 +320,50 @@ msgctxt "list separator"
 msgid ", "
 msgstr ", "
 
-#: hashhelper.cpp:195
+#: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
 msgstr "L'application Hash-O-Matic ne prend pas en charge les dossiers."
 
-#: hashhelper.cpp:267
+#: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
 msgstr "Le fichier n'existe pas ou n'est pas lisible."
 
-#: main.cpp:100
+#: main.cpp:102
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-Matic"
 
-#: main.cpp:103
+#: main.cpp:105
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "Vérifiez les valeurs de hachage de vos fichiers"
 
-#: main.cpp:107
+#: main.cpp:109
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) Communauté de KDE 2021"
 
-#: main.cpp:108
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:109
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Mainteneur"
 
-#: main.cpp:116
+#: main.cpp:115
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "Générer des valeurs de hachage pour un fichier"
 
-#: main.cpp:117
+#: main.cpp:116
 #, kde-format
 msgid "Local file url"
 msgstr "URL du fichier local"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"POT-Creation-Date: 2024-03-01 00:40+0000\n"
 "PO-Revision-Date: 2024-02-09 23:09+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -46,7 +46,7 @@ msgid "File 1"
 msgstr "파일 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
-#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
+#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
@@ -170,57 +170,57 @@ msgctxt "@title"
 msgid "Verify Hash"
 msgstr "해시 검증"
 
-#: contents/ui/VerifyPage.qml:21
+#: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
 msgstr "해시와 서명 검증"
 
-#: contents/ui/VerifyPage.qml:21
+#: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
 msgstr "체크섬 검증"
 
-#: contents/ui/VerifyPage.qml:25
+#: contents/ui/VerifyPage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
 msgstr "파일"
 
-#: contents/ui/VerifyPage.qml:45
+#: contents/ui/VerifyPage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
 msgstr "체크섬 검증"
 
-#: contents/ui/VerifyPage.qml:52
+#: contents/ui/VerifyPage.qml:66
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
 msgstr "체크섬"
 
-#: contents/ui/VerifyPage.qml:76
+#: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum match with the file!"
 msgstr "파일과 체크섬이 일치합니다!"
 
-#: contents/ui/VerifyPage.qml:76
+#: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum doesn't match with the file!"
 msgstr "파일과 체크섬이 일치하지 않습니다!"
 
-#: contents/ui/VerifyPage.qml:82
+#: contents/ui/VerifyPage.qml:96
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
 msgstr "서명 검증"
 
-#: contents/ui/VerifyPage.qml:89
+#: contents/ui/VerifyPage.qml:103
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
 msgstr "서명 파일 선택"
 
-#: contents/ui/VerifyPage.qml:162
+#: contents/ui/VerifyPage.qml:176
 #, kde-format
 msgid "Drag items here to verify them"
 msgstr "검증할 항목을 여기에 드래그"
@@ -316,50 +316,50 @@ msgctxt "list separator"
 msgid ", "
 msgstr ", "
 
-#: hashhelper.cpp:195
+#: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
 msgstr "Hash-o-matic은 디렉터리를 지원하지 않습니다.파일"
 
-#: hashhelper.cpp:267
+#: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
 msgstr "파일이 없거나 읽을 수 없습니다."
 
-#: main.cpp:100
+#: main.cpp:102
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:103
+#: main.cpp:105
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "파일의 해시 검사"
 
-#: main.cpp:107
+#: main.cpp:109
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE Community 2021"
 
-#: main.cpp:108
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:109
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "관리자"
 
-#: main.cpp:116
+#: main.cpp:115
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "파일의 해시 생성"
 
-#: main.cpp:117
+#: main.cpp:116
 #, kde-format
 msgid "Local file url"
 msgstr "로컬 파일 URL"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"POT-Creation-Date: 2024-03-01 00:40+0000\n"
 "PO-Revision-Date: 2023-12-07 23:52+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -46,7 +46,7 @@ msgid "File 1"
 msgstr "檔案 1"
 
 #: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
-#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:31
+#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
@@ -170,57 +170,57 @@ msgctxt "@title"
 msgid "Verify Hash"
 msgstr "驗證雜湊值"
 
-#: contents/ui/VerifyPage.qml:21
+#: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
 msgstr "驗證總和檢查碼和簽章"
 
-#: contents/ui/VerifyPage.qml:21
+#: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
 msgstr "驗證總和檢查碼"
 
-#: contents/ui/VerifyPage.qml:25
+#: contents/ui/VerifyPage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
 msgstr "檔案"
 
-#: contents/ui/VerifyPage.qml:45
+#: contents/ui/VerifyPage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
 msgstr "總和檢查碼驗證"
 
-#: contents/ui/VerifyPage.qml:52
+#: contents/ui/VerifyPage.qml:66
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
 msgstr "總和檢查碼"
 
-#: contents/ui/VerifyPage.qml:76
+#: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum match with the file!"
 msgstr "總和檢查碼與檔案相符！"
 
-#: contents/ui/VerifyPage.qml:76
+#: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum doesn't match with the file!"
 msgstr "總和檢查碼與檔案不符！"
 
-#: contents/ui/VerifyPage.qml:82
+#: contents/ui/VerifyPage.qml:96
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
 msgstr "簽章驗證"
 
-#: contents/ui/VerifyPage.qml:89
+#: contents/ui/VerifyPage.qml:103
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
 msgstr "選擇簽章檔案"
 
-#: contents/ui/VerifyPage.qml:162
+#: contents/ui/VerifyPage.qml:176
 #, kde-format
 msgid "Drag items here to verify them"
 msgstr "將項目拖曳至此來驗證它們"
@@ -314,50 +314,50 @@ msgctxt "list separator"
 msgid ", "
 msgstr "、"
 
-#: hashhelper.cpp:195
+#: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
 msgstr "Hash-o-matic 不支援目錄。"
 
-#: hashhelper.cpp:267
+#: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
 msgstr "檔案不存在或並非可讀。"
 
-#: main.cpp:100
+#: main.cpp:102
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:103
+#: main.cpp:105
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "檢查您的檔案的雜湊值"
 
-#: main.cpp:107
+#: main.cpp:109
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE 社群 2021"
 
-#: main.cpp:108
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:109
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "維護者"
 
-#: main.cpp:116
+#: main.cpp:115
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "產生檔案的雜湊值"
 
-#: main.cpp:117
+#: main.cpp:116
 #, kde-format
 msgid "Local file url"
 msgstr "本地檔案 URL"
