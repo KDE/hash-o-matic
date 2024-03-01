@@ -201,7 +201,7 @@
       <caption xml:lang="zh-TW">檢查檔案是否有效</caption>
     </screenshot>
   </screenshots>
-  <url type="homepage">https://apps.kde.org/hash-o-matric</url>
+  <url type="homepage">https://apps.kde.org/hashomatic</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Hash-o-Matix</url>
   <url type="vcs-browser">https://invent.kde.org/utilities/hash-o-matic/</url>
   <url type="contact">https://go.kde.org/matrix/#/#neochat:kde.org</url>
@@ -215,7 +215,7 @@
     <keyword>Kirigami</keyword>
   </keywords>
   <releases>
-    <release>
+    <release version="1.0.0" date="2024-03-01">
       <url>https://carlschwan.eu/2024/02/28/independent-releases/</url>
       <description>
         <p>Initial release of Hash-o-Matic containing a hash generator mode, a file comparaison mode and a verification mode.</p>
