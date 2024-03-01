@@ -75,6 +75,8 @@ set_package_properties(Gpgmepp PROPERTIES
 )
 add_subdirectory(src)
 
+ki18n_install(po)
+
 if (BUILD_TESTING)
     find_package(Qt6Test ${QT_MIN_VERSION} REQUIRED)
     add_subdirectory(autotests)
