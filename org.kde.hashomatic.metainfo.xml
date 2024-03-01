@@ -50,28 +50,14 @@
   <summary xml:lang="zh-TW">檢查您的檔案的雜湊值</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
-  <developer_name>Carl Schwan</developer_name>
-  <developer_name xml:lang="ca">Carl Schwan</developer_name>
-  <developer_name xml:lang="ca-valencia">Carl Schwan</developer_name>
-  <developer_name xml:lang="cs">Carl Schwan</developer_name>
-  <developer_name xml:lang="de">Carl Schwan</developer_name>
-  <developer_name xml:lang="eo">Carl Schwan</developer_name>
-  <developer_name xml:lang="es">Carl Schwan</developer_name>
-  <developer_name xml:lang="eu">Carl Schwan</developer_name>
-  <developer_name xml:lang="fr">Carl Schwan</developer_name>
-  <developer_name xml:lang="ia">Carl Schwan</developer_name>
-  <developer_name xml:lang="it">Carl Schwan</developer_name>
-  <developer_name xml:lang="ka">Carl Schwan</developer_name>
-  <developer_name xml:lang="ko">Carl Schwan</developer_name>
-  <developer_name xml:lang="nl">Carl Schwan</developer_name>
-  <developer_name xml:lang="pa">ਕਾਰਲ ਸਚਵਾਨ</developer_name>
-  <developer_name xml:lang="pl">Carl Schwan</developer_name>
-  <developer_name xml:lang="sk">Carl Schwan</developer_name>
-  <developer_name xml:lang="sl">Carl Schwan</developer_name>
-  <developer_name xml:lang="tr">Carl Schwan</developer_name>
-  <developer_name xml:lang="uk">Carl Schwan</developer_name>
-  <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
-  <developer_name xml:lang="zh-TW">Carl Schwan</developer_name>
+  <developer>
+    <id>kde.org</id>
+    <name>The KDE Community</name>
+    <url>https://kde.org</url>
+  </developer>
+  <categories>
+    <category>Utility</category>
+  </categories>
   <provides>
     <binary>hashomatic</binary>
   </provides>
@@ -215,6 +201,19 @@
       <caption xml:lang="zh-TW">檢查檔案是否有效</caption>
     </screenshot>
   </screenshots>
+  <url type="homepage">https://apps.kde.org/hash-o-matric</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Hash-o-Matix</url>
+  <url type="vcs-browser">https://invent.kde.org/utilities/hash-o-matic/</url>
+  <url type="contact">https://go.kde.org/matrix/#/#neochat:kde.org</url>
+  <url type="donation">https://kde.org/community/donations/?app=neochat</url>
+  <url type="contribute">https://community.kde.org/Get_Involved/</url>
+
+  <keywords>
+    <keyword>Hashing</keyword>
+    <keyword>Security</keyword>
+    <keyword>GPG</keyword>
+    <keyword>Kirigami</keyword>
+  </keywords>
   <releases>
     <release>
       <url>https://carlschwan.eu/2024/02/28/independent-releases/</url>
