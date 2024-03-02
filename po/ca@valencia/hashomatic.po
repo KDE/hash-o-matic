@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:40+0000\n"
+"POT-Creation-Date: 2024-03-02 00:39+0000\n"
 "PO-Revision-Date: 2023-10-04 12:21+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -36,42 +36,42 @@ msgctxt "@title"
 msgid "Compare files"
 msgstr "Compara fitxers"
 
-#: contents/ui/ComparePage.qml:22
+#: contents/ui/ComparePage.qml:27
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
 msgstr "Compara dos fitxers"
 
-#: contents/ui/ComparePage.qml:26
+#: contents/ui/ComparePage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
 msgstr "Fitxer 1"
 
-#: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
-#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:45
+#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
+#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
 msgstr "Seleccioneu un fitxer"
 
-#: contents/ui/ComparePage.qml:46
+#: contents/ui/ComparePage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
 msgstr "Fitxer 2"
 
-#: contents/ui/ComparePage.qml:85
+#: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They match!"
 msgstr "Coincidixen!"
 
-#: contents/ui/ComparePage.qml:85
+#: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They don't match!"
 msgstr "No coincidixen!"
 
-#: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
+#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
 #, kde-format
 msgid "Drag file here to compare it"
 msgstr "Arrossegueu ací el fitxer per a comparar-lo"
@@ -82,24 +82,24 @@ msgctxt "@title"
 msgid "Generate Hash"
 msgstr "Genera un resum"
 
-#: contents/ui/GeneratePage.qml:22
+#: contents/ui/GeneratePage.qml:27
 #, kde-format
 msgid "Display Checksums"
 msgstr "Mostra les sumes de verificació"
 
-#: contents/ui/GeneratePage.qml:44
+#: contents/ui/GeneratePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
 msgstr "Resums"
 
-#: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
-#: contents/ui/GeneratePage.qml:89
+#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
+#: contents/ui/GeneratePage.qml:102
 #, kde-format
 msgid "Hash copied into the clipboard"
 msgstr "El resum s'ha copiat a dins del porta-retalls"
 
-#: contents/ui/GeneratePage.qml:117
+#: contents/ui/GeneratePage.qml:130
 #, kde-format
 msgid "Drag items here to share them"
 msgstr "Arrossegueu ací els elements per a compartir"

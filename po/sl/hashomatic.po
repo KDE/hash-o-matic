@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:40+0000\n"
+"POT-Creation-Date: 2024-03-02 00:39+0000\n"
 "PO-Revision-Date: 2023-10-05 10:14+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -34,42 +34,42 @@ msgctxt "@title"
 msgid "Compare files"
 msgstr "Primerjaj datoteke"
 
-#: contents/ui/ComparePage.qml:22
+#: contents/ui/ComparePage.qml:27
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
 msgstr "Primerjaj dve datoteki"
 
-#: contents/ui/ComparePage.qml:26
+#: contents/ui/ComparePage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
 msgstr "Datoteka 1"
 
-#: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
-#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:45
+#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
+#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
 msgstr "Izberi datoteko"
 
-#: contents/ui/ComparePage.qml:46
+#: contents/ui/ComparePage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
 msgstr "Datoteka 2"
 
-#: contents/ui/ComparePage.qml:85
+#: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They match!"
 msgstr "Ujemata se!"
 
-#: contents/ui/ComparePage.qml:85
+#: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They don't match!"
 msgstr "Ne ujemata se!"
 
-#: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
+#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
 #, kde-format
 msgid "Drag file here to compare it"
 msgstr "Povlecite datoteko sem, da jo primerjate"
@@ -80,24 +80,24 @@ msgctxt "@title"
 msgid "Generate Hash"
 msgstr "Ustvari zgoščeno vrednost"
 
-#: contents/ui/GeneratePage.qml:22
+#: contents/ui/GeneratePage.qml:27
 #, kde-format
 msgid "Display Checksums"
 msgstr "Prikaži kontrolne vsote"
 
-#: contents/ui/GeneratePage.qml:44
+#: contents/ui/GeneratePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
 msgstr "Zgoščene vrednosti"
 
-#: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
-#: contents/ui/GeneratePage.qml:89
+#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
+#: contents/ui/GeneratePage.qml:102
 #, kde-format
 msgid "Hash copied into the clipboard"
 msgstr "Zgoščena vrednost kopirana v odložišče"
 
-#: contents/ui/GeneratePage.qml:117
+#: contents/ui/GeneratePage.qml:130
 #, kde-format
 msgid "Drag items here to share them"
 msgstr "Povlecite elemente sem, da jih daste v skupno rabo"

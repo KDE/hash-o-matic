@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:40+0000\n"
+"POT-Creation-Date: 2024-03-02 00:39+0000\n"
 "PO-Revision-Date: 2023-10-07 07:44+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -34,42 +34,42 @@ msgctxt "@title"
 msgid "Compare files"
 msgstr "Porównaj pliki"
 
-#: contents/ui/ComparePage.qml:22
+#: contents/ui/ComparePage.qml:27
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
 msgstr "Porównaj dwa pliki"
 
-#: contents/ui/ComparePage.qml:26
+#: contents/ui/ComparePage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
 msgstr "Plik 1"
 
-#: contents/ui/ComparePage.qml:32 contents/ui/ComparePage.qml:52
-#: contents/ui/GeneratePage.qml:30 contents/ui/VerifyPage.qml:45
+#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
+#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
 msgstr "Wybierz plik"
 
-#: contents/ui/ComparePage.qml:46
+#: contents/ui/ComparePage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
 msgstr "Plik 2"
 
-#: contents/ui/ComparePage.qml:85
+#: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They match!"
 msgstr "Są zgodne!"
 
-#: contents/ui/ComparePage.qml:85
+#: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They don't match!"
 msgstr "Są niezgodne!"
 
-#: contents/ui/ComparePage.qml:139 contents/ui/ComparePage.qml:152
+#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
 #, kde-format
 msgid "Drag file here to compare it"
 msgstr "Przeciągnij rzeczy tutaj, aby je porównać"
@@ -80,24 +80,24 @@ msgctxt "@title"
 msgid "Generate Hash"
 msgstr "Utwórz hasz"
 
-#: contents/ui/GeneratePage.qml:22
+#: contents/ui/GeneratePage.qml:27
 #, kde-format
 msgid "Display Checksums"
 msgstr "Wyświetl sumy sprawdzające"
 
-#: contents/ui/GeneratePage.qml:44
+#: contents/ui/GeneratePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
 msgstr "Hasze"
 
-#: contents/ui/GeneratePage.qml:59 contents/ui/GeneratePage.qml:74
-#: contents/ui/GeneratePage.qml:89
+#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
+#: contents/ui/GeneratePage.qml:102
 #, kde-format
 msgid "Hash copied into the clipboard"
 msgstr "Skopiowano hasz do schowka"
 
-#: contents/ui/GeneratePage.qml:117
+#: contents/ui/GeneratePage.qml:130
 #, kde-format
 msgid "Drag items here to share them"
 msgstr "Przeciągnij rzeczy tutaj, aby je udostępnić"
