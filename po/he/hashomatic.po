@@ -1,0 +1,363 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-02 00:39+0000\n"
+"PO-Revision-Date: 2024-03-07 23:02+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: contents/ui/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "השוואת קבצים"
+
+#: contents/ui/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "השוואת שני קבצים"
+
+#: contents/ui/ComparePage.qml:39
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "קובץ 1"
+
+#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
+#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "נא לבחור קובץ"
+
+#: contents/ui/ComparePage.qml:59
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "קובץ 2"
+
+#: contents/ui/ComparePage.qml:98
+#, kde-format
+msgid "They match!"
+msgstr "הם תואמים!"
+
+#: contents/ui/ComparePage.qml:98
+#, kde-format
+msgid "They don't match!"
+msgstr "הם לא תואמים!"
+
+#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "יש לגרור לכאן קובץ כדי להשוות אותו"
+
+#: contents/ui/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "יצירת גיבוב"
+
+#: contents/ui/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "הצגת סיכומי ביקורת"
+
+#: contents/ui/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "גיבובים"
+
+#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
+#: contents/ui/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "הגיבוב הועתק ללוח הגזירים"
+
+#: contents/ui/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "נא לגרור לכאן פריטים כדי לשתף אותם"
+
+#: contents/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "קובץ"
+
+#: contents/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "פתיחה…"
+
+#: contents/ui/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "על Hash-o-matic"
+
+#: contents/ui/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "יציאה"
+
+#: contents/ui/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "הצגה"
+
+#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "יצירה"
+
+#: contents/ui/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "השוואה"
+
+#: contents/ui/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "אימות"
+
+#: contents/ui/main.qml:64
+#, kde-format
+msgid "About"
+msgstr "על אודות"
+
+#: contents/ui/main.qml:88
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "השוואה"
+
+#: contents/ui/main.qml:95
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "אימות"
+
+#: contents/ui/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "אימות גיבוב"
+
+#: contents/ui/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "אימות סיכומי ביקורת וחתימות"
+
+#: contents/ui/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "אימות סיכומי ביקורת"
+
+#: contents/ui/VerifyPage.qml:39
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "קובץ"
+
+#: contents/ui/VerifyPage.qml:59
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "אימות סיכומי ביקורת"
+
+#: contents/ui/VerifyPage.qml:66
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "סיכום ביקורת"
+
+#: contents/ui/VerifyPage.qml:90
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "התאמת סיכום ביקורת עם הקובץ!"
+
+#: contents/ui/VerifyPage.qml:90
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "סיכום הביקורת לא תואם לקובץ!"
+
+#: contents/ui/VerifyPage.qml:96
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "אימות חתימה"
+
+#: contents/ui/VerifyPage.qml:103
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "נא לבחור קובץ חתימה"
+
+#: contents/ui/VerifyPage.qml:176
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "יש לגרור לכאן פריטים כדי לאמת אותם"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr "הקובץ נחתם לפי תקן VS-NfD עם המפתח <a href=\"%1\">%2</a>."
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "הקובץ נחתם באמצעות המפתח <a href=\"%1\">%2</a>."
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "פרטי המפתח לא זמינים."
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "הקובץ נחתם לפי תקן VS-NfD על ידי %1."
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "הקובץ נחתם על ידי %1."
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "ה<a href=\"%1\">מפתח</a> נשלל."
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "תוקף ה<a href=\"%1\">מפתח</a> פג."
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr "החתימה תקפה, אך אמינות ה<a href=\"%1\">מפתח</a> לא ידועה."
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr "החתימה תקפה וה<a href=\"%1\">מפתח</a> אמין באופן גבולי."
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr "החתימה תקפה וה<a href=\"%1\">מפתח</a> אמין באופן מלא."
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr "החתימה תקפה וה<a href=\"%1\">מפתח</a> אמין באופן מוחלט."
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "החתימה תקפה, אך ה<a href=\"%1\">מפתח</a> מפוקפק."
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "החתימה שגויה"
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: hashhelper.cpp:196
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "Hash-o-matic לא תומך בתיקיות."
+
+#: hashhelper.cpp:268
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "הקובץ לא קיים או שאינו קריא."
+
+#: main.cpp:102
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "Hash-o-matic"
+
+#: main.cpp:105
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "בדיקת סיכומי ביקורת לקבצים שלך"
+
+#: main.cpp:109
+#, kde-format
+msgid "(c) KDE Community 2021"
+msgstr "(c) קהילת KDE 2021"
+
+#: main.cpp:110
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "קארל שוואן"
+
+#: main.cpp:110
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "מתחזק"
+
+#: main.cpp:115
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "יצירת גיבובים לקובץ"
+
+#: main.cpp:116
+#, kde-format
+msgid "Local file url"
+msgstr "כתובת קובץ מקומי"
