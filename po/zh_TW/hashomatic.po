@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the hash-o-matic package.
 #
-# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2023.
+# SPDX-FileCopyrightText: 2023, 2024 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-02 00:39+0000\n"
-"PO-Revision-Date: 2023-12-07 23:52+0900\n"
+"PO-Revision-Date: 2024-03-08 23:31+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.01.80\n"
+"X-Generator: Lokalize 24.04.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -231,7 +231,7 @@ msgctxt "@label"
 msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
-msgstr "檔案已使用金鑰 <a href=\"%1\">%2</a> 簽署為遵守 VS-NfD。"
+msgstr "檔案已使用金鑰 <a href=\"%1\">%2</a> 依 VS-NfD 規範簽署。"
 
 #: hashhelper.cpp:71
 #, kde-format
@@ -249,7 +249,7 @@ msgstr "沒有可用的金鑰細節。"
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr "檔案已由 %1 簽署為遵守 VS-NfD。"
+msgstr "這個檔案已由 %1 依 VS-NfD 規範簽署。"
 
 #: hashhelper.cpp:79
 #, kde-format
