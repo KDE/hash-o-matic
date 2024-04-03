@@ -29,6 +29,7 @@ Name[sl]=Ustvari zgoščeno vrednost datoteke
 Name[tr]=Dosya sağlaması oluştur
 Name[uk]=Створення хеш-суми файла
 Name[x-test]=xxGenerate file hashxx
+Name[zh_CN]=生成文件哈希值
 Name[zh_TW]=產生檔案雜湊值
 Icon=org.kde.hashomatic
 Exec=hashomatic %u
