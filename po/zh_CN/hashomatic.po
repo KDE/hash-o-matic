@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-02 00:39+0000\n"
-"PO-Revision-Date: 2024-03-30 19:37\n"
+"PO-Revision-Date: 2024-04-01 14:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,210 +20,210 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "您的名字："
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "您的电子邮箱"
 
 #: contents/ui/ComparePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr ""
+msgstr "比较文件"
 
 #: contents/ui/ComparePage.qml:27
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr ""
+msgstr "比较两个文件"
 
 #: contents/ui/ComparePage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr ""
+msgstr "文件 1"
 
 #: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
 #: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr ""
+msgstr "选择文件"
 
 #: contents/ui/ComparePage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr ""
+msgstr "文件 2"
 
 #: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They match!"
-msgstr ""
+msgstr "它们匹配!"
 
 #: contents/ui/ComparePage.qml:98
 #, kde-format
 msgid "They don't match!"
-msgstr ""
+msgstr "它们不匹配!"
 
 #: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr ""
+msgstr "拖拽文件到此处进行比较"
 
 #: contents/ui/GeneratePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr ""
+msgstr "生成哈希值"
 
 #: contents/ui/GeneratePage.qml:27
 #, kde-format
 msgid "Display Checksums"
-msgstr ""
+msgstr "显示校验和"
 
 #: contents/ui/GeneratePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr ""
+msgstr "哈希值"
 
 #: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
 #: contents/ui/GeneratePage.qml:102
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr ""
+msgstr "哈希值已复制到剪贴板"
 
 #: contents/ui/GeneratePage.qml:130
 #, kde-format
 msgid "Drag items here to share them"
-msgstr ""
+msgstr "拖动项目到此处分享"
 
 #: contents/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: contents/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr ""
+msgstr "打开文件…"
 
 #: contents/ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr ""
+msgstr "关于哈希值"
 
 #: contents/ui/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: contents/ui/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr ""
+msgstr "生成"
 
 #: contents/ui/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr ""
+msgstr "比较"
 
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr ""
+msgstr "验证"
 
 #: contents/ui/main.qml:64
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr ""
+msgstr "比较"
 
 #: contents/ui/main.qml:95
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr ""
+msgstr "验证"
 
 #: contents/ui/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr ""
+msgstr "验证哈希值"
 
 #: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr ""
+msgstr "验证校验和签名"
 
 #: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
-msgstr ""
+msgstr "验证校验和"
 
 #: contents/ui/VerifyPage.qml:39
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: contents/ui/VerifyPage.qml:59
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr ""
+msgstr "校验和验证"
 
 #: contents/ui/VerifyPage.qml:66
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr ""
+msgstr "校验和"
 
 #: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr ""
+msgstr "校验和与文件匹配！"
 
 #: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr ""
+msgstr "校验和与文件不匹配！"
 
 #: contents/ui/VerifyPage.qml:96
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr ""
+msgstr "签名验证"
 
 #: contents/ui/VerifyPage.qml:103
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr ""
+msgstr "选择签名文件"
 
 #: contents/ui/VerifyPage.qml:176
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr ""
+msgstr "拖动项目到此处验证"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -306,7 +306,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr ""
+msgstr "此签名无效。"
 
 #: hashhelper.cpp:159
 #, kde-format
