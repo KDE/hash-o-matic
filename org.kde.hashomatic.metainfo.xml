@@ -55,6 +55,14 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
   <developer_name>The KDE Community</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE</developer_name>
+  <developer_name xml:lang="es">La Comunidad KDE</developer_name>
+  <developer_name xml:lang="ka">KDE-ის საზოგადოება</developer_name>
+  <developer_name xml:lang="nl">De KDE gemeenschap</developer_name>
+  <developer_name xml:lang="sl">Skupnost KDE</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE</developer_name>
+  <developer_name xml:lang="x-test">xxThe KDE Communityxx</developer_name>
   <categories>
     <category>Utility</category>
   </categories>
@@ -83,7 +91,7 @@
     <p xml:lang="ko">다운로드하거나 받은 파일이 실제로 의도했던 파일이었는지를 검증하는 작업은 종종 무시되거나 시간이 너무 오래 걸립니다. 또한 악성 웹사이트나 공격을 통해서 파일이 변조될 가능성은 언제든지 있을 수 있습니다.</p>
     <p xml:lang="nl">Verifiëren dat een gedownload of ontvangen bestand echt diegene is die u verwachtte wordt vaak overgeslagen of neemt teveel tijd om te doen. Tegelijkertijd is het erg gemakkelijk geworden om aan bestand te komen waarmee gerommeld is, vanwege de massale toename van kwaadwillende webpagina's en andere actoren.</p>
     <p xml:lang="pl">Sprawdzanie czy plik, który pobrałeś lub otrzymałeś, jest tym, którego oczekiwałeś, jest zazwyczaj pomijane lub zbyt czasochłonne do zrobienia. W tym samym czasie, bardzo powszechnym stało się otrzymywanie plików, przy których ktoś "grzebał" ze względu na wzrost liczby szkodliwych stron w internecie i innych takich.</p>
-    <p xml:lang="sl">Preverjanje, ali je datoteka, ki ste jo prenesli ali prejeli, dejansko tista, ki ste jo pričakovali, je pogosto spregledano ali zahteva preveč časa. </p>
+    <p xml:lang="sl">Preverjanje, ali je datoteka, ki ste jo prenesli ali prejeli, dejansko tista, ki ste jo pričakovali, se pogosto spregleda ali zahteva preveč časa. Hkrati je postalo zelo enostavno dobiti datoteko, ki je bila spremenjena zaradi množičnega porasta števila zlonamernih spletnih strani in drugih dejavnikov.</p>
     <p xml:lang="tr">İndirdiğiniz veya aldığınız bir dosyanın aslında beklediğiniz dosya olduğunu doğrulama gerekliliği genellikle gözden kaçar veya bunu yapmak çok zaman alır. Aynı zamanda, kötü amaçlı web sayfalarının ve diğer aktörlerin kitlesel artışı nedeniyle, üzerinde oynanmış bir dosyaya ulaşmak çok kolay hale geldi.</p>
     <p xml:lang="uk">Перевіркою того, чи є ідентичним файл, який ви отримали інтернетом або поштою, часто нехтують або ця перевірка є надто марудною справою. Втім, зараз дуже легко отримати файл, до якого здійснено зловмисне втручання, через поширення створених шахраями сторінок в інтернеті та в інші способи.</p>
     <p xml:lang="x-test">xxVerifying that a file you downloaded or received is actually the one you were expecting is often overlooked or too time-consuming to do. At the same time, it has become very easy to get your hands on a file that has been tampered with, due to the mass increase of malicious webpages and other actors.xx</p>
