@@ -56,7 +56,9 @@
   <project_license>LGPL-2.1-or-later</project_license>
   <developer_name>The KDE Community</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
+  <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE</developer_name>
+  <developer_name xml:lang="fr">La communauté de KDE</developer_name>
   <developer_name xml:lang="he">קהילת KDE</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება</developer_name>
   <developer_name xml:lang="nl">De KDE gemeenschap</developer_name>
