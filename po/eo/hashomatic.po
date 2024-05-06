@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-02 00:39+0000\n"
-"PO-Revision-Date: 2023-10-08 07:33+0100\n"
+"PO-Revision-Date: 2024-05-05 18:09+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -146,7 +146,7 @@ msgstr "Kompari"
 #: contents/ui/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr "Kontroli"
+msgstr "Konfirmi"
 
 #: contents/ui/main.qml:64
 #, kde-format
@@ -163,23 +163,23 @@ msgstr "Kompari"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr "Kontroli"
+msgstr "Konfirmi"
 
 #: contents/ui/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr "Kontroli Haketkodon"
+msgstr "Konfirmi Haketkodon"
 
 #: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr "Kontroli kontrolsumojn kaj subskribojn"
+msgstr "Konfirmi kontrolsumojn kaj subskribojn"
 
 #: contents/ui/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
-msgstr "Kontroli kontrolsumojn"
+msgstr "Konfirmi kontrolsumojn"
 
 #: contents/ui/VerifyPage.qml:39
 #, kde-format
@@ -191,7 +191,7 @@ msgstr "Dosiero"
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr "Kontrolo de Kontrolsumo"
+msgstr "Konfirmo de Kontrolsumo"
 
 #: contents/ui/VerifyPage.qml:66
 #, kde-format
