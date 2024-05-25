@@ -10,6 +10,7 @@
   <name xml:lang="ca">Hash-o-matic</name>
   <name xml:lang="ca-valencia">Hash-o-Matic</name>
   <name xml:lang="de">Hash-o-matic</name>
+  <name xml:lang="en-GB">Hash-o-matic</name>
   <name xml:lang="eo">Hash-o-matic</name>
   <name xml:lang="es">Hash-o-matic</name>
   <name xml:lang="eu">Hash-o-matic</name>
@@ -34,6 +35,7 @@
   <summary xml:lang="ca">Comprova els resums de fitxers</summary>
   <summary xml:lang="ca-valencia">Comprova els resums de fitxers</summary>
   <summary xml:lang="de">Hashwerte Ihrer Dateien überprüfen</summary>
+  <summary xml:lang="en-GB">Check hashes for your files</summary>
   <summary xml:lang="eo">Kontroli haketkodojn por viaj dosieroj</summary>
   <summary xml:lang="es">Comprobar hashes de archivos</summary>
   <summary xml:lang="eu">Egiaztatu zure fitxategietarako «hash»ak</summary>
@@ -59,6 +61,7 @@
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
   <developer_name xml:lang="cs">Komunita KDE</developer_name>
   <developer_name xml:lang="de">Die KDE-Gemeinschaft</developer_name>
+  <developer_name xml:lang="en-GB">The KDE Community</developer_name>
   <developer_name xml:lang="eo">La Komunumo de KDE</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE</developer_name>
   <developer_name xml:lang="eu">KDE komunitatea</developer_name>
@@ -91,6 +94,7 @@
     <p xml:lang="ca">Verificar que un fitxer que heu baixat o rebut és el que realment esperàveu sovint es passa per alt o es triga massa temps a fer-ho. Al mateix temps, s'ha fet molt fàcil accedir a un fitxer que s'ha manipulat, a causa de l'augment massiu de pàgines web malicioses i altres actors.</p>
     <p xml:lang="ca-valencia">Verificar que un fitxer que heu baixat o rebut és el que realment esperàveu sovint es passa per alt o es tarda massa temps a fer-ho. Al mateix temps, s'ha fet molt fàcil accedir a un fitxer que s'ha manipulat, a causa de l'augment massiu de pàgines web malicioses i altres actors.</p>
     <p xml:lang="de">Das Überprüfen einer heruntergeladenen oder empfangenen Datei, dahingehend ob sie auch die erwartete ist, wird oft übersehen oder ist zu zeitaufwändig. Zeitgleich wurde es durch den sprunghaften Anstieg boshafter Webseiten und anderen Akteuren sehr einfach eine manipulierte Datei in die Hände zu bekommen.</p>
+    <p xml:lang="en-GB">Verifying that a file you downloaded or received is actually the one you were expecting is often overlooked or too time-consuming to do. At the same time, it has become very easy to get your hands on a file that has been tampered with, due to the mass increase of malicious webpages and other actors.</p>
     <p xml:lang="eo">Kontrolado, ke dosiero, kiun vi elŝutis aŭ ricevis, estas efektive tia, kiun vi estis atendanta estas ofte preteratentita aŭ tro temporaba por fari. Samtempe, fariĝis tre facile iel akiri dosieron kiu estis mistraktita, pro la amasa kresko de malicaj retpaĝoj kaj aliaj agantoj.</p>
     <p xml:lang="es">Verificar que un archivo descargado o recibido es realmente el que esperaba se suele pasar por alto a menudo o requiere demasiado tiempo. Al mismo tiempo, se ha vuelto muy fácil tener en las manos un archivo que ha sido manipulado, debido al aumento masivo de páginas web maliciosas y a otros actores.</p>
     <p xml:lang="eu">Zama-jaitsi edo jaso duzun fitxategi bat benetan espero zenuena dela egiaztatzea, maiz, ez da aintzat hartzen edo denbora gehiegi behar du. Aldi berean, faltsututako fitxategi batean eskuak ipintzera iristea oso erraza bilakatu da, web-orri maltzurren eta beste aktore batzuen handiagotze itzelagatik.</p>
@@ -115,6 +119,7 @@
     <p xml:lang="ca">Aquesta eina pretén resoldre això. Hash-o-matic ve amb una interfície d'usuari senzilla i neta, permetent a qualsevol persona, de qualsevol grup d'edat i experiència, generar, comparar i verificar resums MD5, SHA-256 i SHA-1.</p>
     <p xml:lang="ca-valencia">Esta eina pretén resoldre açò. Hash-o-Matic ve amb una interfície d'usuari senzilla i neta, permetent a qualsevol persona, de qualsevol grup d'edat i experiència, generar, comparar i verificar resums MD5, SHA-256 i SHA-1.</p>
     <p xml:lang="de">Dieses Werkzeug versucht das zu lösen. Hash-o-matic hat eine einfache und aufgeräumte Oberfläche, die jedem und unabhängig vom Alter oder der Erfahrung das Erstellen, Vergleichen oder Überprüfen von MD5-, SHA-256- und SHA-1-Hashwerte erlaubt.</p>
+    <p xml:lang="en-GB">This tool aims to solve that. Hash-o-matic comes with a simple &amp; clean UI, allowing anyone, from any age and experience group, to generate, compare and verify MD5, SHA-256 and SHA-1 hashes.</p>
     <p xml:lang="eo">Ĉi tiu ilo celas solvi tion. Hash-o-matic venas kun simpla &amp; purigita UI, permesante al iu ajn, de ajna aĝo kaj spertecgrupo, generi, kompari kaj kontroli MD5, SHA-256 kaj SHA-1 haketkodojn.</p>
     <p xml:lang="es">Esta herramienta pretende solucionar ese problema. Hash-o-matic dispone de una interfaz clara y sencilla que permite que cualquiera, independientemente de su edad y grupo de experiencia, pueda generar, comparar y verificar hashes.</p>
     <p xml:lang="eu">Tresna hau hori konpontzera dator. «Hash-o-matic» erabiltzailearen interfaze erraz eta garbi batekin dator, edonori, berdin da zein adin- eta eskarmentu-talde, MD5, SHA-256 eta SHA-1 «hash»ak alderatu eta egiaztatzeko aukera emanez.</p>
@@ -137,6 +142,7 @@
     <p xml:lang="ca">El Hash-o-Matic també permet la verificació d'un fitxer amb l'ajuda d'una signatura PGP.</p>
     <p xml:lang="ca-valencia">Hash-o-Matic també permet la verificació d'un fitxer amb l'ajuda d'una signatura PGP.</p>
     <p xml:lang="de">Hash-o-Matic unterstützt auch das Überprüfen einer Datei mithilfe der PGP-Signatur.</p>
+    <p xml:lang="en-GB">Hash-o-Matic also support verifying a file with the help of a PGP signature.</p>
     <p xml:lang="eo">Hash-o-Matic ankaŭ subtenas kontroli dosieron helpe de PGP-subskribo.</p>
     <p xml:lang="es">Hash-o-Matic también permite verificar un archivo con la ayuda de una firma PGP.</p>
     <p xml:lang="eu">«Hash-o-Matic»ek ere badu, PGP sinadura baten laguntzarekin fitxategi bat egiaztatzeko euskarria.</p>
@@ -162,6 +168,7 @@
       <caption xml:lang="ca">Genera sumes de verificació</caption>
       <caption xml:lang="ca-valencia">Genera sumes de verificació</caption>
       <caption xml:lang="de">Prüfsummen erstellen</caption>
+      <caption xml:lang="en-GB">Generate checksums</caption>
       <caption xml:lang="eo">Generi haketkodojn</caption>
       <caption xml:lang="es">Generar sumas de verificación</caption>
       <caption xml:lang="eu">Sortu egiaztapen-baturak</caption>
@@ -187,6 +194,7 @@
       <caption xml:lang="ca-valencia">Compara dos fitxers</caption>
       <caption xml:lang="cs">Porovnat dva soubory</caption>
       <caption xml:lang="de">Zwei Dateien vergleichen</caption>
+      <caption xml:lang="en-GB">Compare two files</caption>
       <caption xml:lang="eo">Kompari du dosierojn</caption>
       <caption xml:lang="es">Comparar dos archivos</caption>
       <caption xml:lang="eu">Alderatu bi fitxategi</caption>
@@ -212,6 +220,7 @@
       <caption xml:lang="ca">Verifica la validesa d'un fitxer</caption>
       <caption xml:lang="ca-valencia">Verifica la validesa d'un fitxer</caption>
       <caption xml:lang="de">Die Gültigkeit einer Datei überprüfen</caption>
+      <caption xml:lang="en-GB">Verify the validity of a file</caption>
       <caption xml:lang="eo">Kontroli la validecon de dosiero</caption>
       <caption xml:lang="es">Verificar la validez de un archivo</caption>
       <caption xml:lang="eu">Egiaztatu fitxategi baten baliozkotasuna</caption>
