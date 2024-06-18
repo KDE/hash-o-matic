@@ -1,14 +1,14 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the hash-o-matic package.
 #
-# SPDX-FileCopyrightText: 2023 giovanni <g.sora@tiscali.it>
+# SPDX-FileCopyrightText: 2023, 2024 giovanni <g.sora@tiscali.it>
 # giovanni <g.sora@tiscali.it>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-02 00:39+0000\n"
-"PO-Revision-Date: 2023-12-28 19:34+0100\n"
+"PO-Revision-Date: 2024-06-17 14:51+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -72,7 +72,7 @@ msgstr "Illos non corresponde!"
 #: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr ""
+msgstr "Trahe file hic per comparar lo"
 
 #: contents/ui/GeneratePage.qml:15
 #, kde-format
@@ -202,29 +202,29 @@ msgstr "Checksum"
 #: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr ""
+msgstr "Le checksum corresponde al file!"
 
 #: contents/ui/VerifyPage.qml:90
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr ""
+msgstr "Le checksum non corresponde al file!"
 
 #: contents/ui/VerifyPage.qml:96
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr ""
+msgstr "Verification de signatura"
 
 #: contents/ui/VerifyPage.qml:103
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr ""
+msgstr "Selige file de signatura"
 
 #: contents/ui/VerifyPage.qml:176
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr ""
+msgstr "Trahe elementos hic per verificar los"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -233,12 +233,14 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
+"Iste file ha essite signate compatibile con VS-NfD usante le clave <a href="
+"\"%1\">%2</a>."
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr ""
+msgstr "Iste file ha essite signate  usante le clave <a href=\"%1\">%2</a>."
 
 #: hashhelper.cpp:74
 #, kde-format
@@ -250,13 +252,13 @@ msgstr "Le detalios de clave non es disponibile."
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr ""
+msgstr "Iste file ha essite signate compatibile con VS-NfD per %1."
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr ""
+msgstr "Iste file ha essite signate per %1."
 
 #: hashhelper.cpp:82
 #, kde-format
@@ -326,7 +328,7 @@ msgstr ", "
 #: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr ""
+msgstr "Hash-o-matic non supporta directorios."
 
 #: hashhelper.cpp:268
 #, kde-format
