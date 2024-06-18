@@ -42,6 +42,7 @@
   <summary xml:lang="eu">Egiaztatu zure fitxategietarako «hash»ak</summary>
   <summary xml:lang="fr">Vérifiez les valeurs de hachage de vos fichiers</summary>
   <summary xml:lang="he">Check hashes for your files</summary>
+  <summary xml:lang="ia">Verifica hashes per tu files</summary>
   <summary xml:lang="it">Controlla gli hash dei tuoi file</summary>
   <summary xml:lang="ka">თქვენი ფაილის ჰეშების შემოწმება</summary>
   <summary xml:lang="ko">파일의 해시 검사</summary>
@@ -69,6 +70,7 @@
   <developer_name xml:lang="eu">KDE komunitatea</developer_name>
   <developer_name xml:lang="fr">La communauté de KDE</developer_name>
   <developer_name xml:lang="he">קהילת KDE</developer_name>
+  <developer_name xml:lang="ia">Le communitate de KDE</developer_name>
   <developer_name xml:lang="it">La comunità KDE</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება</developer_name>
   <developer_name xml:lang="lv">KDE kopiena</developer_name>
@@ -103,6 +105,7 @@
     <p xml:lang="eu">Zama-jaitsi edo jaso duzun fitxategi bat benetan espero zenuena dela egiaztatzea, maiz, ez da aintzat hartzen edo denbora gehiegi behar du. Aldi berean, faltsututako fitxategi batean eskuak ipintzera iristea oso erraza bilakatu da, web-orri maltzurren eta beste aktore batzuen handiagotze itzelagatik.</p>
     <p xml:lang="fr">La vérification qu'un fichier que vous avez téléchargé ou reçu est bien celui que vous attendiez est souvent négligé ou trop long à réaliser. Dans le même temps, il est devenu très facile de trouver un fichier qui a été falsifié, en raison de l'augmentation massive des pages Internet malveillantes et d'autres personnes parfaitement malveillantes.</p>
     <p xml:lang="he">אימות שהקובץ שהורדת או קיבלת הוא זה שלו ציפית זוכה להתעלמות או דורש זמן רב. בו בעת, קל מאוד להניח את הידיים על קובץ שהושחת, עקב מספר גואה של אתרים זדוניים ושלל מרעין בישין.</p>
+    <p xml:lang="ia">Verificar que un file que tu discargava o resipeva es vermente lo que tu expectava sovente es negligite o consumante troppoi tempore per facer. Al mesme tempore, il ha devenite multe facile que tu obtene un file que ha essite manumittite, debite al augmento massive de paginas web malevole e altere actores. </p>
     <p xml:lang="it">La verifica che un file scaricato o ricevuto sia veramente quello che ci si aspetta è spesso trascurata, oppure è troppo lunga per essere fatta. Ma, allo stesso tempo, a causa dell'aumento della massa di pagine web dannose e di altri attori, è diventato molto facile trovarsi tra le mani un file che è stato manomesso.</p>
     <p xml:lang="ka">თქვენს მიერ გადმოწერილი ან მიღებული ფაილის გადამოწმება, წარმოადგენს თუ არა ის ფაილს, რომელიც თქვენ გსურდათ, ერთ-ერთი გამოწვევაა. ამავე დროს, ძალიან ადვილია, შემთხვევით გადაეყაროთ ფაილს, რომელიც შეცვლილი და ჩანაცვლებულია, მავნე ვებგვერდების და ძმანი მათის გავრცელების გამო.</p>
     <p xml:lang="ko">다운로드하거나 받은 파일이 실제로 의도했던 파일이었는지를 검증하는 작업은 종종 무시되거나 시간이 너무 오래 걸립니다. 또한 악성 웹사이트나 공격을 통해서 파일이 변조될 가능성은 언제든지 있을 수 있습니다.</p>
@@ -129,6 +132,7 @@
     <p xml:lang="eu">Tresna hau hori konpontzera dator. «Hash-o-matic» erabiltzailearen interfaze erraz eta garbi batekin dator, edonori, berdin da zein adin- eta eskarmentu-talde, MD5, SHA-256 eta SHA-1 «hash»ak alderatu eta egiaztatzeko aukera emanez.</p>
     <p xml:lang="fr">Cet outil vise à résoudre ce problème. L'application Hash-O-Matic est fournie avec une interface utilisateur simple et claire, permettant à quiconque, quel que soit sa tranche d'âge et son expérience, de générer, de comparer et de vérifier les valeurs de hachages « MD5 », « SHA-256 » et « SHA-1 ».</p>
     <p xml:lang="he">הכלי הזה מנסה לפתור את הבעיה הזאת. ל־Hash-o-matic יש ממשק משתמש נקי ופשוט שמאפשר לכל אחר, מכל גיל ורמת ניסיון, לייצר, להשוות ולאמת גיבובי MD5,‏ SHA-256 ו־SHA-1.</p>
+    <p xml:lang="ia">Iste instrumento  aspira a solver illo. Hash-o-matic veni con un simple &amp; munde UI, permittente a alique, de ulle gruppo de etate e experientia, comparar e verificar hashes de MD5, SHA-256 e SHA-1. </p>
     <p xml:lang="it">Questo strumento aspira a risolvere questi problemi: Hash-o-matic arriva con un'interfaccia utente semplice e pulita, che permette ad ognuno, indipendentemente dall'età e dall'esperienza, di generare, confrontare e verificare gli hash MD5, SHA-256 e SHA-1.</p>
     <p xml:lang="ka">ეს პროგრამა ამ პრობლემის გადასაწყვეტადაა შექმნილი. ჰაშომატიკი მოდის მარტივი &amp; სუფთა ინტერფეისით, რომელიც საშუალებას აძლევს ყველას, იქნება ეს დამწყები თუ გამოცდილი ჯგუფი, რომ შექმნას, შეადაროს და გადაამოწმოს MD5, SHA-256 და SHA-1 ჰეშები.</p>
     <p xml:lang="ko">이 도구는 이 문제를 해결합니다. Hash-o-matic은 간단한 UI를 통해서 누구나 쉽게 MD5, SHA256, SHA1 해시를 생성, 비교, 검증할 수 있습니다.</p>
