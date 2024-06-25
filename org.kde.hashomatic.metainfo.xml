@@ -275,6 +275,12 @@
     <keyword>Kirigami</keyword>
   </keywords>
   <releases>
+    <release version="1.0.1" date="2024-06-25">
+      <url>https://carlschwan.eu/2024/06/25/hash-o-matic-1.0.1/</url>
+      <description>
+        <p>This new release of Hash-o-Matic provides updated translations and some small visual changes.</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2024-03-01">
       <url>https://carlschwan.eu/2024/02/28/independent-releases/</url>
       <description>
