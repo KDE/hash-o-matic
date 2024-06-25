@@ -20,7 +20,7 @@ FormCard.FormCardPage {
         Layout.alignment: Qt.AlignHCenter
         Layout.preferredWidth: Math.round(Kirigami.Units.iconSizes.huge * 1.5)
         Layout.preferredHeight: Math.round(Kirigami.Units.iconSizes.huge * 1.5)
-        Layout.topMargin: Kirigami.Units.largeSpacing
+        Layout.topMargin: Kirigami.Units.largeSpacing * 4
     }
 
     Kirigami.Heading {
@@ -36,7 +36,7 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormCard {
-        Layout.topMargin: Kirigami.Units.gridUnit
+        Layout.topMargin: Kirigami.Units.largeSpacing * 4
 
         FormCard.FormButtonDelegate {
             icon.name: "document-open-folder"

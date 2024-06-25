@@ -19,7 +19,7 @@ FormCard.FormCardPage {
         Layout.alignment: Qt.AlignHCenter
         Layout.preferredWidth: Math.round(Kirigami.Units.iconSizes.huge * 1.5)
         Layout.preferredHeight: Math.round(Kirigami.Units.iconSizes.huge * 1.5)
-        Layout.topMargin: Kirigami.Units.largeSpacing
+        Layout.topMargin: Kirigami.Units.largeSpacing * 4
     }
 
     Kirigami.Heading {
@@ -36,6 +36,7 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormHeader {
+        Layout.topMargin: Kirigami.Units.largeSpacing * 4
         title: i18nc("@title:group", "File")
     }
 
