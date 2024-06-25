@@ -7,6 +7,7 @@
 #include <QMimeDatabase>
 #include <QObject>
 #include <QUrl>
+#include <QtQml/qqmlregistration.h>
 
 #ifdef HAVE_GPGME
 #include <QGpgME/Protocol>
@@ -56,6 +57,8 @@ public:
 class HashHelper : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+
     Q_PROPERTY(QUrl file READ file WRITE setFile NOTIFY fileChanged)
     Q_PROPERTY(QString fileName READ fileName NOTIFY fileChanged)
     Q_PROPERTY(QString minetypeIcon READ minetypeIcon NOTIFY fileChanged)

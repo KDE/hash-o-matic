@@ -1,7 +1,18 @@
 # SPDX-License-Identifier: BSD-2-Clause
 # SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 
-add_library(hashomatic_static STATIC)
+qt_add_qml_module(hashomatic_static
+    STATIC
+    URI org.kde.hashomatic
+    VERSION 1.0
+    QML_FILES
+        qml/Main.qml
+        qml/GeneratePage.qml
+        qml/GlobalMenu.qml
+        qml/ComparePage.qml
+        qml/VerifyPage.qml
+        qml/AboutPage.qml
+)
 
 target_sources(hashomatic_static PUBLIC
     clipboard.cpp
@@ -38,10 +49,9 @@ endif()
 
 add_executable(hashomatic
     main.cpp
-    resources.qrc
 )
 
-target_link_libraries(hashomatic PRIVATE hashomatic_static )
+target_link_libraries(hashomatic PRIVATE hashomatic_static hashomatic_staticplugin)
 
 if(TARGET KF6::DBusAddons)
     target_link_libraries(hashomatic PRIVATE KF6::DBusAddons)

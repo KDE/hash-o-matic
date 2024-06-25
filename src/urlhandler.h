@@ -6,10 +6,14 @@
 
 #include <QObject>
 #include <QWindow>
+#include <QtQml/qqmlregistration.h>
 
 class UrlHandler : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
+
 public:
     explicit UrlHandler(QObject *parent = nullptr);
     Q_INVOKABLE bool handleClick(const QUrl &url, QWindow *window);

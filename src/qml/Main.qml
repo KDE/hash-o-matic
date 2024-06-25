@@ -36,7 +36,7 @@ Kirigami.ApplicationWindow {
 
     Loader {
         active: !Kirigami.Settings.isMobile
-        source: Qt.resolvedUrl("qrc:/GlobalMenu.qml")
+        source: Qt.resolvedUrl("./GlobalMenu.qml")
     }
 
     HashHelper {
@@ -63,7 +63,7 @@ Kirigami.ApplicationWindow {
             id: aboutAction
             text: i18n("About")
             icon.name: "help-about"
-            page: 'qrc:AboutPage.qml'
+            page: './AboutPage.qml'
             pagePool: mainPagePool
             checkable: false
             useLayers: true
@@ -80,25 +80,25 @@ Kirigami.ApplicationWindow {
                 id: generateAction
                 text: i18nc("@action:inmenu", "Generate")
                 icon.name: "password-generate"
-                page: "qrc:/GeneratePage.qml"
+                page: "./GeneratePage.qml"
                 pagePool: mainPagePool
             },
             Kirigami.PagePoolAction {
                 id: compareAction
                 text: i18nc("@action:inmenu", "Compare")
                 icon.name: "kompare"
-                page: "qrc:/ComparePage.qml"
+                page: "./ComparePage.qml"
                 pagePool: mainPagePool
             },
             Kirigami.PagePoolAction {
                 id: verifyAction
                 text: i18nc("@action:inmenu", "Verify")
                 icon.name: "document-edit-decrypt-verify"
-                page: "qrc:/VerifyPage.qml"
+                page: "./VerifyPage.qml"
                 pagePool: mainPagePool
             }
         ]
     }
 
-    pageStack.initialPage: mainPagePool.loadPage('qrc:/GeneratePage.qml')
+    pageStack.initialPage: mainPagePool.loadPage('./GeneratePage.qml')
 }

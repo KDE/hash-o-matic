@@ -30,18 +30,12 @@
 #include <KDBusService>
 #endif
 
-#ifdef HAVE_GPGME
-#include "urlhandler.h"
-#endif
-
 #ifdef Q_OS_WINDOWS
 #include <Windows.h>
 #endif
 
-#include "clipboard.h"
 #include "config-hashomatic.h"
 #include "controller.h"
-#include "hashhelper.h"
 
 using namespace Qt::Literals::StringLiterals;
 
@@ -119,20 +113,12 @@ int main(int argc, char *argv[])
     aboutData.processCommandLine(&parser);
 
     QQmlApplicationEngine engine;
-    Controller controller;
-    Clipboard clipboard;
-    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Clipboard", &clipboard);
-    qmlRegisterType<HashHelper>("org.kde.hashomatic", 1, 0, "HashHelper");
-    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "Controller", &controller);
-
-#ifdef HAVE_GPGME
-    UrlHandler urlHandler;
-    qmlRegisterSingletonInstance("org.kde.hashomatic", 1, 0, "UrlHandler", &urlHandler);
-#endif
+    auto controller = engine.singletonInstance<Controller *>("org.kde.hashomatic", "Controller");
+    Q_ASSERT(controller);
 
 #ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
-    service.connect(&service, &KDBusService::activateRequested, &controller, [&controller](const QStringList &arguments, const QString &workingDirectory) {
+    service.connect(&service, &KDBusService::activateRequested, controller, [&controller](const QStringList &arguments, const QString &workingDirectory) {
         Q_UNUSED(workingDirectory);
         if (arguments.isEmpty()) {
             return;
@@ -140,13 +126,13 @@ int main(int argc, char *argv[])
         auto args = arguments;
         args.removeFirst();
         if (args.count() > 0) {
-            controller.setInitialFile(QUrl::fromUserInput(args.at(0), workingDirectory, QUrl::AssumeLocalFile));
+            controller->setInitialFile(QUrl::fromUserInput(args.at(0), workingDirectory, QUrl::AssumeLocalFile));
         }
     });
 #endif
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(u"qrc:///main.qml"_s));
+    engine.loadFromModule("org.kde.hashomatic", "Main");
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
@@ -154,7 +140,7 @@ int main(int argc, char *argv[])
 
     if (parser.positionalArguments().length() > 0) {
         const auto args = parser.positionalArguments();
-        controller.setInitialFile(QUrl::fromUserInput(args[0], QDir::currentPath(), QUrl::AssumeLocalFile));
+        controller->setInitialFile(QUrl::fromUserInput(args[0], QDir::currentPath(), QUrl::AssumeLocalFile));
     }
 
 #ifdef HAVE_KDBUSADDONS

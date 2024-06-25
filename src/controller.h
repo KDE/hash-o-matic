@@ -4,13 +4,16 @@
 #pragma once
 
 #include <QObject>
+#include <QQuickWindow>
 #include <QUrl>
-
-class QQuickWindow;
+#include <QtQml/qqmlregistration.h>
 
 class Controller : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
+
     Q_PROPERTY(QUrl initialFile READ initialFile WRITE setInitialFile NOTIFY initialFileChanged)
 
 public:
