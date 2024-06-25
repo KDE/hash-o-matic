@@ -62,10 +62,10 @@ FormCard.FormCardPage {
         visible: hashHelper.md5sum.length > 0
 
         FormCard.FormTextDelegate {
-            text: i18nc('Hashing algorithm', 'MD5:')
+            text: i18nc("Hashing algorithm", "MD5:")
             description: hashHelper.md5sum
             trailing: QQC2.Button {
-                text: i18n('Copy hash')
+                text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
                     Clipboard.saveText(hashHelper.md5sum);
@@ -77,10 +77,10 @@ FormCard.FormCardPage {
         FormCard.FormDelegateSeparator {}
 
         FormCard.FormTextDelegate {
-            text: i18nc('Hashing algorithm', 'SHA1:')
+            text: i18nc("Hashing algorithm", "SHA1:")
             description: hashHelper.sha1sum
             trailing: QQC2.Button {
-                text: i18n('Copy hash')
+                text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
                     Clipboard.saveText(hashHelper.sha1sum);
@@ -92,10 +92,10 @@ FormCard.FormCardPage {
         FormCard.FormDelegateSeparator {}
 
         FormCard.FormTextDelegate {
-            text: i18nc('Hashing algorithm', 'SHA256:')
+            text: i18nc("Hashing algorithm", "SHA256:")
             description: hashHelper.sha256sum
             trailing: QQC2.Button {
-                text: i18n('Copy hash')
+                text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
                     Clipboard.saveText(hashHelper.sha256sum);
