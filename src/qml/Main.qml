@@ -46,7 +46,9 @@ Kirigami.ApplicationWindow {
 
     Connections {
         target: Controller
-        onInitialFileChanged: hashHelper.file = Controller.initialFile
+        function onInitialFileChanged(): void {
+            hashHelper.file = Controller.initialFile;
+        }
     }
 
     FileDialog {
