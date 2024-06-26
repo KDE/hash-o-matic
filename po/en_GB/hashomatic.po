@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-02 00:39+0000\n"
+"POT-Creation-Date: 2024-06-26 00:41+0000\n"
 "PO-Revision-Date: 2024-05-24 16:32+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -26,204 +26,6 @@ msgstr "Steve Allewell"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "steve.allewell@gmail.com"
-
-#: contents/ui/ComparePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Compare files"
-msgstr "Compare files"
-
-#: contents/ui/ComparePage.qml:27
-#, kde-format
-msgctxt "@title"
-msgid "Compare Two Files"
-msgstr "Compare Two Files"
-
-#: contents/ui/ComparePage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File 1"
-msgstr "File 1"
-
-#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
-#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Select file"
-msgstr "Select file"
-
-#: contents/ui/ComparePage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "File 2"
-msgstr "File 2"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They match!"
-msgstr "They match!"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They don't match!"
-msgstr "They don't match!"
-
-#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
-#, kde-format
-msgid "Drag file here to compare it"
-msgstr "Drag file here to compare it"
-
-#: contents/ui/GeneratePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Generate Hash"
-msgstr "Generate Hash"
-
-#: contents/ui/GeneratePage.qml:27
-#, kde-format
-msgid "Display Checksums"
-msgstr "Display Checksums"
-
-#: contents/ui/GeneratePage.qml:57
-#, kde-format
-msgctxt "@title:group"
-msgid "Hashes"
-msgstr "Hashes"
-
-#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
-#: contents/ui/GeneratePage.qml:102
-#, kde-format
-msgid "Hash copied into the clipboard"
-msgstr "Hash copied into the clipboard"
-
-#: contents/ui/GeneratePage.qml:130
-#, kde-format
-msgid "Drag items here to share them"
-msgstr "Drag items here to share them"
-
-#: contents/ui/GlobalMenu.qml:14
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "File"
-msgstr "File"
-
-#: contents/ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open…"
-msgstr "Open…"
-
-#: contents/ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Hash-o-matic"
-msgstr "About Hash-o-matic"
-
-#: contents/ui/GlobalMenu.qml:30
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "Quit"
-
-#: contents/ui/GlobalMenu.qml:38
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "View"
-msgstr "View"
-
-#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Generate"
-msgstr "Generate"
-
-#: contents/ui/GlobalMenu.qml:46
-#, kde-format
-msgid "Compare"
-msgstr "Compare"
-
-#: contents/ui/GlobalMenu.qml:51
-#, kde-format
-msgid "Verify"
-msgstr "Verify"
-
-#: contents/ui/main.qml:64
-#, kde-format
-msgid "About"
-msgstr "About"
-
-#: contents/ui/main.qml:88
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Compare"
-msgstr "Compare"
-
-#: contents/ui/main.qml:95
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify"
-msgstr "Verify"
-
-#: contents/ui/VerifyPage.qml:14
-#, kde-format
-msgctxt "@title"
-msgid "Verify Hash"
-msgstr "Verify Hash"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums and signatures"
-msgstr "Verify checksums and signatures"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums"
-msgstr "Verify checksums"
-
-#: contents/ui/VerifyPage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File"
-msgstr "File"
-
-#: contents/ui/VerifyPage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "Checksum Verification"
-msgstr "Checksum Verification"
-
-#: contents/ui/VerifyPage.qml:66
-#, kde-format
-msgctxt "@label"
-msgid "Checksum"
-msgstr "Checksum"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum match with the file!"
-msgstr "Checksum match with the file!"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum doesn't match with the file!"
-msgstr "Checksum doesn't match with the file!"
-
-#: contents/ui/VerifyPage.qml:96
-#, kde-format
-msgctxt "@title:group"
-msgid "Signature Verification"
-msgstr "Signature Verification"
-
-#: contents/ui/VerifyPage.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Select signature file"
-msgstr "Select signature file"
-
-#: contents/ui/VerifyPage.qml:176
-#, kde-format
-msgid "Drag items here to verify them"
-msgstr "Drag items here to verify them"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -330,40 +132,260 @@ msgstr "Hash-o-matic doesn't support directories."
 msgid "The file doesn't exist or is not readable."
 msgstr "The file doesn't exist or is not readable."
 
-#: main.cpp:102
+#: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:105
+#: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "Check hashes for your files"
 
-#: main.cpp:109
+#: main.cpp:103
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE Community 2021"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Maintainer"
 
-#: main.cpp:115
+#: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "Generate hashes for file"
 
-#: main.cpp:116
+#: main.cpp:110
 #, kde-format
 msgid "Local file url"
 msgstr "Local file URL"
+
+#: qml/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Compare files"
+
+#: qml/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Compare Two Files"
+
+#: qml/ComparePage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "File 1"
+
+#: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
+#: qml/VerifyPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Select file"
+
+#: qml/ComparePage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "File 2"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They match!"
+msgstr "They match!"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They don't match!"
+msgstr "They don't match!"
+
+#: qml/ComparePage.qml:153 qml/ComparePage.qml:166
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Drag file here to compare it"
+
+#: qml/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Generate Hash"
+
+#: qml/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "Display Checksums"
+
+#: qml/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "Hashes"
+
+#: qml/GeneratePage.qml:65
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr ""
+
+#: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
+#, kde-format
+msgid "Copy hash"
+msgstr ""
+
+#: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "Hash copied into the clipboard"
+
+#: qml/GeneratePage.qml:80
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr ""
+
+#: qml/GeneratePage.qml:95
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr ""
+
+#: qml/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Drag items here to share them"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "File"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Open…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "About Hash-o-matic"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Quit"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "View"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Generate"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Compare"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Verify"
+
+#: qml/Main.qml:66
+#, kde-format
+msgid "About"
+msgstr "About"
+
+#: qml/Main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Compare"
+
+#: qml/Main.qml:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Verify"
+
+#: qml/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Verify Hash"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Verify checksums and signatures"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "Verify checksums"
+
+#: qml/VerifyPage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "File"
+
+#: qml/VerifyPage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Checksum Verification"
+
+#: qml/VerifyPage.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Checksum"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "Checksum match with the file!"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "Checksum doesn't match with the file!"
+
+#: qml/VerifyPage.qml:97
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Signature Verification"
+
+#: qml/VerifyPage.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Select signature file"
+
+#: qml/VerifyPage.qml:177
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Drag items here to verify them"

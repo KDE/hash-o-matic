@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-02 00:39+0000\n"
+"POT-Creation-Date: 2024-06-26 00:41+0000\n"
 "PO-Revision-Date: 2023-10-05 00:22+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -29,204 +29,6 @@ msgstr "Iñigo Salvador Azurmendi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
-
-#: contents/ui/ComparePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Compare files"
-msgstr "Alderatu fitxategiak"
-
-#: contents/ui/ComparePage.qml:27
-#, kde-format
-msgctxt "@title"
-msgid "Compare Two Files"
-msgstr "Alderatu bi fitxategi"
-
-#: contents/ui/ComparePage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File 1"
-msgstr "1. fitxategia"
-
-#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
-#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Select file"
-msgstr "Aukeratu fitxategia"
-
-#: contents/ui/ComparePage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "File 2"
-msgstr "2. fitxategia"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They match!"
-msgstr "Bat datoz!"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They don't match!"
-msgstr "Ez datoz bat!"
-
-#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
-#, kde-format
-msgid "Drag file here to compare it"
-msgstr "Arrastatu fitxategia hona hura parekatzeko"
-
-#: contents/ui/GeneratePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Generate Hash"
-msgstr "Sortu «hash»a"
-
-#: contents/ui/GeneratePage.qml:27
-#, kde-format
-msgid "Display Checksums"
-msgstr "Azaldu egiaztapen-baturak"
-
-#: contents/ui/GeneratePage.qml:57
-#, kde-format
-msgctxt "@title:group"
-msgid "Hashes"
-msgstr "«Hash»ak"
-
-#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
-#: contents/ui/GeneratePage.qml:102
-#, kde-format
-msgid "Hash copied into the clipboard"
-msgstr "«Hash»a arbelera kopiatu da"
-
-#: contents/ui/GeneratePage.qml:130
-#, kde-format
-msgid "Drag items here to share them"
-msgstr "Arrastatu elementua hona haiek partekatzeko"
-
-#: contents/ui/GlobalMenu.qml:14
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "File"
-msgstr "Fitxategia"
-
-#: contents/ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open…"
-msgstr "Ireki…"
-
-#: contents/ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Hash-o-matic"
-msgstr "«Hash-o-matic»eri buruz"
-
-#: contents/ui/GlobalMenu.qml:30
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "Irten"
-
-#: contents/ui/GlobalMenu.qml:38
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "View"
-msgstr "Ikuspegia"
-
-#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Generate"
-msgstr "Sortu"
-
-#: contents/ui/GlobalMenu.qml:46
-#, kde-format
-msgid "Compare"
-msgstr "Alderatu"
-
-#: contents/ui/GlobalMenu.qml:51
-#, kde-format
-msgid "Verify"
-msgstr "Egiaztatu"
-
-#: contents/ui/main.qml:64
-#, kde-format
-msgid "About"
-msgstr "Honi buruz"
-
-#: contents/ui/main.qml:88
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Compare"
-msgstr "Alderatu"
-
-#: contents/ui/main.qml:95
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify"
-msgstr "Egiaztatu"
-
-#: contents/ui/VerifyPage.qml:14
-#, kde-format
-msgctxt "@title"
-msgid "Verify Hash"
-msgstr "Egiaztatu  «hash»"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums and signatures"
-msgstr "Egiaztatu egiaztapen-baturak eta sinadurak"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums"
-msgstr "Egiaztatu egiaztapen-baturak"
-
-#: contents/ui/VerifyPage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File"
-msgstr "Fitxategia"
-
-#: contents/ui/VerifyPage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "Checksum Verification"
-msgstr "Egiaztapen-batura egiaztatzea"
-
-#: contents/ui/VerifyPage.qml:66
-#, kde-format
-msgctxt "@label"
-msgid "Checksum"
-msgstr "Egiaztapen-batura"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum match with the file!"
-msgstr "Egiaztapen-batura fitxategiarekin bat dator!"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum doesn't match with the file!"
-msgstr "Egiaztapen-batura ez dator fitxategiarekin bat!"
-
-#: contents/ui/VerifyPage.qml:96
-#, kde-format
-msgctxt "@title:group"
-msgid "Signature Verification"
-msgstr "Sinadura egiaztapena"
-
-#: contents/ui/VerifyPage.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Select signature file"
-msgstr "Aukeratu sinadura-fitxategia"
-
-#: contents/ui/VerifyPage.qml:176
-#, kde-format
-msgid "Drag items here to verify them"
-msgstr "Arrastatu elementuak hona haiek egiaztatzeko"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -335,40 +137,260 @@ msgstr "«Hash-o-matic»ek ez du direktorioen euskarririk."
 msgid "The file doesn't exist or is not readable."
 msgstr "Fitxategia ez dago edo ez da irakurgarria."
 
-#: main.cpp:102
+#: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:105
+#: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "Egiaztatu zure fitxategietarako «hash»ak"
 
-#: main.cpp:109
+#: main.cpp:103
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE Komunitatea 2021"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Mantentzailea"
 
-#: main.cpp:115
+#: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "Sortu fitxategiarentzako «hash»ak"
 
-#: main.cpp:116
+#: main.cpp:110
 #, kde-format
 msgid "Local file url"
 msgstr "Fitxategi lokalaren URL"
+
+#: qml/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Alderatu fitxategiak"
+
+#: qml/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Alderatu bi fitxategi"
+
+#: qml/ComparePage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "1. fitxategia"
+
+#: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
+#: qml/VerifyPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Aukeratu fitxategia"
+
+#: qml/ComparePage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "2. fitxategia"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They match!"
+msgstr "Bat datoz!"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They don't match!"
+msgstr "Ez datoz bat!"
+
+#: qml/ComparePage.qml:153 qml/ComparePage.qml:166
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Arrastatu fitxategia hona hura parekatzeko"
+
+#: qml/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Sortu «hash»a"
+
+#: qml/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "Azaldu egiaztapen-baturak"
+
+#: qml/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "«Hash»ak"
+
+#: qml/GeneratePage.qml:65
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr ""
+
+#: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
+#, kde-format
+msgid "Copy hash"
+msgstr ""
+
+#: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "«Hash»a arbelera kopiatu da"
+
+#: qml/GeneratePage.qml:80
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr ""
+
+#: qml/GeneratePage.qml:95
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr ""
+
+#: qml/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Arrastatu elementua hona haiek partekatzeko"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Fitxategia"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Ireki…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "«Hash-o-matic»eri buruz"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Irten"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Ikuspegia"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Sortu"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Alderatu"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Egiaztatu"
+
+#: qml/Main.qml:66
+#, kde-format
+msgid "About"
+msgstr "Honi buruz"
+
+#: qml/Main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Alderatu"
+
+#: qml/Main.qml:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Egiaztatu"
+
+#: qml/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Egiaztatu  «hash»"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Egiaztatu egiaztapen-baturak eta sinadurak"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "Egiaztatu egiaztapen-baturak"
+
+#: qml/VerifyPage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Fitxategia"
+
+#: qml/VerifyPage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Egiaztapen-batura egiaztatzea"
+
+#: qml/VerifyPage.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Egiaztapen-batura"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "Egiaztapen-batura fitxategiarekin bat dator!"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "Egiaztapen-batura ez dator fitxategiarekin bat!"
+
+#: qml/VerifyPage.qml:97
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Sinadura egiaztapena"
+
+#: qml/VerifyPage.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Aukeratu sinadura-fitxategia"
+
+#: qml/VerifyPage.qml:177
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Arrastatu elementuak hona haiek egiaztatzeko"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-02 00:39+0000\n"
+"POT-Creation-Date: 2024-06-26 00:41+0000\n"
 "PO-Revision-Date: 2023-10-04 12:21+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -29,204 +29,6 @@ msgstr "Josep M. Ferrer"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
-
-#: contents/ui/ComparePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Compare files"
-msgstr "Compara fitxers"
-
-#: contents/ui/ComparePage.qml:27
-#, kde-format
-msgctxt "@title"
-msgid "Compare Two Files"
-msgstr "Compara dos fitxers"
-
-#: contents/ui/ComparePage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File 1"
-msgstr "Fitxer 1"
-
-#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
-#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Select file"
-msgstr "Selecció de fitxer"
-
-#: contents/ui/ComparePage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "File 2"
-msgstr "Fitxer 2"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They match!"
-msgstr "Coincideixen!"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They don't match!"
-msgstr "No coincideixen!"
-
-#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
-#, kde-format
-msgid "Drag file here to compare it"
-msgstr "Arrossegueu aquí el fitxer per a comparar-lo"
-
-#: contents/ui/GeneratePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Generate Hash"
-msgstr "Genera un resum"
-
-#: contents/ui/GeneratePage.qml:27
-#, kde-format
-msgid "Display Checksums"
-msgstr "Mostra les sumes de verificació"
-
-#: contents/ui/GeneratePage.qml:57
-#, kde-format
-msgctxt "@title:group"
-msgid "Hashes"
-msgstr "Resums"
-
-#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
-#: contents/ui/GeneratePage.qml:102
-#, kde-format
-msgid "Hash copied into the clipboard"
-msgstr "El resum s'ha copiat al porta-retalls"
-
-#: contents/ui/GeneratePage.qml:130
-#, kde-format
-msgid "Drag items here to share them"
-msgstr "Arrossegueu aquí els elements per a compartir"
-
-#: contents/ui/GlobalMenu.qml:14
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "File"
-msgstr "Fitxer"
-
-#: contents/ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open…"
-msgstr "Obre…"
-
-#: contents/ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Hash-o-matic"
-msgstr "Quant al Hash-o-matic"
-
-#: contents/ui/GlobalMenu.qml:30
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "Surt"
-
-#: contents/ui/GlobalMenu.qml:38
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "View"
-msgstr "Visualitza"
-
-#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Generate"
-msgstr "Genera"
-
-#: contents/ui/GlobalMenu.qml:46
-#, kde-format
-msgid "Compare"
-msgstr "Compara"
-
-#: contents/ui/GlobalMenu.qml:51
-#, kde-format
-msgid "Verify"
-msgstr "Comprova"
-
-#: contents/ui/main.qml:64
-#, kde-format
-msgid "About"
-msgstr "Quant a"
-
-#: contents/ui/main.qml:88
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Compare"
-msgstr "Compara"
-
-#: contents/ui/main.qml:95
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify"
-msgstr "Comprova"
-
-#: contents/ui/VerifyPage.qml:14
-#, kde-format
-msgctxt "@title"
-msgid "Verify Hash"
-msgstr "Comprova el resum"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums and signatures"
-msgstr "Comprova les sumes de verificació i les signatures"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums"
-msgstr "Comprova les sumes de verificació"
-
-#: contents/ui/VerifyPage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File"
-msgstr "Fitxer"
-
-#: contents/ui/VerifyPage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "Checksum Verification"
-msgstr "Comprovació de la suma de verificació"
-
-#: contents/ui/VerifyPage.qml:66
-#, kde-format
-msgctxt "@label"
-msgid "Checksum"
-msgstr "Suma de verificació"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum match with the file!"
-msgstr "La suma de verificació coincideix amb el fitxer!"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum doesn't match with the file!"
-msgstr "La suma de verificació no coincideix amb el fitxer!"
-
-#: contents/ui/VerifyPage.qml:96
-#, kde-format
-msgctxt "@title:group"
-msgid "Signature Verification"
-msgstr "Comprovació de la signatura"
-
-#: contents/ui/VerifyPage.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Select signature file"
-msgstr "Selecció del fitxer de signatura"
-
-#: contents/ui/VerifyPage.qml:176
-#, kde-format
-msgid "Drag items here to verify them"
-msgstr "Arrossegueu aquí els elements per a comprovar-los"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -336,40 +138,260 @@ msgstr "El Hash-o-matic no permet directoris."
 msgid "The file doesn't exist or is not readable."
 msgstr "El fitxer no existeix o no es pot llegir."
 
-#: main.cpp:102
+#: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:105
+#: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "Comprova els resums de fitxers"
 
-#: main.cpp:109
+#: main.cpp:103
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE Community 2021"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Mantenidor"
 
-#: main.cpp:115
+#: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "Genera resums d'un fitxer"
 
-#: main.cpp:116
+#: main.cpp:110
 #, kde-format
 msgid "Local file url"
 msgstr "URL d'un fitxer local"
+
+#: qml/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Compara fitxers"
+
+#: qml/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Compara dos fitxers"
+
+#: qml/ComparePage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "Fitxer 1"
+
+#: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
+#: qml/VerifyPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Selecció de fitxer"
+
+#: qml/ComparePage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "Fitxer 2"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They match!"
+msgstr "Coincideixen!"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They don't match!"
+msgstr "No coincideixen!"
+
+#: qml/ComparePage.qml:153 qml/ComparePage.qml:166
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Arrossegueu aquí el fitxer per a comparar-lo"
+
+#: qml/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Genera un resum"
+
+#: qml/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "Mostra les sumes de verificació"
+
+#: qml/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "Resums"
+
+#: qml/GeneratePage.qml:65
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr ""
+
+#: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
+#, kde-format
+msgid "Copy hash"
+msgstr ""
+
+#: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "El resum s'ha copiat al porta-retalls"
+
+#: qml/GeneratePage.qml:80
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr ""
+
+#: qml/GeneratePage.qml:95
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr ""
+
+#: qml/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Arrossegueu aquí els elements per a compartir"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Fitxer"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Obre…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "Quant al Hash-o-matic"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Surt"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Visualitza"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Genera"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Compara"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Comprova"
+
+#: qml/Main.qml:66
+#, kde-format
+msgid "About"
+msgstr "Quant a"
+
+#: qml/Main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Compara"
+
+#: qml/Main.qml:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Comprova"
+
+#: qml/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Comprova el resum"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Comprova les sumes de verificació i les signatures"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "Comprova les sumes de verificació"
+
+#: qml/VerifyPage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Fitxer"
+
+#: qml/VerifyPage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Comprovació de la suma de verificació"
+
+#: qml/VerifyPage.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Suma de verificació"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "La suma de verificació coincideix amb el fitxer!"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "La suma de verificació no coincideix amb el fitxer!"
+
+#: qml/VerifyPage.qml:97
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Comprovació de la signatura"
+
+#: qml/VerifyPage.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Selecció del fitxer de signatura"
+
+#: qml/VerifyPage.qml:177
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Arrossegueu aquí els elements per a comprovar-los"

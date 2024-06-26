@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-02 00:39+0000\n"
+"POT-Creation-Date: 2024-06-26 00:41+0000\n"
 "PO-Revision-Date: 2024-05-31 12:36+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -27,204 +27,6 @@ msgstr "Toms Trasūns"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "toms.trasuns@posteo.net"
-
-#: contents/ui/ComparePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Compare files"
-msgstr "Salīdzināt datnes"
-
-#: contents/ui/ComparePage.qml:27
-#, kde-format
-msgctxt "@title"
-msgid "Compare Two Files"
-msgstr "Salīdzināt divas datnes"
-
-#: contents/ui/ComparePage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File 1"
-msgstr "1. datne"
-
-#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
-#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Select file"
-msgstr "Atlasiet datni"
-
-#: contents/ui/ComparePage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "File 2"
-msgstr "2. datne"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They match!"
-msgstr "Tās ir identiskas!"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They don't match!"
-msgstr "Tās atšķiras!"
-
-#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
-#, kde-format
-msgid "Drag file here to compare it"
-msgstr "Velciet datni te, lai to salīdzinātu"
-
-#: contents/ui/GeneratePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Generate Hash"
-msgstr "Ģenerēt jaucējkodu"
-
-#: contents/ui/GeneratePage.qml:27
-#, kde-format
-msgid "Display Checksums"
-msgstr "Parādīt kontrolsummas"
-
-#: contents/ui/GeneratePage.qml:57
-#, kde-format
-msgctxt "@title:group"
-msgid "Hashes"
-msgstr "Jaucējkodi"
-
-#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
-#: contents/ui/GeneratePage.qml:102
-#, kde-format
-msgid "Hash copied into the clipboard"
-msgstr "Jaucējkods ir iekopēts starpliktuvē"
-
-#: contents/ui/GeneratePage.qml:130
-#, kde-format
-msgid "Drag items here to share them"
-msgstr "Velciet vienumus, lai tos kopīgotu"
-
-#: contents/ui/GlobalMenu.qml:14
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "File"
-msgstr "Datne"
-
-#: contents/ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open…"
-msgstr "Atvērt..."
-
-#: contents/ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Hash-o-matic"
-msgstr "Par „Hash-o-matic“"
-
-#: contents/ui/GlobalMenu.qml:30
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "Iziet"
-
-#: contents/ui/GlobalMenu.qml:38
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "View"
-msgstr "Skats"
-
-#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Generate"
-msgstr "Ģenerēt"
-
-#: contents/ui/GlobalMenu.qml:46
-#, kde-format
-msgid "Compare"
-msgstr "Salīdzināt"
-
-#: contents/ui/GlobalMenu.qml:51
-#, kde-format
-msgid "Verify"
-msgstr "Pārbaudīt"
-
-#: contents/ui/main.qml:64
-#, kde-format
-msgid "About"
-msgstr "Par"
-
-#: contents/ui/main.qml:88
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Compare"
-msgstr "Salīdzināt"
-
-#: contents/ui/main.qml:95
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify"
-msgstr "Pārbaudīt"
-
-#: contents/ui/VerifyPage.qml:14
-#, kde-format
-msgctxt "@title"
-msgid "Verify Hash"
-msgstr "Pārbaudīt jaucējkodu"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums and signatures"
-msgstr "Pārbaudīt kontrolsummas un parakstus"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums"
-msgstr "Pārbaudīt kontrolsummas"
-
-#: contents/ui/VerifyPage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File"
-msgstr "Datne"
-
-#: contents/ui/VerifyPage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "Checksum Verification"
-msgstr "Kontrolsummu pārbaude"
-
-#: contents/ui/VerifyPage.qml:66
-#, kde-format
-msgctxt "@label"
-msgid "Checksum"
-msgstr "Kontrolsumma"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum match with the file!"
-msgstr "Kontrolsumma atbilst datnei!"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum doesn't match with the file!"
-msgstr "Kontrolsumma neatbilst datnei!"
-
-#: contents/ui/VerifyPage.qml:96
-#, kde-format
-msgctxt "@title:group"
-msgid "Signature Verification"
-msgstr "Paraksta pārbaude"
-
-#: contents/ui/VerifyPage.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Select signature file"
-msgstr "Atlasiet paraksta datni"
-
-#: contents/ui/VerifyPage.qml:176
-#, kde-format
-msgid "Drag items here to verify them"
-msgstr "Ievelciet vienumus, lai tos pārbaudītu"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -328,40 +130,260 @@ msgstr "„Hash-o-matic“ neatbalsta mapes."
 msgid "The file doesn't exist or is not readable."
 msgstr "Datne nepastāv vai nav nolasāma."
 
-#: main.cpp:102
+#: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:105
+#: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "Pārbaudiet datņu jaucējkodus"
 
-#: main.cpp:109
+#: main.cpp:103
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE kopiena 2021"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Uzturētājs"
 
-#: main.cpp:115
+#: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "Ģenerēt datnes jaucējkodus"
 
-#: main.cpp:116
+#: main.cpp:110
 #, kde-format
 msgid "Local file url"
 msgstr "Lokālās datnes URL"
+
+#: qml/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Salīdzināt datnes"
+
+#: qml/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Salīdzināt divas datnes"
+
+#: qml/ComparePage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "1. datne"
+
+#: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
+#: qml/VerifyPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Atlasiet datni"
+
+#: qml/ComparePage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "2. datne"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They match!"
+msgstr "Tās ir identiskas!"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They don't match!"
+msgstr "Tās atšķiras!"
+
+#: qml/ComparePage.qml:153 qml/ComparePage.qml:166
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Velciet datni te, lai to salīdzinātu"
+
+#: qml/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Ģenerēt jaucējkodu"
+
+#: qml/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "Parādīt kontrolsummas"
+
+#: qml/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "Jaucējkodi"
+
+#: qml/GeneratePage.qml:65
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr ""
+
+#: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
+#, kde-format
+msgid "Copy hash"
+msgstr ""
+
+#: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "Jaucējkods ir iekopēts starpliktuvē"
+
+#: qml/GeneratePage.qml:80
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr ""
+
+#: qml/GeneratePage.qml:95
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr ""
+
+#: qml/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Velciet vienumus, lai tos kopīgotu"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Datne"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Atvērt..."
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "Par „Hash-o-matic“"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Iziet"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Skats"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Ģenerēt"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Salīdzināt"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Pārbaudīt"
+
+#: qml/Main.qml:66
+#, kde-format
+msgid "About"
+msgstr "Par"
+
+#: qml/Main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Salīdzināt"
+
+#: qml/Main.qml:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Pārbaudīt"
+
+#: qml/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Pārbaudīt jaucējkodu"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Pārbaudīt kontrolsummas un parakstus"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "Pārbaudīt kontrolsummas"
+
+#: qml/VerifyPage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Datne"
+
+#: qml/VerifyPage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Kontrolsummu pārbaude"
+
+#: qml/VerifyPage.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Kontrolsumma"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "Kontrolsumma atbilst datnei!"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "Kontrolsumma neatbilst datnei!"
+
+#: qml/VerifyPage.qml:97
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Paraksta pārbaude"
+
+#: qml/VerifyPage.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Atlasiet paraksta datni"
+
+#: qml/VerifyPage.qml:177
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Ievelciet vienumus, lai tos pārbaudītu"

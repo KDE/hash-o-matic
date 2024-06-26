@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-02 00:39+0000\n"
+"POT-Creation-Date: 2024-06-26 00:41+0000\n"
 "PO-Revision-Date: 2023-10-06 05:02+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -27,204 +27,6 @@ msgstr "Temuri Doghonadze"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
-
-#: contents/ui/ComparePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Compare files"
-msgstr "ფაილების შედარება"
-
-#: contents/ui/ComparePage.qml:27
-#, kde-format
-msgctxt "@title"
-msgid "Compare Two Files"
-msgstr "შეადარეთ ორ ფაილი"
-
-#: contents/ui/ComparePage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File 1"
-msgstr "ფაილი 1"
-
-#: contents/ui/ComparePage.qml:45 contents/ui/ComparePage.qml:65
-#: contents/ui/GeneratePage.qml:43 contents/ui/VerifyPage.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Select file"
-msgstr "აირჩიეთ ფაილი"
-
-#: contents/ui/ComparePage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "File 2"
-msgstr "ფაილი 2"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They match!"
-msgstr "ისინი ემთხვევა!"
-
-#: contents/ui/ComparePage.qml:98
-#, kde-format
-msgid "They don't match!"
-msgstr "ისინი არ ემთხვევა!"
-
-#: contents/ui/ComparePage.qml:152 contents/ui/ComparePage.qml:165
-#, kde-format
-msgid "Drag file here to compare it"
-msgstr "გადმოათრიეთ შესადარებელი ფაილი აქ"
-
-#: contents/ui/GeneratePage.qml:15
-#, kde-format
-msgctxt "@title"
-msgid "Generate Hash"
-msgstr "ჰეშის გენერაცია"
-
-#: contents/ui/GeneratePage.qml:27
-#, kde-format
-msgid "Display Checksums"
-msgstr "საკონტროლო ჯამების ჩვენება"
-
-#: contents/ui/GeneratePage.qml:57
-#, kde-format
-msgctxt "@title:group"
-msgid "Hashes"
-msgstr "ჰეშები"
-
-#: contents/ui/GeneratePage.qml:72 contents/ui/GeneratePage.qml:87
-#: contents/ui/GeneratePage.qml:102
-#, kde-format
-msgid "Hash copied into the clipboard"
-msgstr "ჰეში დაკოპირდა გაცვლის ბუფერში"
-
-#: contents/ui/GeneratePage.qml:130
-#, kde-format
-msgid "Drag items here to share them"
-msgstr "გადმოათრიეთ საგნები აქ, მათ გასაზიარებლად"
-
-#: contents/ui/GlobalMenu.qml:14
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "File"
-msgstr "ფაილი"
-
-#: contents/ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open…"
-msgstr "გახსნა…"
-
-#: contents/ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Hash-o-matic"
-msgstr "Hash-o-matic-ის შესახებ"
-
-#: contents/ui/GlobalMenu.qml:30
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "გასვლა"
-
-#: contents/ui/GlobalMenu.qml:38
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "View"
-msgstr "ნახვა"
-
-#: contents/ui/GlobalMenu.qml:41 contents/ui/main.qml:81
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Generate"
-msgstr "გენერაცია"
-
-#: contents/ui/GlobalMenu.qml:46
-#, kde-format
-msgid "Compare"
-msgstr "შედარება"
-
-#: contents/ui/GlobalMenu.qml:51
-#, kde-format
-msgid "Verify"
-msgstr "შემოწმება"
-
-#: contents/ui/main.qml:64
-#, kde-format
-msgid "About"
-msgstr "პროგრამის შესახებ"
-
-#: contents/ui/main.qml:88
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Compare"
-msgstr "შედარება"
-
-#: contents/ui/main.qml:95
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify"
-msgstr "შემოწმება"
-
-#: contents/ui/VerifyPage.qml:14
-#, kde-format
-msgctxt "@title"
-msgid "Verify Hash"
-msgstr "ჰეშის გადამოწმება"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums and signatures"
-msgstr "საკონტროლო ჯამებისა და ხელმოწერების გადამოწმება"
-
-#: contents/ui/VerifyPage.qml:26
-#, kde-format
-msgid "Verify checksums"
-msgstr "საკონტროლო ჯამების გადამოწმება"
-
-#: contents/ui/VerifyPage.qml:39
-#, kde-format
-msgctxt "@title:group"
-msgid "File"
-msgstr "ფაილი"
-
-#: contents/ui/VerifyPage.qml:59
-#, kde-format
-msgctxt "@title:group"
-msgid "Checksum Verification"
-msgstr "საკონტროლო ჯამის გადამომება"
-
-#: contents/ui/VerifyPage.qml:66
-#, kde-format
-msgctxt "@label"
-msgid "Checksum"
-msgstr "საკონტროლო რიცხვი"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum match with the file!"
-msgstr "საკონტროლო ჯამი ფაილს ემთხვევა!"
-
-#: contents/ui/VerifyPage.qml:90
-#, kde-format
-msgid "Checksum doesn't match with the file!"
-msgstr "საკონტროლო ჯამი ფაილს არ ემთხვევა!"
-
-#: contents/ui/VerifyPage.qml:96
-#, kde-format
-msgctxt "@title:group"
-msgid "Signature Verification"
-msgstr "ხელმოწერის გადამოწმება"
-
-#: contents/ui/VerifyPage.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Select signature file"
-msgstr "აირჩიეთ ხელმოწერის ფაილი"
-
-#: contents/ui/VerifyPage.qml:176
-#, kde-format
-msgid "Drag items here to verify them"
-msgstr "გადმოათრიეთ ელემენტები აქ, მათ გადასამოწმებლად"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -329,40 +131,260 @@ msgstr "Hash-o-matic-ს საქაღალდეების მხარდ
 msgid "The file doesn't exist or is not readable."
 msgstr "ფაილი არ არსებობს ან წაკითხვადი არაა."
 
-#: main.cpp:102
+#: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
 msgstr "Hash-o-matic"
 
-#: main.cpp:105
+#: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
 msgstr "თქვენი ფაილის ჰეშების შემოწმება"
 
-#: main.cpp:109
+#: main.cpp:103
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr "(c) KDE Community 2021"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:110
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "წამყვანი პროგრამისტი"
 
-#: main.cpp:115
+#: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
 msgstr "დააგენერირეთ ჰეშები ფაილისთვის"
 
-#: main.cpp:116
+#: main.cpp:110
 #, kde-format
 msgid "Local file url"
 msgstr "ლოკალური ფაილის URL"
+
+#: qml/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "ფაილების შედარება"
+
+#: qml/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "შეადარეთ ორ ფაილი"
+
+#: qml/ComparePage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "ფაილი 1"
+
+#: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
+#: qml/VerifyPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "აირჩიეთ ფაილი"
+
+#: qml/ComparePage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "ფაილი 2"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They match!"
+msgstr "ისინი ემთხვევა!"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They don't match!"
+msgstr "ისინი არ ემთხვევა!"
+
+#: qml/ComparePage.qml:153 qml/ComparePage.qml:166
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "გადმოათრიეთ შესადარებელი ფაილი აქ"
+
+#: qml/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "ჰეშის გენერაცია"
+
+#: qml/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "საკონტროლო ჯამების ჩვენება"
+
+#: qml/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "ჰეშები"
+
+#: qml/GeneratePage.qml:65
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr ""
+
+#: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
+#, kde-format
+msgid "Copy hash"
+msgstr ""
+
+#: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "ჰეში დაკოპირდა გაცვლის ბუფერში"
+
+#: qml/GeneratePage.qml:80
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr ""
+
+#: qml/GeneratePage.qml:95
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr ""
+
+#: qml/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "გადმოათრიეთ საგნები აქ, მათ გასაზიარებლად"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "ფაილი"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "გახსნა…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "Hash-o-matic-ის შესახებ"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "გასვლა"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "ნახვა"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "გენერაცია"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "შედარება"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "შემოწმება"
+
+#: qml/Main.qml:66
+#, kde-format
+msgid "About"
+msgstr "პროგრამის შესახებ"
+
+#: qml/Main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "შედარება"
+
+#: qml/Main.qml:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "შემოწმება"
+
+#: qml/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "ჰეშის გადამოწმება"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "საკონტროლო ჯამებისა და ხელმოწერების გადამოწმება"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "საკონტროლო ჯამების გადამოწმება"
+
+#: qml/VerifyPage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "ფაილი"
+
+#: qml/VerifyPage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "საკონტროლო ჯამის გადამომება"
+
+#: qml/VerifyPage.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "საკონტროლო რიცხვი"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "საკონტროლო ჯამი ფაილს ემთხვევა!"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "საკონტროლო ჯამი ფაილს არ ემთხვევა!"
+
+#: qml/VerifyPage.qml:97
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "ხელმოწერის გადამოწმება"
+
+#: qml/VerifyPage.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "აირჩიეთ ხელმოწერის ფაილი"
+
+#: qml/VerifyPage.qml:177
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "გადმოათრიეთ ელემენტები აქ, მათ გადასამოწმებლად"
