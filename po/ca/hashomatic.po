@@ -1,16 +1,16 @@
 # Translation of hashomatic.po to Catalan
-# Copyright (C) 2023 This_file_is_part_of_KDE
+# Copyright (C) 2023-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 # or the same license as the source of its messages in English.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:41+0000\n"
-"PO-Revision-Date: 2023-10-04 12:21+0200\n"
+"PO-Revision-Date: 2024-06-26 10:21+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -243,12 +243,12 @@ msgstr "Resums"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5:"
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "Copia el resum"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
@@ -259,13 +259,13 @@ msgstr "El resum s'ha copiat al porta-retalls"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256:"
 
 #: qml/GeneratePage.qml:130
 #, kde-format

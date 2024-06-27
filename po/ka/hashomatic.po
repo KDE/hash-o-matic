@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:41+0000\n"
-"PO-Revision-Date: 2023-10-06 05:02+0200\n"
+"PO-Revision-Date: 2024-06-26 05:38+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -236,12 +236,12 @@ msgstr "ჰეშები"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5:"
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "ჰეშის კოპირება"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
@@ -252,13 +252,13 @@ msgstr "ჰეში დაკოპირდა გაცვლის ბუფ
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256:"
 
 #: qml/GeneratePage.qml:130
 #, kde-format
