@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:41+0000\n"
-"PO-Revision-Date: 2024-05-05 18:09+0100\n"
+"PO-Revision-Date: 2024-06-28 16:51+0200\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -240,12 +240,12 @@ msgstr "Haketkodoj"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5:"
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "Kopii haketsumon"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
@@ -256,13 +256,13 @@ msgstr "Haketkodo kopiita en la tondujon"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256:"
 
 #: qml/GeneratePage.qml:130
 #, kde-format

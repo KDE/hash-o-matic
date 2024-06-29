@@ -1,11 +1,10 @@
-#
 # SPDX-FileCopyrightText: 2023, 2024 Xavier Besnard <xavier.besnard@kde.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:41+0000\n"
-"PO-Revision-Date: 2023-11-01 18:50+0100\n"
+"PO-Revision-Date: 2024-06-27 14:43+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -237,12 +236,12 @@ msgstr "Valeurs de hachage"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5 : "
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "Copier le code de hachage"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
@@ -253,13 +252,13 @@ msgstr "Valeur de hachage copiée dans le presse-papier"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1 :"
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256 :"
 
 #: qml/GeneratePage.qml:130
 #, kde-format
