@@ -1,0 +1,85 @@
+{
+    "id": "org.kde.hashomatic",
+    "branch": "master",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "6.7",
+    "sdk": "org.kde.Sdk",
+    "command": "hashomatic",
+    "tags": ["nightly"],
+    "desktop-file-name-suffix": " (Nightly)",
+    "finish-args": [
+        "--device=dri",
+        "--share=ipc",
+        "--share=network",
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--talk-name=org.freedesktop.Flatpak"
+    ],
+    "modules": [
+        {
+            "name": "boost",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./bootstrap.sh --prefix=/app --with-libraries=system",
+                "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.86.0/source/boost_1_86_0.tar.bz2",
+                    "sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 6845,
+                        "stable-only": true,
+                        "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "QGpgme",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.23.2.tar.bz2",
+                    "sha256": "9499e8b1f33cccb6815527a1bc16049d35a6198a6c5fae0185f2bd561bce5224",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1239,
+                        "stable-only": true,
+                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "kirigamiaddons",
+            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "buildsystem": "cmake-ninja",
+            "sources": [ { "type": "git", "url": "https://invent.kde.org/libraries/kirigami-addons.git" } ]
+        },
+        {
+            "name": "libkleo",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://invent.kde.org/pim/libkleo",
+                    "branch": "master"
+                }
+            ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ]
+        },
+        {
+            "name": "hashomatic",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                { "type": "dir", "path": "." }
+            ]
+        }
+    ]
+}
