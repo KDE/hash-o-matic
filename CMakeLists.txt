@@ -28,6 +28,7 @@ include(ECMPoQmTools)
 include(ECMAddTests)
 include(KDEGitCommitHooks)
 include(KDEClangFormat)
+include(ECMQmlModule)
 
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.c)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
@@ -40,8 +41,6 @@ ecm_setup_version(${PROJECT_VERSION}
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami I18n CoreAddons Config)
-
-qt_policy(SET QTP0001 NEW)
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE AND NOT HAIKU)
     find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)

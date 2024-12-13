@@ -1,10 +1,11 @@
 # SPDX-License-Identifier: BSD-2-Clause
 # SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 
-qt_add_qml_module(hashomatic_static
-    STATIC
+add_library(hashomatic_static STATIC)
+ecm_add_qml_module(hashomatic_static
     URI org.kde.hashomatic
     VERSION 1.0
+    GENERATE_PLUGIN_SOURCE
     QML_FILES
         qml/Main.qml
         qml/GeneratePage.qml
