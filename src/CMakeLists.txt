@@ -12,6 +12,7 @@ qt_add_qml_module(hashomatic_static
         qml/ComparePage.qml
         qml/VerifyPage.qml
         qml/AboutPage.qml
+        qml/AboutKDEPage.qml
 )
 
 target_sources(hashomatic_static PUBLIC

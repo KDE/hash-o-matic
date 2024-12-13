@@ -61,15 +61,26 @@ Kirigami.ApplicationWindow {
         titleIcon: "applications-graphics"
         isMenu: enabled
         enabled: !Kirigami.Settings.hasPlatformMenuBar
-        actions: Kirigami.PagePoolAction {
-            id: aboutAction
-            text: i18n("About")
-            icon.name: "help-about"
-            page: './AboutPage.qml'
-            pagePool: mainPagePool
-            checkable: false
-            useLayers: true
-        }
+        actions: [
+            Kirigami.PagePoolAction {
+                id: aboutAction
+                text: i18nc("@action:inmenu", "About Hash-o-matic")
+                icon.name: "help-about-symbolic"
+                page: './AboutPage.qml'
+                pagePool: mainPagePool
+                checkable: false
+                useLayers: true
+            },
+            Kirigami.PagePoolAction {
+                id: aboutKDEAction
+                text: i18nc("@action:inmenu", "About KDE")
+                icon.name: "kde-symbolic"
+                page: './AboutKDEPage.qml'
+                pagePool: mainPagePool
+                checkable: false
+                useLayers: true
+            }
+        ]
     }
 
     Kirigami.PagePool {
