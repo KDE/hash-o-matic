@@ -15,8 +15,6 @@ qt_add_qml_module(hashomatic_static
 )
 
 target_sources(hashomatic_static PUBLIC
-    clipboard.cpp
-    clipboard.h
     controller.cpp
     controller.h
     hashhelper.cpp

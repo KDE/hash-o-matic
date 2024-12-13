@@ -6,6 +6,7 @@ import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard 1 as FormCard
+import org.kde.kquickcontrolsaddons as KQuickControlsAddons
 import org.kde.hashomatic
 import Qt.labs.platform
 
@@ -68,7 +69,7 @@ FormCard.FormCardPage {
                 text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
-                    Clipboard.saveText(hashHelper.md5sum);
+                    clipboard.content = hashHelper.md5sum;
                     applicationWindow().showPassiveNotification(i18n("Hash copied into the clipboard"), "short");
                 }
             }
@@ -83,7 +84,7 @@ FormCard.FormCardPage {
                 text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
-                    Clipboard.saveText(hashHelper.sha1sum);
+                    clipboard.content = hashHelper.sha1sum;
                     applicationWindow().showPassiveNotification(i18n("Hash copied into the clipboard"), "short");
                 }
             }
@@ -98,7 +99,7 @@ FormCard.FormCardPage {
                 text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
-                    Clipboard.saveText(hashHelper.sha256sum);
+                    clipboard.content = hashHelper.sha256sum;
                     applicationWindow().showPassiveNotification(i18n("Hash copied into the clipboard"), "short");
                 }
             }
@@ -129,6 +130,8 @@ FormCard.FormCardPage {
                 width: parent.width - (Kirigami.Units.largeSpacing * 4)
                 text: i18n("Drag items here to share them")
             }
-        }
+        },
+
+        KQuickControlsAddons.Clipboard { id: clipboard }
     ]
 }

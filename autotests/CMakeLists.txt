@@ -3,12 +3,6 @@
 
 add_definitions(-DDATA_DIR="${CMAKE_CURRENT_SOURCE_DIR}" )
 
-ecm_add_test(clipboardtest.cpp
-    TEST_NAME clipboardtest
-    LINK_LIBRARIES hashomatic_static Qt::Test
-    NAME_PREFIX "app-"
-)
-
 ecm_add_test(hashhelpertest.cpp
     TEST_NAME hashhelpertest
     LINK_LIBRARIES hashomatic_static Qt::Test
