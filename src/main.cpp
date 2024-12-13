@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
         // The license this code is released under.
         KAboutLicense::GPL,
         // Copyright Statement.
-        i18n("(c) KDE Community 2021"));
+        i18n("© 2021-2024 KDE Community"));
     aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"), i18nc("@info:credit", "Maintainer"), u"carl@carlschwan.eu"_s, u"https://carlschwan.eu"_s);
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(u"org.kde.hashomatic"_s));
