@@ -7,6 +7,7 @@ import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.19 as Kirigami
 import org.kde.hashomatic 1.0
 import Qt.labs.platform 1.1
+import org.kde.config as KConfig
 
 Kirigami.ApplicationWindow {
     id: root
@@ -15,24 +16,11 @@ Kirigami.ApplicationWindow {
     width: Kirigami.Units.gridUnit * 28
     minimumHeight: Kirigami.Units.gridUnit * 20
 
-    onClosing: Controller.saveWindowGeometry(root)
-
-    // This timer allows to batch update the window size change to reduce
-    // the io load and also work around the fact that x/y/width/height are
-    // changed when loading the page and overwrite the saved geometry from
-    // the previous session.
-    Timer {
-        id: saveWindowGeometryTimer
-        interval: 1000
-        onTriggered: Controller.saveWindowGeometry(root)
-    }
-
-    onWidthChanged: saveWindowGeometryTimer.restart()
-    onHeightChanged: saveWindowGeometryTimer.restart()
-    onXChanged: saveWindowGeometryTimer.restart()
-    onYChanged: saveWindowGeometryTimer.restart()
-
     property bool wasEmpty: true
+
+    KConfig.WindowStateSaver {
+        configGroupName: "MainWindow"
+    }
 
     Loader {
         active: !Kirigami.Settings.isMobile

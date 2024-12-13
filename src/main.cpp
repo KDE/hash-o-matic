@@ -157,19 +157,5 @@ int main(int argc, char *argv[])
     });
 #endif
 
-#ifdef HAVE_WINDOWSYSTEM
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            KConfig dataResource(u"data"_s, KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
-            KConfigGroup windowGroup(&dataResource, u"Window"_s);
-            KWindowConfig::restoreWindowSize(view, windowGroup);
-            KWindowConfig::restoreWindowPosition(view, windowGroup);
-            break;
-        }
-    }
-#endif
-
     return app.exec();
 }

@@ -19,7 +19,6 @@ class Controller : public QObject
 public:
     QUrl initialFile() const;
     void setInitialFile(const QUrl &initialFile);
-    Q_INVOKABLE void saveWindowGeometry(QQuickWindow *window);
 
 Q_SIGNALS:
     void initialFileChanged();

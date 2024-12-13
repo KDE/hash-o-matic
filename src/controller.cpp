@@ -8,15 +8,6 @@
 #include <KWindowConfig>
 #include <QQuickWindow>
 
-void Controller::saveWindowGeometry(QQuickWindow *window)
-{
-    KConfig dataResource(QStringLiteral("data"), KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
-    KConfigGroup windowGroup(&dataResource, QStringLiteral("Window"));
-    KWindowConfig::saveWindowPosition(window, windowGroup);
-    KWindowConfig::saveWindowSize(window, windowGroup);
-    dataResource.sync();
-}
-
 QUrl Controller::initialFile() const
 {
     return m_initialFile;
