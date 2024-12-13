@@ -49,11 +49,18 @@ Kirigami.ApplicationWindow {
         titleIcon: "applications-graphics"
         isMenu: enabled
         enabled: !Kirigami.Settings.hasPlatformMenuBar
-        actions: Kirigami.Action {
-            text: i18n("About")
-            icon.name: "help-about-symbolic"
-            onTriggered: root.pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
-        }
+        actions: [
+            Kirigami.Action {
+                text: i18n("About")
+                icon.name: "help-about-symbolic"
+                onTriggered: root.pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
+            },
+            Kirigami.Action {
+                text: i18nc("@action:inmenu", "About KDE")
+                icon.name: "kde-symbolic"
+                onTriggered: root.pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutKDEPage"))
+            }
+        ]
     }
 
     footer: Kirigami.NavigationTabBar {
