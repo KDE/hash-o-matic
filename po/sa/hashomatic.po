@@ -1,0 +1,385 @@
+# Sanskrit translations for hash-o-matic package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-06-26 00:41+0000\n"
+"PO-Revision-Date: 2024-12-13 19:10+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr ""
+"एषा सञ्चिका <a href=\"%1\">%2</a> कीलस्य उपयोगेन VS-NfD अनुरूपं हस्ताक्षरिता अस्ति ।"
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "एषा सञ्चिका <a href=\"%1\">%2</a> कीलस्य उपयोगेन हस्ताक्षरिता अस्ति ।"
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "मुख्यविवरणं उपलब्धं नास्ति।"
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "एषा सञ्चिका %1 द्वारा VS-NfD अनुरूपं हस्ताक्षरिता अस्ति ।"
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "एषा सञ्चिका %1 इत्यनेन हस्ताक्षरिता अस्ति ।"
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "<a href=\"%1\">कुञ्जी</a> निरस्तं जातम्।"
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "<a href=\"%1\">कीलकस्य</a> अवधिः समाप्तः अभवत् ।"
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr "हस्ताक्षरं वैधम् अस्ति, परन्तु <a href=\"%1\">कीलस्य</a> वैधता अज्ञाता अस्ति ।"
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr "हस्ताक्षरं वैधं भवति तथा च <a href=\"%1\">कुञ्जी</a> सीमान्तरूपेण विश्वसिति।"
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr "हस्ताक्षरं वैधं भवति, <a href=\"%1\">कुञ्जी</a> च पूर्णतया विश्वसिति।"
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr "हस्ताक्षरं वैधं भवति, <a href=\"%1\">कुञ्जी</a> च अन्ततः विश्वसिति।"
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "हस्ताक्षरं वैधं भवति, परन्तु <a href=\"%1\">कुञ्जी</a> अविश्वसनीयम् अस्ति ।"
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "हस्ताक्षरम् असिद्धम् अस्ति।"
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", ९. "
+
+#: hashhelper.cpp:196
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "Hash-o-matic निर्देशिकानां समर्थनं न करोति ।"
+
+#: hashhelper.cpp:268
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "सञ्चिका नास्ति अथवा पठनीया नास्ति ।"
+
+#: main.cpp:96
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "हश-ओ-मैटिक्"
+
+#: main.cpp:99
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "भवतः सञ्चिकानां कृते हैश्स् पश्यन्तु"
+
+#: main.cpp:103
+#, kde-format
+msgid "(c) KDE Community 2021"
+msgstr "(ग) केडीई समुदाय २०२१"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "कार्ल स्वान्"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "परिपालकः"
+
+#: main.cpp:109
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "सञ्चिकायाः कृते हैश्स् जनयन्तु"
+
+#: main.cpp:110
+#, kde-format
+msgid "Local file url"
+msgstr "स्थानीय सञ्चिका url"
+
+#: qml/ComparePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "सञ्चिकानां तुलनां कुर्वन्तु"
+
+#: qml/ComparePage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "द्वयोः सञ्चिकायोः तुलनां कुर्वन्तु"
+
+#: qml/ComparePage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "सञ्चिका १"
+
+#: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
+#: qml/VerifyPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "सञ्चिकां चिनोतु"
+
+#: qml/ComparePage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "सञ्चिका २"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They match!"
+msgstr "ते मेलनं कुर्वन्ति!"
+
+#: qml/ComparePage.qml:99
+#, kde-format
+msgid "They don't match!"
+msgstr "ते न मेलन्ति !"
+
+#: qml/ComparePage.qml:153 qml/ComparePage.qml:166
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "तस्य तुलनां कर्तुं अत्र सञ्चिकां कर्षयन्तु"
+
+#: qml/GeneratePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Hash जनयति"
+
+#: qml/GeneratePage.qml:27
+#, kde-format
+msgid "Display Checksums"
+msgstr "Checksums प्रदर्शयन्तु"
+
+#: qml/GeneratePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "हशः"
+
+#: qml/GeneratePage.qml:65
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr "एमडी५: १."
+
+#: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
+#, kde-format
+msgid "Copy hash"
+msgstr "हैश प्रतिलिपि कुर्वन्तु"
+
+#: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "हैश क्लिप्बोर्ड् मध्ये प्रतिलिपितः"
+
+#: qml/GeneratePage.qml:80
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr "शा१: १."
+
+#: qml/GeneratePage.qml:95
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr "शा२५६: १."
+
+#: qml/GeneratePage.qml:130
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "अत्र वस्तूनि कर्षयन्तु तान् साझां कर्तुं"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "संचिका"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "उद्घाटित…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "हैश-ओ-मैटिकस्य विषये"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "परिजहातु"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "दृश्यं"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "उद्- पद्"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "तूल"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "सत्यापन"
+
+#: qml/Main.qml:66
+#, kde-format
+msgid "About"
+msgstr "विषये"
+
+#: qml/Main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "तूल"
+
+#: qml/Main.qml:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "सत्यापन"
+
+#: qml/VerifyPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "हैश सत्यापित करें"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "चेकसमं हस्ताक्षरं च सत्यापयन्तु"
+
+#: qml/VerifyPage.qml:26
+#, kde-format
+msgid "Verify checksums"
+msgstr "चेकसमस्य सत्यापनम्"
+
+#: qml/VerifyPage.qml:40
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "संचिका"
+
+#: qml/VerifyPage.qml:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "चेकसम सत्यापन"
+
+#: qml/VerifyPage.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "चेकसम"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "चेकसम सञ्चिकायाः सह मेलनं करोति!"
+
+#: qml/VerifyPage.qml:91
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "Checksum सञ्चिकायाः सह न मेलति!"
+
+#: qml/VerifyPage.qml:97
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "हस्ताक्षर सत्यापन"
+
+#: qml/VerifyPage.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "हस्ताक्षरसञ्चिकां चिनोतु"
+
+#: qml/VerifyPage.qml:177
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "अत्र वस्तूनि सत्यापयितुं कर्षन्तु"
