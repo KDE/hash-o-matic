@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-26 00:41+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-12-13 19:10+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit\n"
@@ -139,8 +139,8 @@ msgstr "भवतः सञ्चिकानां कृते हैश्स
 
 #: main.cpp:103
 #, kde-format
-msgid "(c) KDE Community 2021"
-msgstr "(ग) केडीई समुदाय २०२१"
+msgid "© 2021-2024 KDE Community"
+msgstr ""
 
 #: main.cpp:104
 #, kde-format
@@ -290,7 +290,7 @@ msgctxt "@action:inmenu"
 msgid "View"
 msgstr "दृश्यं"
 
-#: qml/GlobalMenu.qml:41 qml/Main.qml:83
+#: qml/GlobalMenu.qml:41 qml/Main.qml:71
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
@@ -306,18 +306,18 @@ msgstr "तूल"
 msgid "Verify"
 msgstr "सत्यापन"
 
-#: qml/Main.qml:66
+#: qml/Main.qml:54
 #, kde-format
 msgid "About"
 msgstr "विषये"
 
-#: qml/Main.qml:90
+#: qml/Main.qml:78
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
 msgstr "तूल"
 
-#: qml/Main.qml:97
+#: qml/Main.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
@@ -383,3 +383,6 @@ msgstr "हस्ताक्षरसञ्चिकां चिनोतु"
 #, kde-format
 msgid "Drag items here to verify them"
 msgstr "अत्र वस्तूनि सत्यापयितुं कर्षन्तु"
+
+#~ msgid "(c) KDE Community 2021"
+#~ msgstr "(ग) केडीई समुदाय २०२१"
