@@ -1,34 +1,30 @@
-# Translation for hashomatic.po to Euskara/Basque (eu).
-# Copyright (C) 2023-2024 This file is copyright:
+# Hindi translations for hash-o-matic package.
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the hash-o-matic package.
-# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# Kali <EMAIL@ADDRESS>, 2024.
 #
-# Translators:
-# SPDX-FileCopyrightText: 2023, 2024 Iñigo Salvador Azurmendi <xalba@ni.eus>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-15 10:44+0100\n"
-"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
-"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
-"Language: eu\n"
+"PO-Revision-Date: 2024-12-15 17:36+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Iñigo Salvador Azurmendi"
+msgstr "तुम्हारे नाम"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "xalba@ni.eus"
+msgstr "आपके ईमेल"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -37,222 +33,217 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
-"Fitxategia hori «VS-NfD»rekin etorkor sinatu da <a href=\"%1\">%2</a> gakoa "
-"erabiliz."
+"इस फ़ाइल को <a href=\"%1\">%2</a> कुंजी का उपयोग करके VS-NfD अनुरूप हस्ताक्षरित किया "
+"गया है।"
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr "Fitxategi hori <a href=\"%1\">%2</a> gakoa erabiliz sinatu da."
+msgstr ""
+"इस फ़ाइल को कुंजी <a href=\"%1\">%2 का</a> उपयोग करके हस्ताक्षरित किया गया है।"
 
 #: hashhelper.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr "Gakoaren xehetasuna ez daude erabilgarri."
+msgstr "मुख्य विवरण उपलब्ध नहीं हैं।"
 
 #: hashhelper.cpp:77
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr "Fitxategia hori, %1(e)k, «VS-NfD»rekin etorkor sinatu du."
+msgstr "यह फ़ाइल %1 द्वारा VS-NfD अनुरूप हस्ताक्षरित है।"
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr "Fitxategi hori %1(e)k sinatu du."
+msgstr "इस फ़ाइल पर %1 द्वारा हस्ताक्षर किये गये हैं।"
 
 #: hashhelper.cpp:82
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr "<a href=\"%1\">Gakoa</a> indargabetuta zegoen."
+msgstr "<a href=\"%1\">चाबी</a> वापस ले ली गई।"
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr "<a href=\"%1\">Gakoa</a> iraungita zegoen."
+msgstr "<a href=\"%1\">चाबी की</a> समय सीमा समाप्त हो चुकी थी।"
 
 #: hashhelper.cpp:89
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
-msgstr ""
-"Sinadura baliozkoa da, baina <a href=\"%1\">gakoaren</a> baliozkotasuna "
-"ezezaguna da."
+msgstr "हस्ताक्षर वैध है, लेकिन <a href=\"%1\">कुंजी</a> की वैधता अज्ञात है।"
 
 #: hashhelper.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
-msgstr ""
-"Sinadura baliozkoa da eta <a href=\"%1\">gakoak</a> bazterreko konfiantza du."
+msgstr "हस्ताक्षर वैध है और <a href=\"%1\">कुंजी</a> थोड़ी विश्वसनीय है।"
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
-msgstr ""
-"Sinadura baliozkoa da eta <a href=\"%1\">gakoak</a> konfiantza osoa du."
+msgstr "हस्ताक्षर वैध है और <a href=\"%1\">कुंजी</a> पूर्णतः विश्वसनीय है।"
 
 #: hashhelper.cpp:95
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
-msgstr ""
-"Sinadura baliozkoa da, eta <a href=\"%1\">gakoak</a> erabateko konfiantza du."
+msgstr "हस्ताक्षर वैध है और <a href=\"%1\">कुंजी</a> अंततः विश्वसनीय है।"
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
-msgstr ""
-"Sinadura baliozkoa da, baina <a href=\"%1\">gakoak</a> ez du konfiantzarik."
+msgstr "हस्ताक्षर वैध है, लेकिन <a href=\"%1\">कुंजी</a> अविश्वसनीय है।"
 
 #: hashhelper.cpp:101
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr "Sinadura baliogabea da."
+msgstr "हस्ताक्षर अवैध है."
 
 #: hashhelper.cpp:159
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ", "
+msgstr ","
 
 #: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr "«Hash-o-matic»ek ez du direktorioen euskarririk."
+msgstr "हैश-ओ-मैटिक निर्देशिकाओं का समर्थन नहीं करता है।"
 
 #: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr "Fitxategia ez dago edo ez da irakurgarria."
+msgstr "फ़ाइल मौजूद नहीं है या पढ़ने योग्य नहीं है."
 
 #: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr "Hash-o-matic"
+msgstr "हैश-ओ-मैटिक"
 
 #: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
-msgstr "Egiaztatu zure fitxategietarako «hash»ak"
+msgstr "अपनी फ़ाइलों के लिए हैश जाँचें"
 
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr "© 2021-2024 KDE Komunitatea"
+msgstr "© 2021-2024 केडीई समुदाय"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr "कार्ल स्वान"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr "Mantentzailea"
+msgstr "मेंटेनर"
 
 #: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
-msgstr "Sortu fitxategiarentzako «hash»ak"
+msgstr "फ़ाइल के लिए हैश उत्पन्न करें"
 
 #: main.cpp:110
 #, kde-format
 msgid "Local file url"
-msgstr "Fitxategi lokalaren URL"
+msgstr "स्थानीय फ़ाइल यूआरएल"
 
 #: qml/ComparePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr "Alderatu fitxategiak"
+msgstr "फ़ाइलों की तुलना करें"
 
 #: qml/ComparePage.qml:27
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr "Alderatu bi fitxategi"
+msgstr "दो फ़ाइलों की तुलना करें"
 
 #: qml/ComparePage.qml:40
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr "1. fitxategia"
+msgstr "फ़ाइल 1"
 
 #: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
 #: qml/VerifyPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr "Aukeratu fitxategia"
+msgstr "फ़ाइल चुनें"
 
 #: qml/ComparePage.qml:60
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr "2. fitxategia"
+msgstr "फ़ाइल 2"
 
 #: qml/ComparePage.qml:99
 #, kde-format
 msgid "They match!"
-msgstr "Bat datoz!"
+msgstr "उनका मिलान होता है!"
 
 #: qml/ComparePage.qml:99
 #, kde-format
 msgid "They don't match!"
-msgstr "Ez datoz bat!"
+msgstr "वे मेल नहीं खाते!"
 
 #: qml/ComparePage.qml:153 qml/ComparePage.qml:166
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr "Arrastatu fitxategia hona hura parekatzeko"
+msgstr "तुलना करने के लिए फ़ाइल को यहां खींचें"
 
 #: qml/GeneratePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr "Sortu «hash»a"
+msgstr "हैश उत्पन्न करें"
 
 #: qml/GeneratePage.qml:27
 #, kde-format
 msgid "Display Checksums"
-msgstr "Azaldu egiaztapen-baturak"
+msgstr "चेकसम प्रदर्शित करें"
 
 #: qml/GeneratePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr "«Hash»ak"
+msgstr "हैश"
 
 #: qml/GeneratePage.qml:65
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr "MD5:"
+msgstr "एमडी5:"
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr "Copyatu hash"
+msgstr "हैश कॉपी करें"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr "«Hash»a arbelera kopiatu da"
+msgstr "हैश को क्लिपबोर्ड में कॉपी किया गया"
 
 #: qml/GeneratePage.qml:80
 #, kde-format
@@ -269,131 +260,128 @@ msgstr "SHA256:"
 #: qml/GeneratePage.qml:130
 #, kde-format
 msgid "Drag items here to share them"
-msgstr "Arrastatu elementua hona haiek partekatzeko"
+msgstr "आइटम को साझा करने के लिए उन्हें यहां खींचें"
 
 #: qml/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr "Fitxategia"
+msgstr "फ़ाइल"
 
 #: qml/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr "Ireki…"
+msgstr "खुला…"
 
 #: qml/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr "«Hash-o-matic»eri buruz"
+msgstr "हैश-ओ-मैटिक के बारे में"
 
 #: qml/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr "Irten"
+msgstr "छोड़ना"
 
 #: qml/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr "Ikuspegia"
+msgstr "देखना"
 
 #: qml/GlobalMenu.qml:41 qml/Main.qml:71
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr "Sortu"
+msgstr "उत्पन्न"
 
 #: qml/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr "Alderatu"
+msgstr "तुलना करना"
 
 #: qml/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr "Egiaztatu"
+msgstr "सत्यापित करें"
 
 #: qml/Main.qml:54
 #, kde-format
 msgid "About"
-msgstr "Honi buruz"
+msgstr "के बारे में"
 
 #: qml/Main.qml:78
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr "Alderatu"
+msgstr "तुलना करना"
 
 #: qml/Main.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr "Egiaztatu"
+msgstr "सत्यापित करें"
 
 #: qml/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr "Egiaztatu  «hash»"
+msgstr "हैश सत्यापित करें"
 
 #: qml/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr "Egiaztatu egiaztapen-baturak eta sinadurak"
+msgstr "चेकसम और हस्ताक्षर सत्यापित करें"
 
 #: qml/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
-msgstr "Egiaztatu egiaztapen-baturak"
+msgstr "चेकसम सत्यापित करें"
 
 #: qml/VerifyPage.qml:40
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr "Fitxategia"
+msgstr "फ़ाइल"
 
 #: qml/VerifyPage.qml:60
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr "Egiaztapen-batura egiaztatzea"
+msgstr "चेकसम सत्यापन"
 
 #: qml/VerifyPage.qml:67
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr "Egiaztapen-batura"
+msgstr "अंततः,"
 
 #: qml/VerifyPage.qml:91
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr "Egiaztapen-batura fitxategiarekin bat dator!"
+msgstr "फ़ाइल के साथ चेकसम मिलान!"
 
 #: qml/VerifyPage.qml:91
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr "Egiaztapen-batura ez dator fitxategiarekin bat!"
+msgstr "चेकसम फ़ाइल से मेल नहीं खाता!"
 
 #: qml/VerifyPage.qml:97
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr "Sinadura egiaztapena"
+msgstr "हस्ताक्षर सत्यापन"
 
 #: qml/VerifyPage.qml:104
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr "Aukeratu sinadura-fitxategia"
+msgstr "हस्ताक्षर फ़ाइल का चयन करें"
 
 #: qml/VerifyPage.qml:177
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr "Arrastatu elementuak hona haiek egiaztatzeko"
-
-#~ msgid "(c) KDE Community 2021"
-#~ msgstr "(c) KDE Komunitatea 2021"
+msgstr "आइटम को सत्यापित करने के लिए उन्हें यहां खींचें"
