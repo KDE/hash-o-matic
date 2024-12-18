@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-06-26 10:41+0200\n"
+"PO-Revision-Date: 2024-12-17 12:22+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -151,7 +151,7 @@ msgstr "Verifica hashes per tu files"
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr ""
+msgstr "© 2021-2024 Communitate de KDE"
 
 #: main.cpp:104
 #, kde-format
