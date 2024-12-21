@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the hash-o-matic package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -232,7 +234,7 @@ msgstr "हशः"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr "एमडी५: १."
+msgstr "एमडी५:"
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
@@ -248,13 +250,13 @@ msgstr "हैश क्लिप्बोर्ड् मध्ये प्र
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr "शा१: १."
+msgstr "शा१:"
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr "शा२५६: १."
+msgstr "शा२५६:"
 
 #: qml/GeneratePage.qml:130
 #, kde-format
