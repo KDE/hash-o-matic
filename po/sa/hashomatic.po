@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-24 20:39+0530\n"
+"PO-Revision-Date: 2024-12-25 19:37+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -267,7 +267,7 @@ msgstr "अत्र वस्तूनि कर्षयन्तु तान
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr "संचिका"
+msgstr "सञ्चिका"
 
 #: qml/GlobalMenu.qml:18
 #, kde-format
@@ -346,7 +346,7 @@ msgstr "चेकसमस्य सत्यापनम्"
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr "संचिका"
+msgstr "सञ्चिका"
 
 #: qml/VerifyPage.qml:60
 #, kde-format
