@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-06-28 16:51+0200\n"
+"PO-Revision-Date: 2024-12-28 17:41+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -149,7 +149,7 @@ msgstr "Kontroli haketkodojn por viaj dosieroj"
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr ""
+msgstr "© 2021-2024 KDE-Komunumo"
 
 #: main.cpp:104
 #, kde-format
