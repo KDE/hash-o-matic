@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2023-10-04 01:40+0000\n"
+"PO-Revision-Date: 2025-01-12 22:50+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,16 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "<>"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -35,42 +36,44 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
+"Šis failas, suderinamas su VS-NfD, pasirašytas naudojant raktą <a href="
+"\"%1\">%2</a>."
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr ""
+msgstr "Šis failas pasirašytas naudojant raktą <a href=\"%1\">%2</a>."
 
 #: hashhelper.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr ""
+msgstr "Išsamesnė informacija apie raktą yra neprieinama."
 
 #: hashhelper.cpp:77
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr ""
+msgstr "Šį failą, suderinamą su VS-NfD, pasirašė %1."
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr ""
+msgstr "Failą pasirašė %1."
 
 #: hashhelper.cpp:82
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr ""
+msgstr "<a href=\"%1\">Raktas</a> buvo panaikintas."
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr ""
+msgstr "<a href=\"%1\">Raktas</a> negaliojo."
 
 #: hashhelper.cpp:89
 #, kde-format
@@ -78,19 +81,20 @@ msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
 msgstr ""
+"Parašas galioja, bet <a href=\"%1\">rakto</a> galiojimas yra nežinomas."
 
 #: hashhelper.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
-msgstr ""
+msgstr "Parašas galioja, o <a href=\"%1\">raktas</a> yra minimaliai patikimas."
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
-msgstr ""
+msgstr "Parašas galioja, o <a href=\"%1\">raktas</a> yra visiškai patikimas."
 
 #: hashhelper.cpp:95
 #, kde-format
@@ -98,289 +102,290 @@ msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
 msgstr ""
+"Parašas galioja, o <a href=\"%1\">raktas</a> yra is аbsoliučiai patikimas."
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
-msgstr ""
+msgstr "Parašas galioja, bet <a href=\"%1\">raktas</a> yra nepatikimas."
 
 #: hashhelper.cpp:101
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr ""
+msgstr "Parašas negalioja."
 
 #: hashhelper.cpp:159
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr ""
+msgstr "Hash-o-matic nepalaiko katalogų."
 
 #: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr ""
+msgstr "Šio failo nėra arba jis neperskaitomas."
 
 #: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr ""
+msgstr "Hash-o-matic"
 
 #: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
-msgstr ""
+msgstr "Tikrinti failų maišas"
 
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr ""
+msgstr "© 2021–2024 KDE bendruomenė"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Prižiūrėtojas"
 
 #: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
-msgstr ""
+msgstr "Generuoti failų maišas"
 
 #: main.cpp:110
 #, kde-format
 msgid "Local file url"
-msgstr ""
+msgstr "Vietinio failo URL"
 
 #: qml/ComparePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr ""
+msgstr "Palyginti failus"
 
 #: qml/ComparePage.qml:27
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr ""
+msgstr "Palyginti du failus"
 
 #: qml/ComparePage.qml:40
 #, kde-format
 msgctxt "@title:group"
 msgid "File 1"
-msgstr ""
+msgstr "Failas 1"
 
 #: qml/ComparePage.qml:46 qml/ComparePage.qml:66 qml/GeneratePage.qml:43
 #: qml/VerifyPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr ""
+msgstr "Pasirinkti failą"
 
 #: qml/ComparePage.qml:60
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr ""
+msgstr "Failas 2"
 
 #: qml/ComparePage.qml:99
 #, kde-format
 msgid "They match!"
-msgstr ""
+msgstr "Jie sutampa!"
 
 #: qml/ComparePage.qml:99
 #, kde-format
 msgid "They don't match!"
-msgstr ""
+msgstr "Jie nesutampa!"
 
 #: qml/ComparePage.qml:153 qml/ComparePage.qml:166
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr ""
+msgstr "Tempkite failą čia norėdami jį palyginti"
 
 #: qml/GeneratePage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr ""
+msgstr "Generuoti maišą"
 
 #: qml/GeneratePage.qml:27
 #, kde-format
 msgid "Display Checksums"
-msgstr ""
+msgstr "Rodyti kontrolines sumas"
 
 #: qml/GeneratePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr ""
+msgstr "Maišos"
 
 #: qml/GeneratePage.qml:65
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5:"
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "Kopijuoti maišą"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr ""
+msgstr "Maiša nukopijuota į iškarpinę"
 
 #: qml/GeneratePage.qml:80
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256:"
 
 #: qml/GeneratePage.qml:130
 #, kde-format
 msgid "Drag items here to share them"
-msgstr ""
+msgstr "Tempkite elementus čia norėdami juos bendrinti"
 
 #: qml/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr ""
+msgstr "Failas"
 
 #: qml/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr ""
+msgstr "Atverti…"
 
 #: qml/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr ""
+msgstr "Apie Hash-o-matic"
 
 #: qml/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "Išjungti"
 
 #: qml/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr ""
+msgstr "Rodinys"
 
 #: qml/GlobalMenu.qml:41 qml/Main.qml:71
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr ""
+msgstr "Generuoti"
 
 #: qml/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr ""
+msgstr "Palyginti"
 
 #: qml/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr ""
+msgstr "Tikrinti"
 
 #: qml/Main.qml:54
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: qml/Main.qml:78
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr ""
+msgstr "Palyginti"
 
 #: qml/Main.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr ""
+msgstr "Tikrinti"
 
 #: qml/VerifyPage.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr ""
+msgstr "Tikrinti maišą"
 
 #: qml/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr ""
+msgstr "Tikrinti kontrolines sumas ir parašus"
 
 #: qml/VerifyPage.qml:26
 #, kde-format
 msgid "Verify checksums"
-msgstr ""
+msgstr "Tikrinti kontrolines sumas"
 
 #: qml/VerifyPage.qml:40
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr ""
+msgstr "Failas"
 
 #: qml/VerifyPage.qml:60
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr ""
+msgstr "Kontrolinės sumos tikrinimas"
 
 #: qml/VerifyPage.qml:67
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr ""
+msgstr "Kontrolinė suma"
 
 #: qml/VerifyPage.qml:91
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr ""
+msgstr "Kontrolinė suma sutampa su failo kontroline suma!"
 
 #: qml/VerifyPage.qml:91
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr ""
+msgstr "Kontrolinė suma nesutampa su failo kontroline suma!"
 
 #: qml/VerifyPage.qml:97
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr ""
+msgstr "Parašo tikrinimas"
 
 #: qml/VerifyPage.qml:104
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr ""
+msgstr "Pasirinkti parašo failą"
 
 #: qml/VerifyPage.qml:177
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr ""
+msgstr "Tempkite elementus čia norėdami juos tikrinti"
