@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "您的名字："
+msgstr "KDE 中国, Li Zi, Eric Zhao"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "您的电子邮箱"
+msgstr "kde-china@kde.org, , zxybbb7892020@outlook.com"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -33,76 +33,76 @@ msgctxt "@label"
 msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
-msgstr ""
+msgstr "此文件已使用密钥 <a href=\"%1\">%2</a>进行 VS-NfD 签名。"
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr ""
+msgstr "此文件已使用密钥 <a href=\"%1\">%2</a> 进行签名。"
 
 #: hashhelper.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr ""
+msgstr "无法获取密钥详情。"
 
 #: hashhelper.cpp:77
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr ""
+msgstr "该文件为符合 VS-NfD 标准已由 %1 签名。"
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr ""
+msgstr "该文件已由 %1 签名。"
 
 #: hashhelper.cpp:82
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr ""
+msgstr "该 <a href=\"%1\">密钥</a> 已被撤销。"
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr ""
+msgstr "该 <a href=\"%1\">密钥</a> 已过期。"
 
 #: hashhelper.cpp:89
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
-msgstr ""
+msgstr "签名有效，但 <a href=\"%1\">密钥</a>'的有效性未知。"
 
 #: hashhelper.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
-msgstr ""
+msgstr "签名有效，且 <a href=\"%1\">密钥</a> 的可信度较低。"
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
-msgstr ""
+msgstr "签名有效，且 <a href=\"%1\">密钥</a> 完全可信。"
 
 #: hashhelper.cpp:95
 #, kde-format
 msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
-msgstr ""
+msgstr "签名有效，且 <a href=\"%1\">密钥</a> 最终值得可信。"
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
-msgstr ""
+msgstr "签名有效，但 <a href=\"%1\">密钥</a> 不受信任。"
 
 #: hashhelper.cpp:101
 #, kde-format
@@ -114,55 +114,55 @@ msgstr "此签名无效。"
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr ""
+msgstr "Hash-o-matic 不支持目录。"
 
 #: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr ""
+msgstr "所选文件不存在或无法读取。"
 
 #: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr ""
+msgstr "Hash-o-matic"
 
 #: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
-msgstr ""
+msgstr "检查您文件的哈希值"
 
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr ""
+msgstr "© 2021-2024 KDE Community"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "维护人员"
 
 #: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
-msgstr ""
+msgstr "生成文件哈希值"
 
 #: main.cpp:110
 #, kde-format
 msgid "Local file url"
-msgstr ""
+msgstr "本地文件链接"
 
 #: qml/ComparePage.qml:15
 #, kde-format
@@ -198,12 +198,12 @@ msgstr "文件 2"
 #: qml/ComparePage.qml:99
 #, kde-format
 msgid "They match!"
-msgstr "它们匹配!"
+msgstr "它们匹配！"
 
 #: qml/ComparePage.qml:99
 #, kde-format
 msgid "They don't match!"
-msgstr "它们不匹配!"
+msgstr "它们不匹配！"
 
 #: qml/ComparePage.qml:153 qml/ComparePage.qml:166
 #, kde-format
@@ -231,12 +231,12 @@ msgstr "哈希值"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5："
 
 #: qml/GeneratePage.qml:68 qml/GeneratePage.qml:83 qml/GeneratePage.qml:98
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "复制哈希值"
 
 #: qml/GeneratePage.qml:72 qml/GeneratePage.qml:87 qml/GeneratePage.qml:102
 #, kde-format
@@ -247,13 +247,13 @@ msgstr "哈希值已复制到剪贴板"
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1："
 
 #: qml/GeneratePage.qml:95
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256："
 
 #: qml/GeneratePage.qml:130
 #, kde-format
@@ -270,13 +270,13 @@ msgstr "文件"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr "打开文件…"
+msgstr "打开..."
 
 #: qml/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr "关于哈希值"
+msgstr "关于 Hash-o-matic"
 
 #: qml/GlobalMenu.qml:30
 #, kde-format
