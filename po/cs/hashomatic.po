@@ -385,6 +385,3 @@ msgstr ""
 #, kde-format
 msgid "Drag items here to verify them"
 msgstr ""
-
-#~ msgid "(c) KDE Community 2021"
-#~ msgstr "(c) Komunita KDE 2021"
