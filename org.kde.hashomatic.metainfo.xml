@@ -170,7 +170,7 @@
     <p xml:lang="tr">Bu araç bunu çözmeyi amaçlamaktadır. Haşmatik, yalın ve temiz bir kullanıcı arayüzü ile, her yaş ve deneyim grubundan herkesin MD5, SHA-256 ve SHA-1 sağlamalarını oluşturmasına, karşılaştırmasına ve doğrulamasına olanak tanır.</p>
     <p xml:lang="uk">Цю програму призначено для усування проблеми ідентичності. Hash-o-matic має простий і незахаращений інтерфейс, за допомогою якого будь-хто, з будь-яким рівнем досвіду, будь-якого віку, зможе створити і перевірити хеш-суми MD5, SHA-256 і SHA-1.</p>
     <p xml:lang="x-test">xxThis tool aims to solve that. Hash-o-matic comes with a simple &amp; clean UI, allowing anyone, from any age and experience group, to generate, compare and verify MD5, SHA-256 and SHA-1 hashes.xx</p>
-    <p xml:lang="zh-CN">该工具旨在解决这一问题。Hash-o-matic拥有简洁明了的用户界面，无论年龄大小、经验多寡，任何人都能借此生成、比较和验证MD5、SHA-256以及SHA-1哈希值。 </p>
+    <p xml:lang="zh-CN">该工具旨在解决这一问题。Hash-o-matic 拥有简洁明了的用户界面，无论年龄大小、经验多寡，任何人都能借此生成、比较和验证 MD5、SHA-256 以及 SHA-1 哈希值。 </p>
     <p xml:lang="zh-TW">這個工具嘗試要解決這個問題。Hash-o-matic 利用簡潔的介面讓任何人不論年齡或經驗都能產生、比對並驗證 MD5、SHA-256 或 ShA-1 雜湊值。</p>
     <p>
       Hash-o-Matic also support verifying a file with the help of a PGP signature.
