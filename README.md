@@ -19,5 +19,5 @@ This app is licensed under LGPL-2.1-or-later.
 
 ## Credit
 
-This application is largelly influenced by the great app [Hashbrown](https://apps.gnome.org/app/dev.geopjr.Hashbrown/)
+This application is largelly influenced by the great app [Collision](https://apps.gnome.org/Collision)
 written by [GeopJr](https://github.com/GeopJr).
