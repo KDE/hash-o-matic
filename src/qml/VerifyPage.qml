@@ -1,15 +1,19 @@
 // SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
+import QtCore
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+import QtQuick.Dialogs
 import org.kde.kirigami as Kirigami
-import org.kde.kirigamiaddons.formcard 1 as FormCard
+import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.hashomatic
 
 FormCard.FormCardPage {
     id: root
+
+    required property HashHelper helper
 
     title: i18nc("@title", "Verify Hash")
 
@@ -23,7 +27,7 @@ FormCard.FormCardPage {
     }
 
     Kirigami.Heading {
-        text: hashHelper.gpgAvailable ? i18n("Verify checksums and signatures") : i18n("Verify checksums")
+        text: root.helper.gpgAvailable ? i18n("Verify checksums and signatures") : i18n("Verify checksums")
         visible: text.length > 0
 
         type: Kirigami.Heading.Primary
@@ -41,18 +45,12 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormCard {
-        FormCard.FormButtonDelegate {
-            icon.name: "document-open-folder"
-            text: i18nc("@action:button", "Select file")
-            onClicked: fileDialog.open()
-        }
-
-        FormCard.FormDelegateSeparator { visible: hashHelper.md5sum.length > 0 }
-
-        FormCard.FormTextDelegate {
-            visible: hashHelper.md5sum.length > 0
-            text: hashHelper.fileName
-            icon.name: hashHelper.minetypeIcon
+        FormCard.FormFileDelegate {
+            icon.name: root.helper.file.toString().length > 0 ? root.helper.minetypeIcon : "document-open-folder"
+            label: i18nc("@action:button", "Select file")
+            currentFolder: StandardPaths.standardLocations(StandardPaths.DownloadsLocation)[0]
+            onAccepted: root.helper.file = selectedFile
+            fileMode: FileDialog.OpenFile
         }
     }
 
@@ -63,7 +61,7 @@ FormCard.FormCardPage {
     FormCard.FormCard {
         FormCard.FormTextFieldDelegate {
             id: hashField
-            enabled: hashHelper.file.toString().length  > 0
+            enabled: root.helper.file.toString().length  > 0
             label: i18nc("@label", "Checksum")
         }
     }
@@ -71,9 +69,9 @@ FormCard.FormCardPage {
     FormCard.FormCard {
         id: resultCard
         readonly property int type: {
-            if (hashHelper.sha256sum.length === 0 || hashField.text.length === 0) {
+            if (root.helper.sha256sum.length === 0 || hashField.text.length === 0) {
                 return 1;
-            } else if (hashHelper.sha256sum === hashField.text || hashField.text === hashHelper.sha1sum || hashField.text === hashHelper.md5sum) {
+            } else if (root.helper.sha256sum === hashField.text || hashField.text === root.helper.sha1sum || hashField.text === root.helper.md5sum) {
                 return 0;
             } else {
                 return 2;
@@ -83,7 +81,7 @@ FormCard.FormCardPage {
         Layout.topMargin: Kirigami.Units.gridUnit
 
         Kirigami.Theme.inherit: false
-        Kirigami.Theme.backgroundColor: type === 0 ? Kirigami.Theme.positiveBackgroundColor : Kirigami.Theme.negativeBackgroundColor
+        Kirigami.Theme.backgroundColor: type === 0 ? root.Kirigami.Theme.positiveBackgroundColor : root.Kirigami.Theme.negativeBackgroundColor
 
         visible: resultCard.type !== 1
 
@@ -93,25 +91,19 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormHeader {
-        visible: hashHelper.gpgAvailable
+        visible: root.helper.gpgAvailable
         title: i18nc("@title:group", "Signature Verification")
     }
 
     FormCard.FormCard {
-        visible: hashHelper.gpgAvailable
-        FormCard.FormButtonDelegate {
-            icon.name: "document-open-folder"
-            text: i18nc("@action:button", "Select signature file")
-            onClicked: fileDialog.open()
-            enabled: hashHelper.file.toString().length  > 0
-        }
-
-        FormCard.FormDelegateSeparator { visible: hashHelper.sigFile.toString().length > 0 }
-
-        FormCard.FormTextDelegate {
-            visible: hashHelper.sigFileName.length  > 0
-            text: hashHelper.sigFileName
-            icon.name: hashHelper.sigMinetypeIcon
+        visible: root.helper.gpgAvailable
+        FormCard.FormFileDelegate {
+            icon.name: root.helper.sigFile.toString().length > 0 ? root.helper.sigMinetypeIcon : "document-open-folder"
+            label: i18nc("@action:button", "Select signature file")
+            enabled: root.helper.file.toString().length  > 0
+            currentFolder: StandardPaths.standardLocations(StandardPaths.DownloadsLocation)[0]
+            onAccepted: root.helper.sigFile = selectedFile
+            fileMode: FileDialog.OpenFile
         }
     }
 
@@ -120,22 +112,22 @@ FormCard.FormCardPage {
 
         Layout.topMargin: Kirigami.Units.gridUnit
 
-        readonly property bool isValid: hashHelper.signatureInfo.keyId
-            && !hashHelper.signatureInfo.keyExpired
-            && !hashHelper.signatureInfo.keyMissing
-            && !hashHelper.signatureInfo.keyRevoked
-            && !hashHelper.signatureInfo.sigExpired
-            && !hashHelper.signatureInfo.crlMissing
-            && !hashHelper.signatureInfo.crlTooOld
+        readonly property bool isValid: root.helper.signatureInfo.keyId
+            && !root.helper.signatureInfo.keyExpired
+            && !root.helper.signatureInfo.keyMissing
+            && !root.helper.signatureInfo.keyRevoked
+            && !root.helper.signatureInfo.sigExpired
+            && !root.helper.signatureInfo.crlMissing
+            && !root.helper.signatureInfo.crlTooOld
 
         Kirigami.Theme.inherit: false
-        Kirigami.Theme.backgroundColor: isValid ? Kirigami.Theme.positiveBackgroundColor : Kirigami.Theme.negativeBackgroundColor
+        Kirigami.Theme.backgroundColor: isValid ? root.Kirigami.Theme.positiveBackgroundColor : root.Kirigami.Theme.negativeBackgroundColor
 
-        visible: hashHelper.hasSignature
+        visible: root.helper.hasSignature
 
         FormCard.FormTextDelegate {
             id: details
-            text: hashHelper.signatureInfo.details
+            text: root.helper.signatureInfo.details
             textItem.wrapMode: Text.WordWrap
             textItem.elide: Text.ElideNone
 
@@ -154,7 +146,7 @@ FormCard.FormCardPage {
             anchors.fill: parent
             parent: root
             onDropped: if (drop.urls.length > 0) {
-                hashHelper.file = drop.urls[0];
+                root.helper.file = drop.urls[0];
             } else if (drop.hasText) {
                 hashField.text = drop.text;
             }

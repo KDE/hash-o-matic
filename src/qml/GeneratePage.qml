@@ -1,16 +1,19 @@
 // SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
+import QtCore
 import QtQuick
+import QtQuick.Dialogs
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
-import org.kde.kirigamiaddons.formcard 1 as FormCard
+import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.hashomatic
-import Qt.labs.platform
 
 FormCard.FormCardPage {
     id: root
+
+    required property HashHelper helper
 
     title: i18nc("@title", "Generate Hash")
 
@@ -38,37 +41,31 @@ FormCard.FormCardPage {
     FormCard.FormCard {
         Layout.topMargin: Kirigami.Units.largeSpacing * 4
 
-        FormCard.FormButtonDelegate {
-            icon.name: "document-open-folder"
-            text: i18nc("@action:button", "Select file")
-            onClicked: fileDialog.open()
-        }
-
-        FormCard.FormDelegateSeparator { visible: hashHelper.md5sum.length > 0 }
-
-        FormCard.FormTextDelegate {
-            visible: hashHelper.md5sum.length > 0
-            text: hashHelper.fileName
-            icon.name: hashHelper.minetypeIcon
+        FormCard.FormFileDelegate {
+            label: i18nc("@action:button", "Select file")
+            icon.name: root.helper.file.toString().length > 0 ? root.helper.minetypeIcon : "document-open-folder"
+            currentFolder: StandardPaths.standardLocations(StandardPaths.DocumentsLocation)[0]
+            onAccepted: root.helper.file = selectedFile
+            fileMode: FileDialog.OpenFile
         }
     }
 
     FormCard.FormHeader {
         title: i18nc("@title:group", "Hashes")
-        visible: hashHelper.md5sum.length > 0
+        visible: root.helper.md5sum.length > 0
     }
 
     FormCard.FormCard {
-        visible: hashHelper.md5sum.length > 0
+        visible: root.helper.md5sum.length > 0
 
         FormCard.FormTextDelegate {
             text: i18nc("Hashing algorithm", "MD5:")
-            description: hashHelper.md5sum
+            description: root.helper.md5sum
             trailing: QQC2.Button {
                 text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
-                    Clipboard.saveText(hashHelper.md5sum);
+                    Clipboard.saveText(root.helper.md5sum);
                     applicationWindow().showPassiveNotification(i18n("Hash copied into the clipboard"), "short");
                 }
             }
@@ -78,12 +75,12 @@ FormCard.FormCardPage {
 
         FormCard.FormTextDelegate {
             text: i18nc("Hashing algorithm", "SHA1:")
-            description: hashHelper.sha1sum
+            description: root.helper.sha1sum
             trailing: QQC2.Button {
                 text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
-                    Clipboard.saveText(hashHelper.sha1sum);
+                    Clipboard.saveText(root.helper.sha1sum);
                     applicationWindow().showPassiveNotification(i18n("Hash copied into the clipboard"), "short");
                 }
             }
@@ -93,12 +90,12 @@ FormCard.FormCardPage {
 
         FormCard.FormTextDelegate {
             text: i18nc("Hashing algorithm", "SHA256:")
-            description: hashHelper.sha256sum
+            description: root.helper.sha256sum
             trailing: QQC2.Button {
                 text: i18n("Copy hash")
                 icon.name: 'edit-copy'
                 onClicked: {
-                    Clipboard.saveText(hashHelper.sha256sum);
+                    Clipboard.saveText(root.helper.sha256sum);
                     applicationWindow().showPassiveNotification(i18n("Hash copied into the clipboard"), "short");
                 }
             }
@@ -110,7 +107,7 @@ FormCard.FormCardPage {
             id: dropAreaFile
             parent: root
             anchors.fill: parent
-            onDropped: hashHelper.file = drop.urls[0]
+            onDropped: root.helper.file = drop.urls[0]
         },
 
         QQC2.Popup {

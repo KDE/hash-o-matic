@@ -49,46 +49,43 @@ Kirigami.ApplicationWindow {
         titleIcon: "applications-graphics"
         isMenu: enabled
         enabled: !Kirigami.Settings.hasPlatformMenuBar
-        actions: Kirigami.PagePoolAction {
-            id: aboutAction
+        actions: Kirigami.Action {
             text: i18n("About")
-            icon.name: "help-about"
-            page: './AboutPage.qml'
-            pagePool: mainPagePool
-            checkable: false
-            useLayers: true
+            icon.name: "help-about-symbolic"
+            onTriggered: root.pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
         }
-    }
-
-    Kirigami.PagePool {
-        id: mainPagePool
     }
 
     footer: Kirigami.NavigationTabBar {
         actions: [
-            Kirigami.PagePoolAction {
+            Kirigami.Action {
                 id: generateAction
                 text: i18nc("@action:inmenu", "Generate")
                 icon.name: "password-generate"
-                page: "./GeneratePage.qml"
-                pagePool: mainPagePool
+                onTriggered: root.pageStack.replace(Qt.createComponent("org.kde.hashomatic", "GeneratePage"), {
+                    helper: hashHelper,
+                })
             },
-            Kirigami.PagePoolAction {
+            Kirigami.Action {
                 id: compareAction
                 text: i18nc("@action:inmenu", "Compare")
                 icon.name: "kompare"
-                page: "./ComparePage.qml"
-                pagePool: mainPagePool
+                onTriggered: root.pageStack.replace(Qt.createComponent("org.kde.hashomatic", "ComparePage"), {
+                    helper: hashHelper,
+                })
             },
-            Kirigami.PagePoolAction {
+            Kirigami.Action {
                 id: verifyAction
                 text: i18nc("@action:inmenu", "Verify")
                 icon.name: "document-edit-decrypt-verify"
-                page: "./VerifyPage.qml"
-                pagePool: mainPagePool
+                onTriggered: root.pageStack.replace(Qt.createComponent("org.kde.hashomatic", "VerifyPage"), {
+                    helper: hashHelper,
+                })
             }
         ]
     }
 
-    pageStack.initialPage: mainPagePool.loadPage('./GeneratePage.qml')
+    pageStack.initialPage: GeneratePage {
+        helper: hashHelper
+    }
 }

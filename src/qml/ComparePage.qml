@@ -1,16 +1,19 @@
 // SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
+import QtCore
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+import QtQuick.Dialogs
 import org.kde.kirigami as Kirigami
-import org.kde.kirigamiaddons.formcard 1 as FormCard
+import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.hashomatic
-import Qt.labs.platform
 
 FormCard.FormCardPage {
     id: root
+
+    required property HashHelper helper
 
     title: i18nc("@title", "Compare files")
 
@@ -41,18 +44,12 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormCard {
-        FormCard.FormButtonDelegate {
-            icon.name: "document-open-folder"
-            text: i18nc("@action:button", "Select file")
-            onClicked: fileDialog.open()
-        }
-
-        FormCard.FormDelegateSeparator { visible: hashHelper.md5sum.length > 0 }
-
-        FormCard.FormTextDelegate {
-            visible: hashHelper.md5sum.length > 0
-            text: hashHelper.fileName
-            icon.name: hashHelper.minetypeIcon
+        FormCard.FormFileDelegate {
+            icon.name: root.helper.file.toString().length > 0 ? root.helper.minetypeIcon : "document-open-folder"
+            label: i18nc("@action:button", "Select file")
+            currentFolder: StandardPaths.standardLocations(StandardPaths.DownloadsLocation)[0]
+            onAccepted: root.helper.file = selectedFile
+            fileMode: FileDialog.OpenFile
         }
     }
 
@@ -61,27 +58,21 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormCard {
-        FormCard.FormButtonDelegate {
-            icon.name: "document-open-folder"
-            text: i18nc("@action:button", "Select file")
-            onClicked: fileDialog2.open()
-        }
-
-        FormCard.FormDelegateSeparator { visible: hashHelper.md5sum.length > 0 }
-
-        FormCard.FormTextDelegate {
-            visible: hashHelper2.md5sum.length > 0
-            text: hashHelper2.fileName
-            icon.name: hashHelper2.minetypeIcon
+        FormCard.FormFileDelegate {
+            icon.name: hashHelper2.file.toString().length > 0 ? hashHelper2.minetypeIcon : "document-open-folder"
+            label: i18nc("@action:button", "Select file")
+            currentFolder: StandardPaths.standardLocations(StandardPaths.DownloadsLocation)[0]
+            onAccepted: hashHelper2.file = selectedFile
+            fileMode: FileDialog.OpenFile
         }
     }
 
     FormCard.FormCard {
         id: resultCard
         readonly property int type: {
-            if (hashHelper.sha256sum === "" || hashHelper2.sha256sum === "") {
+            if (root.helper.sha256sum === "" || hashHelper2.sha256sum === "") {
                 return 1;
-            } else if (hashHelper2.sha256sum === hashHelper.sha256sum) {
+            } else if (hashHelper2.sha256sum === root.helper.sha256sum) {
                 return 0;
             } else {
                 return 2;
@@ -91,7 +82,7 @@ FormCard.FormCardPage {
         Layout.topMargin: Kirigami.Units.gridUnit
 
         Kirigami.Theme.inherit: false
-        Kirigami.Theme.backgroundColor: type === 0 ? Kirigami.Theme.positiveBackgroundColor : Kirigami.Theme.negativeBackgroundColor
+        Kirigami.Theme.backgroundColor: type === 0 ? root.Kirigami.Theme.positiveBackgroundColor : root.Kirigami.Theme.negativeBackgroundColor
 
         visible: resultCard.type !== 1
 
@@ -106,18 +97,12 @@ FormCard.FormCardPage {
             onErrorOccured: applicationWindow().showPassiveNotification(error, 'short')
         },
 
-        FileDialog {
-            id: fileDialog2
-            folder: StandardPaths.writableLocation(StandardPaths.DownloadsLocation)
-            onAccepted: hashHelper2.file = currentFile
-        },
-
         DropArea {
             id: dropAreaFile1
             parent: root
             height: parent.height / 2
             width: parent.width
-            onDropped: hashHelper.file = drop.urls[0]
+            onDropped: root.helper.file = drop.urls[0]
         },
 
         DropArea {
@@ -151,8 +136,8 @@ FormCard.FormCardPage {
                         anchors.centerIn: parent
                         width: parent.width - (Kirigami.Units.largeSpacing * 4)
                         text: i18n("Drag file here to compare it")
-                        explanation: hashHelper.md5sum.length > 0 ? hashHelper.fileName : ''
-                        icon.name: hashHelper.md5sum === "" ? "document-open-folder" : hashHelper.minetypeIcon
+                        explanation: root.helper.md5sum.length > 0 ? root.helper.fileName : ''
+                        icon.name: root.helper.md5sum === "" ? "document-open-folder" : root.helper.minetypeIcon
                     }
                 }
                 QQC2.Pane {
