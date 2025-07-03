@@ -74,6 +74,12 @@ set_package_properties(Gpgmepp PROPERTIES
     TYPE OPTIONAL
     PURPOSE "QGpgME is required for OpenPGP support"
 )
+
+find_package(KF6KirigamiAddons 1.9.0)
+set_package_properties(KF6KirigamiAddons PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required application components and runtime dependency"
+)
 add_subdirectory(src)
 
 ki18n_install(po)
