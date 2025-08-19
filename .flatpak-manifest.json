@@ -61,7 +61,7 @@
                 {
                     "type": "git",
                     "url": "https://invent.kde.org/pim/libkleo",
-                    "branch": "master"
+                    "commit": "01c4df8df133dc018175bbdcb4e832252582ebbf"
                 }
             ],
             "config-opts": [
