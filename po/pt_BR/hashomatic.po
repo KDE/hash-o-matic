@@ -1,0 +1,393 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+#
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-07-04 00:45+0000\n"
+"PO-Revision-Date: 2025-08-27 21:06-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marcus Gama"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "marcus.gama@gmail.com"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr ""
+"Este arquivo foi assinado como compatível com VS-NfD usando a chave <a href="
+"\"%1\">%2</a>."
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "Este arquivo foi assinado usando a chave <a href=\"%1\">%2</a>."
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "Os detalhes da chave não estão disponíveis."
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "Este arquivo foi assinado como compatível com VS-NfD por %1."
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "Este arquivo foi assinado por %1."
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "A <a href=\"%1\">chave</a> foi revogada."
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "A <a href=\"%1\">chave</a> expirou."
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr ""
+"A assinatura é válida, mas a validade da <a href=\"%1\">chave</a> é "
+"desconhecida."
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr ""
+"A assinatura é válida e a <a href=\"%1\">chave</a> é marginalmente confiável."
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr ""
+"A assinatura é válida e a <a href=\"%1\">chave</a> é totalmente confiável."
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr ""
+"A assinatura é válida e a <a href=\"%1\">chave</a> é definitivamente "
+"confiável."
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "A assinatura é válida, mas a <a href=\"%1\">chave</a> não é confiável."
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "A assinatura é inválida."
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: hashhelper.cpp:196
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "Hash-o-matic não suporta pastas."
+
+#: hashhelper.cpp:268
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "O arquivo não existe ou não é legível."
+
+#: main.cpp:96
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "Hash-o-matic"
+
+#: main.cpp:99
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "Verifica os hashes dos seus arquivos"
+
+#: main.cpp:103
+#, kde-format
+msgid "© 2021-2024 KDE Community"
+msgstr "© 2021-2024 Comunidade do KDE"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Mantenedor"
+
+#: main.cpp:109
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "Gera hashes para o arquivo"
+
+#: main.cpp:110
+#, kde-format
+msgid "Local file url"
+msgstr "URL do arquivo local"
+
+#: qml/ComparePage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Comparar arquivos"
+
+#: qml/ComparePage.qml:30
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Comparar dois arquivos"
+
+#: qml/ComparePage.qml:43
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "Arquivo 1"
+
+#: qml/ComparePage.qml:49 qml/ComparePage.qml:63 qml/GeneratePage.qml:45
+#: qml/VerifyPage.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Selecionar arquivo"
+
+#: qml/ComparePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "Arquivo 2"
+
+#: qml/ComparePage.qml:90
+#, kde-format
+msgid "They match!"
+msgstr "Eles correspondem!"
+
+#: qml/ComparePage.qml:90
+#, kde-format
+msgid "They don't match!"
+msgstr "Eles não correspondem!"
+
+#: qml/ComparePage.qml:138 qml/ComparePage.qml:151
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Arraste o arquivo aqui para compará-lo"
+
+#: qml/GeneratePage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Gerar hash"
+
+#: qml/GeneratePage.qml:30
+#, kde-format
+msgid "Display Checksums"
+msgstr "Exibir somas de verificação"
+
+#: qml/GeneratePage.qml:54
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "Hashes"
+
+#: qml/GeneratePage.qml:62
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr "MD5:"
+
+#: qml/GeneratePage.qml:65 qml/GeneratePage.qml:80 qml/GeneratePage.qml:95
+#, kde-format
+msgid "Copy hash"
+msgstr "Copiar hash"
+
+#: qml/GeneratePage.qml:69 qml/GeneratePage.qml:84 qml/GeneratePage.qml:99
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "O hash foi copiado para a área de transferência"
+
+#: qml/GeneratePage.qml:77
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr "SHA1:"
+
+#: qml/GeneratePage.qml:92
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr "SHA256:"
+
+#: qml/GeneratePage.qml:127
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Arraste itens aqui para compartilhá-los"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Arquivo"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Abrir…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "Sobre o Hash-o-matic"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Sair"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Exibir"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:63
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Gerar"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Comparar"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Verificar"
+
+#: qml/Main.qml:53
+#, kde-format
+msgid "About"
+msgstr "Sobre"
+
+#: qml/Main.qml:71
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "Comparar"
+
+#: qml/Main.qml:79
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "Verificar"
+
+#: qml/VerifyPage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Verificar hash"
+
+#: qml/VerifyPage.qml:30
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Verificar somas de verificação e assinaturas"
+
+#: qml/VerifyPage.qml:30
+#, kde-format
+msgid "Verify checksums"
+msgstr "Verificar somas de verificação"
+
+#: qml/VerifyPage.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Arquivo"
+
+#: qml/VerifyPage.qml:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Verificação de soma de verificação"
+
+#: qml/VerifyPage.qml:65
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Soma de verificação"
+
+#: qml/VerifyPage.qml:89
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "A soma de verificação corresponde ao arquivo!"
+
+#: qml/VerifyPage.qml:89
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "A soma de verificação não corresponde ao arquivo!"
+
+#: qml/VerifyPage.qml:95
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Verificação de assinatura"
+
+#: qml/VerifyPage.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Selecionar o arquivo de assinatura"
+
+#: qml/VerifyPage.qml:169
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Arraste os itens aqui para verificá-los"
