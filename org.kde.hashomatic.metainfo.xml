@@ -27,6 +27,7 @@
   <name xml:lang="nl">Hash-o-matic</name>
   <name xml:lang="pa">ਹੈਸ਼-ਓ-ਮੈਟਿਕ</name>
   <name xml:lang="pl">Hash-o-matic</name>
+  <name xml:lang="pt-BR">Hash-o-matic</name>
   <name xml:lang="ru">Hash-o-matic</name>
   <name xml:lang="sa">हश-ओ-मैटिक्</name>
   <name xml:lang="sk">Hash-o-matic</name>
@@ -58,6 +59,7 @@
   <summary xml:lang="nl">Hashes voor uw bestanden controleren</summary>
   <summary xml:lang="pa">ਆਪਣੀਆਂ ਫਾਇਲਾਂ ਲਈ ਹੈਸ਼ ਜਾਂਚੋ</summary>
   <summary xml:lang="pl">Sprawdzaj hasze swoich plików</summary>
+  <summary xml:lang="pt-BR">Verifica os hashes dos seus arquivos</summary>
   <summary xml:lang="sa">भवतः सञ्चिकानां कृते हैश्स् पश्यन्तु</summary>
   <summary xml:lang="sk">Skontroluje hash vašich súborov</summary>
   <summary xml:lang="sl">Preveri zgoščene vrednosti vaših datotek</summary>
@@ -106,6 +108,7 @@
     <p xml:lang="lv">Pārbaude, vai lejupielādētā vai citādi saņemtā datne ir tieši tā, kuru paredzējāt saņemt, reizēm var būt ļoti laikietilpīga. Tajā pašā laikā ir ļoti viegli nejauši saņemt datni, kuru kāds ir nedaudz pārveidojis, jo ir strauji palielinājies ļaunatūru saturošu tīmekļa vietņu un citu resursu skaits.</p>
     <p xml:lang="nl">Verifiëren dat een gedownload of ontvangen bestand echt diegene is die u verwachtte wordt vaak overgeslagen of neemt teveel tijd om te doen. Tegelijkertijd is het erg gemakkelijk geworden om aan bestand te komen waarmee gerommeld is, vanwege de massale toename van kwaadwillende webpagina's en andere actoren.</p>
     <p xml:lang="pl">Sprawdzanie czy plik, który pobrałeś lub otrzymałeś, jest tym, którego oczekiwałeś, jest zazwyczaj pomijane lub zbyt czasochłonne do zrobienia. W tym samym czasie, bardzo powszechnym stało się otrzymywanie plików, przy których ktoś "grzebał" ze względu na wzrost liczby szkodliwych stron w internecie i innych takich.</p>
+    <p xml:lang="pt-BR">Verificar se um arquivo que você baixou ou recebeu é realmente o que você esperava costuma ser ignorado ou demorado. Ao mesmo tempo, tornou-se muito fácil obter um arquivo adulterado, devido ao aumento massivo de páginas da web maliciosas e outros agentes.</p>
     <p xml:lang="sa">भवता अवतरणं प्राप्ता वा सञ्चिका वस्तुतः भवता अपेक्षिता एव इति सत्यापनं प्रायः उपेक्षितं वा अतिकालग्राहकं वा भवति । तत्सह, दुर्भावनापूर्णजालपुटानां अन्येषां च अभिनेतृणां सामूहिकवृद्धेः कारणात्, यस्याः सञ्चिकायां छेदनं कृतम् अस्ति, तस्याः हस्ते हस्तं प्राप्तुं अतीव सुलभं जातम्</p>
     <p xml:lang="sl">Preverjanje, ali je datoteka, ki ste jo prenesli ali prejeli, dejansko tista, ki ste jo pričakovali, se pogosto spregleda ali zahteva preveč časa. Hkrati je postalo zelo enostavno dobiti datoteko, ki je bila spremenjena zaradi množičnega porasta števila zlonamernih spletnih strani in drugih dejavnikov.</p>
     <p xml:lang="sv">Att verifiera att en fil du laddat ner eller tagit emot faktiskt är den du förväntade dig är ofta förbisett eller för tidskrävande att utföra. Samtidigt har det blivit väldigt enkelt att få tag på en fil som har manipulerats, på grund av den massiva ökningen av skadliga webbsidor och andra aktörer.</p>
@@ -138,6 +141,7 @@
     <p xml:lang="lv">Šī rīka uzdevums ir atrisināt šo problēmu. „Hash-o-matic“ piedāvā vienkāršu un skaidru grafisko saskarni, lai ikviens neatkarīgi no vecuma un pieredzes varētu izveidot, salīdzināt un pārbaudīt MD5, SHA-256 un SHA-1 jaucējkodus.</p>
     <p xml:lang="nl">Dit hulpmiddel is gericht op dat oplossen. Hash-o-matic komt met een eenvoudige &amp; heldere UI, waarmee iedereen, van elke leeftijd en ervaringsgroep, in staat is MD5, SHA-256 en SHA-1 hashes te generen, te vergelijken en te verifiëren.</p>
     <p xml:lang="pl">To narzędzie zostało stworzone, aby to rozwiązać.. Hash-o-matic ma prosty i czysty interfejs, umożliwiający każdemu, w dowolnym wieku i o dowolny doświadczeniu, tworzyć, porównywać i sprawdzać hasze MD5, SHA-256 oraz SHA-1.</p>
+    <p xml:lang="pt-BR">Esta ferramenta visa solucionar esse problema. O Hash-o-matic possui uma interface de usuário simples e limpa, permitindo que qualquer pessoa, de qualquer idade e nível de experiência, gere, compare e verifique hashes MD5, SHA-256 e SHA-1.</p>
     <p xml:lang="sa">तस्य समाधानं कर्तुं अस्य साधनस्य उद्देश्यम् अस्ति । Hash-o-matic सरलेन सह आगच्छति &amp; स्वच्छं UI, यत् कस्यचित्, कस्यापि आयुः अनुभवसमूहस्य च, MD5, SHA-256 तथा SHA-1 हैश्स् जनयितुं, तुलनां कर्तुं, सत्यापयितुं च अनुमतिं ददाति ।</p>
     <p xml:lang="sl">Namen tega orodja je rešiti to. Hash-o-matic ima preprost &amp; čisti uporabniški vmesnik, ki vsakomur, iz katere koli starosti in skupine izkušenj, omogoča ustvarjanje, primerjavo in preverjanje zgoščenih vrednosti MD5, SHA-256 in SHA-1.</p>
     <p xml:lang="sv">Det här verktyget har målet att lösa det. Hash-o-matic levereras med ett enkelt och rent användargränssnitt, så att alla, från alla åldrar och erfarenhetsgrupper, kan generera, jämföra och verifiera MD5-, SHA-256- och SHA-1 kondensat.</p>
@@ -168,6 +172,7 @@
     <p xml:lang="lv">„Hash-o-Matic“ atbalsta arī datņu pārbaudi ar GPG parakstu atbalstu.</p>
     <p xml:lang="nl">Hash-o-Matic ondersteunt het verifiëren van een bestand met de hulp van een PGP ondertekening.</p>
     <p xml:lang="pl">Hash-o-Matic obsługuje także sprawdzanie plików przy pomocy podpisów PGP.</p>
+    <p xml:lang="pt-BR">O Hash-o-Matic também suporta a verificação de um arquivo com a ajuda de uma assinatura PGP.</p>
     <p xml:lang="sa">Hash-o-Matic इत्येतत् PGP हस्ताक्षरस्य साहाय्येन सञ्चिकायाः सत्यापनम् अपि समर्थयति ।</p>
     <p xml:lang="sl">Hash-o-Matic podpira tudi preverjanje datoteke s pomočjo podpisa PGP.</p>
     <p xml:lang="sv">Hash-o-Matic stöder verifiering av en fil med hjälp av en PGP-signatur.</p>
@@ -200,6 +205,7 @@
       <caption xml:lang="lv">Ģenerēt kontrolsummas</caption>
       <caption xml:lang="nl">Controlesommen genereren</caption>
       <caption xml:lang="pl">Obliczaj sumy sprawdzające</caption>
+      <caption xml:lang="pt-BR">Gerar somas de verificação</caption>
       <caption xml:lang="sa">चेकसमं जनयन्तु</caption>
       <caption xml:lang="sl">Ustvari kontrolne vsote</caption>
       <caption xml:lang="sv">Generera checksummor</caption>
@@ -233,6 +239,7 @@
       <caption xml:lang="nl">Twee bestanden vergelijken</caption>
       <caption xml:lang="pa">ਦੋ ਫਾਇਲਾਂ ਦਾ ਟਾਕਰਾ ਕਰੋ</caption>
       <caption xml:lang="pl">Porównaj dwa pliki</caption>
+      <caption xml:lang="pt-BR">Comparar dois arquivos</caption>
       <caption xml:lang="sa">सञ्चिकाद्वयस्य तुलनां कुरुत</caption>
       <caption xml:lang="sl">Primerja dve datoteki</caption>
       <caption xml:lang="sv">Jämför två filer</caption>
@@ -264,6 +271,7 @@
       <caption xml:lang="lv">Pārbaudīt datnes integritāti</caption>
       <caption xml:lang="nl">De geldigheid van een bestand verifiëren</caption>
       <caption xml:lang="pl">Sprawdzaj poprawności plików</caption>
+      <caption xml:lang="pt-BR">Verificar a validade de um arquivo</caption>
       <caption xml:lang="sa">सञ्चिकायाः वैधतां सत्यापयन्तु</caption>
       <caption xml:lang="sl">Preveri veljavnost datoteke</caption>
       <caption xml:lang="sv">Verifiera en fils giltighet</caption>
