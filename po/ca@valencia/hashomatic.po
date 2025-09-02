@@ -199,7 +199,7 @@ msgstr "Fitxer 1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr "Seleccioneu un fitxer"
+msgstr "Trieu un fitxer"
 
 #: qml/ComparePage.qml:57
 #, kde-format
@@ -389,7 +389,7 @@ msgstr "Comprovació de la signatura"
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr "Seleccioneu el fitxer de signatura"
+msgstr "Trieu el fitxer de signatura"
 
 #: qml/VerifyPage.qml:169
 #, kde-format
