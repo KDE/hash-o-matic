@@ -35,7 +35,6 @@
   <name xml:lang="sv">Hash-o-matic</name>
   <name xml:lang="tr">Haşmatik</name>
   <name xml:lang="uk">Hash-o-matic</name>
-  <name xml:lang="x-test">xxHash-o-maticxx</name>
   <name xml:lang="zh-CN">哈希值</name>
   <name xml:lang="zh-TW">Hash-o-matic</name>
   <summary>Check hashes for your files</summary>
@@ -66,7 +65,6 @@
   <summary xml:lang="sv">Kontrollera kondensat för filer</summary>
   <summary xml:lang="tr">Dosya Sağlamalarını Denetle</summary>
   <summary xml:lang="uk">Перевірка хеш-сум ваших файлів</summary>
-  <summary xml:lang="x-test">xxCheck hashes for your filesxx</summary>
   <summary xml:lang="zh-CN">检查文件哈希值</summary>
   <summary xml:lang="zh-TW">檢查您的檔案的雜湊值</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -114,7 +112,6 @@
     <p xml:lang="sv">Att verifiera att en fil du laddat ner eller tagit emot faktiskt är den du förväntade dig är ofta förbisett eller för tidskrävande att utföra. Samtidigt har det blivit väldigt enkelt att få tag på en fil som har manipulerats, på grund av den massiva ökningen av skadliga webbsidor och andra aktörer.</p>
     <p xml:lang="tr">İndirdiğiniz veya aldığınız bir dosyanın aslında beklediğiniz dosya olduğunu doğrulama gerekliliği genellikle gözden kaçar veya bunu yapmak çok zaman alır. Aynı zamanda, kötü amaçlı web sayfalarının ve diğer aktörlerin kitlesel artışı nedeniyle, üzerinde oynanmış bir dosyaya ulaşmak çok kolay hale geldi.</p>
     <p xml:lang="uk">Перевіркою того, чи є ідентичним файл, який ви отримали інтернетом або поштою, часто нехтують або ця перевірка є надто марудною справою. Втім, зараз дуже легко отримати файл, до якого здійснено зловмисне втручання, через поширення створених шахраями сторінок в інтернеті та в інші способи.</p>
-    <p xml:lang="x-test">xxVerifying that a file you downloaded or received is actually the one you were expecting is often overlooked or too time-consuming to do. At the same time, it has become very easy to get your hands on a file that has been tampered with, due to the mass increase of malicious webpages and other actors.xx</p>
     <p xml:lang="zh-CN">验证你下载或接收的文件是否确实是你预期的文件的环节常常被忽视，或者做起来太过耗时。与此同时，由于恶意网页及其他不良因素大量增多，获取到被篡改的文件变得极为容易。 </p>
     <p xml:lang="zh-TW">檢查您下載或收到的檔案是否是您所預期的檔案是一件常被忘記或太花時間的動作。然而，由於惡意網站和其他有惡意的行為者的盛行，收到被竄改的檔案機率大增，而檢查檔案完整性變得額外重要。</p>
     <p>
@@ -147,7 +144,6 @@
     <p xml:lang="sv">Det här verktyget har målet att lösa det. Hash-o-matic levereras med ett enkelt och rent användargränssnitt, så att alla, från alla åldrar och erfarenhetsgrupper, kan generera, jämföra och verifiera MD5-, SHA-256- och SHA-1 kondensat.</p>
     <p xml:lang="tr">Bu araç bunu çözmeyi amaçlamaktadır. Haşmatik, yalın ve temiz bir kullanıcı arayüzü ile, her yaş ve deneyim grubundan herkesin MD5, SHA-256 ve SHA-1 sağlamalarını oluşturmasına, karşılaştırmasına ve doğrulamasına olanak tanır.</p>
     <p xml:lang="uk">Цю програму призначено для усування проблеми ідентичності. Hash-o-matic має простий і незахаращений інтерфейс, за допомогою якого будь-хто, з будь-яким рівнем досвіду, будь-якого віку, зможе створити і перевірити хеш-суми MD5, SHA-256 і SHA-1.</p>
-    <p xml:lang="x-test">xxThis tool aims to solve that. Hash-o-matic comes with a simple &amp; clean UI, allowing anyone, from any age and experience group, to generate, compare and verify MD5, SHA-256 and SHA-1 hashes.xx</p>
     <p xml:lang="zh-CN">该工具旨在解决这一问题。Hash-o-matic 拥有简洁明了的用户界面，无论年龄大小、经验多寡，任何人都能借此生成、比较和验证 MD5、SHA-256 以及 SHA-1 哈希值。 </p>
     <p xml:lang="zh-TW">這個工具嘗試要解決這個問題。Hash-o-matic 利用簡潔的介面讓任何人不論年齡或經驗都能產生、比對並驗證 MD5、SHA-256 或 ShA-1 雜湊值。</p>
     <p>
@@ -178,7 +174,6 @@
     <p xml:lang="sv">Hash-o-Matic stöder verifiering av en fil med hjälp av en PGP-signatur.</p>
     <p xml:lang="tr">Haşmatik, ayrıca bir dosyanın PGP imzası yardımıyla doğrulanmasını da destekler.</p>
     <p xml:lang="uk">Крім того, у Hash-o-Matic передбачено можливість перевірки файла за допомогою підпису PGP.</p>
-    <p xml:lang="x-test">xxHash-o-Matic also support verifying a file with the help of a PGP signature.xx</p>
     <p xml:lang="zh-CN">Hash-o-Matic 也支持在 PGP 签名的帮助下验证文件。</p>
     <p xml:lang="zh-TW">Hash-o-Matic 也支援利用 PGP 簽章驗證檔案。</p>
   </description>
@@ -211,7 +206,6 @@
       <caption xml:lang="sv">Generera checksummor</caption>
       <caption xml:lang="tr">Sağlama toplamları oluştur</caption>
       <caption xml:lang="uk">Створення контрольних сум</caption>
-      <caption xml:lang="x-test">xxGenerate checksumsxx</caption>
       <caption xml:lang="zh-CN">生成校验和</caption>
       <caption xml:lang="zh-TW">產生總和檢查碼</caption>
     </screenshot>
@@ -245,7 +239,6 @@
       <caption xml:lang="sv">Jämför två filer</caption>
       <caption xml:lang="tr">İki dosyayı karşılaştır</caption>
       <caption xml:lang="uk">Порівняння двох файлів</caption>
-      <caption xml:lang="x-test">xxCompare two filesxx</caption>
       <caption xml:lang="zh-CN">比较两个文件</caption>
       <caption xml:lang="zh-TW">比對兩個檔案</caption>
     </screenshot>
@@ -277,7 +270,6 @@
       <caption xml:lang="sv">Verifiera en fils giltighet</caption>
       <caption xml:lang="tr">Dosyanın geçerliliğini doğrula</caption>
       <caption xml:lang="uk">Перевірка ідентичності файла</caption>
-      <caption xml:lang="x-test">xxVerify the validity of a filexx</caption>
       <caption xml:lang="zh-CN">验证文件的有效性</caption>
       <caption xml:lang="zh-TW">檢查檔案是否有效</caption>
     </screenshot>
