@@ -312,11 +312,10 @@ msgid "About"
 msgstr "关于"
 
 #: qml/Main.qml:59
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr "关于"
+msgstr "关于 KDE"
 
 #: qml/Main.qml:78
 #, kde-format
