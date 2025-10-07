@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2021 Carl Schwan <carl@carlschwan.eu>
 [Desktop Entry]
 Name=hashomatic
+Name[ar]=مولّد التلبيدات
 Name[ast]=hashomatic
 Name[ca]=hashomatic
 Name[ca@valencia]=hashomatic
@@ -34,6 +35,7 @@ Name[uk]=hashomatic
 Name[zh_CN]=hash-o-matic
 Name[zh_TW]=hashomatic
 Comment=Check hashes for your files
+Comment[ar]=تحقق من تلبيدات ملفاتك
 Comment[ca]=Comprova els resums de fitxers
 Comment[ca@valencia]=Comprova els resums de fitxers
 Comment[de]=Hashwerte Ihrer Dateien überprüfen

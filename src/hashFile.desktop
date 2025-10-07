@@ -8,6 +8,7 @@ Actions=generateFileHash
 
 [Desktop Action generateFileHash]
 Name=Generate file hash
+Name[ar]=توليد تلبيدة للملف
 Name[ca]=Genera el resum d'un fitxer
 Name[ca@valencia]=Genera el resum d'un fitxer
 Name[cs]=Vytvořit hash souboru
