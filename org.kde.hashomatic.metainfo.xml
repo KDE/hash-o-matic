@@ -6,6 +6,7 @@
 <component type="desktop-application">
   <id>org.kde.hashomatic</id>
   <name>Hash-o-matic</name>
+  <name xml:lang="ar">مولّد التلبيدات</name>
   <name xml:lang="ast">Hash-o-matic</name>
   <name xml:lang="ca">Hash-o-matic</name>
   <name xml:lang="ca-valencia">Hash-o-Matic</name>
@@ -38,6 +39,7 @@
   <name xml:lang="zh-CN">哈希值</name>
   <name xml:lang="zh-TW">Hash-o-matic</name>
   <summary>Check hashes for your files</summary>
+  <summary xml:lang="ar">تحقق من تلبيدات ملفاتك</summary>
   <summary xml:lang="ca">Comprova els resums de fitxers</summary>
   <summary xml:lang="ca-valencia">Comprova els resums de fitxers</summary>
   <summary xml:lang="de">Hashwerte Ihrer Dateien überprüfen</summary>
@@ -87,6 +89,7 @@
       has become very easy to get your hands on a file that has been tampered with, due
       to the mass increase of malicious webpages and other actors.
     </p>
+    <p xml:lang="ar">عادةً ما يُتغاضى عن التثبّت من أن الملف الذي نزلّه أو استقبلّه المستخدم هو الملف الذي توقّعّه، أو يكون هذا الأمر مستهلكًا جدًا للوقت. وفي الوقت نفسه، أصبح الحصول على ملف جرى التلاعب فيه سهلاً للغاية، وذلك بسبب الانتشار الهائل لصفحات الويب الخبيثة والجهات الفاعلة الأخرى.</p>
     <p xml:lang="ca">Verificar que un fitxer que heu baixat o rebut és el que realment esperàveu sovint es passa per alt o es triga massa temps a fer-ho. Al mateix temps, s'ha fet molt fàcil accedir a un fitxer que s'ha manipulat, a causa de l'augment massiu de pàgines web malicioses i altres actors.</p>
     <p xml:lang="ca-valencia">Verificar que un fitxer que heu baixat o rebut és el que realment esperàveu sovint es passa per alt o es tarda massa temps a fer-ho. Al mateix temps, s'ha fet molt fàcil accedir a un fitxer que s'ha manipulat, a causa de l'augment massiu de pàgines web malicioses i altres actors.</p>
     <p xml:lang="de">Das Überprüfen einer heruntergeladenen oder empfangenen Datei, dahingehend ob sie auch die erwartete ist, wird oft übersehen oder ist zu zeitaufwändig. Zeitgleich wurde es durch den sprunghaften Anstieg boshafter Webseiten und anderen Akteuren sehr einfach eine manipulierte Datei in die Hände zu bekommen.</p>
@@ -119,6 +122,7 @@
       anyone, from any age and experience group, to generate, compare and verify MD5,
       SHA-256 and SHA-1 hashes.
     </p>
+    <p xml:lang="ar">تهدف هذه الأداة إلى حلّ هذه المشكلة. يأتي مولّد التلبيدات بواجهة مستخدم بسيطة ونظيفة، تسمح لأي شخص، من أي فئة عمرية أو خبرة، بأن يولّد ويقارن ويتحقق من تلبيدات MD5 و SHA-256 و SHA-1.</p>
     <p xml:lang="ca">Aquesta eina pretén resoldre això. Hash-o-matic ve amb una interfície d'usuari senzilla i neta, permetent a qualsevol persona, de qualsevol grup d'edat i experiència, generar, comparar i verificar resums MD5, SHA-256 i SHA-1.</p>
     <p xml:lang="ca-valencia">Esta eina pretén resoldre açò. Hash-o-Matic ve amb una interfície d'usuari senzilla i neta, permetent a qualsevol persona, de qualsevol grup d'edat i experiència, generar, comparar i verificar resums MD5, SHA-256 i SHA-1.</p>
     <p xml:lang="de">Dieses Werkzeug versucht das zu lösen. Hash-o-matic hat eine einfache und aufgeräumte Oberfläche, die jedem und unabhängig vom Alter oder der Erfahrung das Erstellen, Vergleichen oder Überprüfen von MD5-, SHA-256- und SHA-1-Hashwerte erlaubt.</p>
@@ -149,6 +153,7 @@
     <p>
       Hash-o-Matic also support verifying a file with the help of a PGP signature.
     </p>
+    <p xml:lang="ar">ادعم التحقق من ملف باستخدام توقيع PGP أيضًا في مولّد التلبيدات.</p>
     <p xml:lang="ca">El Hash-o-Matic també permet la verificació d'un fitxer amb l'ajuda d'una signatura PGP.</p>
     <p xml:lang="ca-valencia">Hash-o-Matic també permet la verificació d'un fitxer amb l'ajuda d'una signatura PGP.</p>
     <p xml:lang="de">Hash-o-Matic unterstützt auch das Überprüfen einer Datei mithilfe der PGP-Signatur.</p>
@@ -181,6 +186,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/hashomatic/generate.png</image>
       <caption>Generate checksums</caption>
+      <caption xml:lang="ar">ولّد تدقيقات المجموع</caption>
       <caption xml:lang="ca">Genera sumes de verificació</caption>
       <caption xml:lang="ca-valencia">Genera sumes de verificació</caption>
       <caption xml:lang="de">Prüfsummen erstellen</caption>
@@ -212,6 +218,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/hashomatic/compare.png</image>
       <caption>Compare two files</caption>
+      <caption xml:lang="ar">قارن ملفين</caption>
       <caption xml:lang="ca">Compara dos fitxers</caption>
       <caption xml:lang="ca-valencia">Compara dos fitxers</caption>
       <caption xml:lang="cs">Porovnat dva soubory</caption>
@@ -245,6 +252,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/hashomatic/verify.png</image>
       <caption>Verify the validity of a file</caption>
+      <caption xml:lang="ar">تحقق من صلاحية ملف</caption>
       <caption xml:lang="ca">Verifica la validesa d'un fitxer</caption>
       <caption xml:lang="ca-valencia">Verifica la validesa d'un fitxer</caption>
       <caption xml:lang="de">Die Gültigkeit einer Datei überprüfen</caption>
