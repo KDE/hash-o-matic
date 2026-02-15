@@ -304,7 +304,7 @@
     <release version="1.0.0" date="2024-03-01">
       <url>https://carlschwan.eu/2024/02/28/independent-releases/</url>
       <description>
-        <p>Initial release of Hash-o-Matic containing a hash generator mode, a file comparaison mode and a verification mode.</p>
+        <p>Initial release of Hash-o-Matic containing a hash generator mode, a file comparison mode and a verification mode.</p>
       </description>
     </release>
   </releases>
