@@ -299,6 +299,12 @@
       <url>https://carlschwan.eu/2024/06/25/hash-o-matic-1.0.1/</url>
       <description>
         <p>This new release of Hash-o-Matic provides updated translations and some small visual changes.</p>
+        <p xml:lang="ca">Aquesta versió nova de Hash-o-Matic proporciona traduccions actualitzades i alguns petits canvis visuals.</p>
+        <p xml:lang="he">המהדורה החדשה הזאת של Hash-o-Matic מספקת תרגומים עדכניים וכמה שינויים חזותיים קטנים.</p>
+        <p xml:lang="ka">Hash-o-Matic-ის ეს ახალი ვერსია მოგაწვდით განახლებულ თარგმანებს და რამდენიმე პატარა ვიზუალურ ცვლილებას.</p>
+        <p xml:lang="pt-BR">Esta nova versão do Hash-o-Matic traz traduções atualizadas e algumas pequenas alterações visuais.</p>
+        <p xml:lang="sl">Ta nova izdaja Hash-o-Matica ponuja posodobljene prevode in nekaj manjših vizualnih sprememb.</p>
+        <p xml:lang="uk">У цьому новому випуску Hash-o-Matic ви знайдете оновлені переклади та деякі незначні візуальні зміни.</p>
       </description>
     </release>
     <release version="1.0.0" date="2024-03-01">
