@@ -303,7 +303,9 @@
         <p xml:lang="ca">Aquesta versió nova de Hash-o-Matic proporciona traduccions actualitzades i alguns petits canvis visuals.</p>
         <p xml:lang="ca-valencia">Esta versió nova de Hash-o-Matic proporciona traduccions actualitzades i alguns petits canvis visuals.</p>
         <p xml:lang="he">המהדורה החדשה הזאת של Hash-o-Matic מספקת תרגומים עדכניים וכמה שינויים חזותיים קטנים.</p>
+        <p xml:lang="ia">Iste nove version de Hash-o-Matic forni traductiones actualisate e alcun parve cambiamentos visual.</p>
         <p xml:lang="ka">Hash-o-Matic-ის ეს ახალი ვერსია მოგაწვდით განახლებულ თარგმანებს და რამდენიმე პატარა ვიზუალურ ცვლილებას.</p>
+        <p xml:lang="lt">Šioje naujoje Hash-o-Matic laidoje pateikiami atnaujinti vertimai ir kai kurie smulkūs vaizdiniai pakeitimai.</p>
         <p xml:lang="nl">Deze nieuwe versie van Hash-o-Matic biedt bijgewerkte vertalingen en enkele kleine visuele wijzigingen.</p>
         <p xml:lang="pt-BR">Esta nova versão do Hash-o-Matic traz traduções atualizadas e algumas pequenas alterações visuais.</p>
         <p xml:lang="sl">Ta nova izdaja Hash-o-Matica ponuja posodobljene prevode in nekaj manjših vizualnih sprememb.</p>
@@ -314,6 +316,14 @@
       <url>https://carlschwan.eu/2024/02/28/independent-releases/</url>
       <description>
         <p>Initial release of Hash-o-Matic containing a hash generator mode, a file comparison mode and a verification mode.</p>
+        <p xml:lang="ca">Versió inicial del Hash-o-Matic que conté un mode generador de resums, un mode de comparació de fitxers i un mode de verificació.</p>
+        <p xml:lang="ia">Version initial de Hash-o-Matic continente un modo de generator de hash, un modo de comparation de file e un modo de verification. </p>
+        <p xml:lang="ka">Hash-o-Matic-ის საწყისი ვერსია ჰეშის გენერატორის რეჟიმით, ფაილის შედარების რეჟიმით და გადამოწმების რეჟიმით.</p>
+        <p xml:lang="lt">Pradinė Hash-o-Matic laida, kurioje yra maišos generatoriaus veiksena, failų palyginimo veiksena bei tikrinimo veiksena.</p>
+        <p xml:lang="nl">Eerste versie van Hash-o-Matic met een hashgenerator-modus, een bestandsvergelijkingsmodus en een verificatiemodus.</p>
+        <p xml:lang="pt-BR">Lançamento inicial do Hash-o-Matic contendo um modo gerador de hash, um modo de comparação de arquivos e um modo de verificação.</p>
+        <p xml:lang="sl">Začetna izdaja programa Hash-o-Matic, ki je vsebovala način generatorja zgoščevalnih vrednosti, način primerjave datotek in način preverjanja.</p>
+        <p xml:lang="uk">У початковому випуску Hash-o-Matic передбачено режим породження хешів, режим порівняння файлів та режим перевірки.</p>
       </description>
     </release>
   </releases>
