@@ -302,6 +302,7 @@
         <p xml:lang="ar">يوفر الإصدار الجديد من مولّد التلبيدات ترجمات محدثة وبعض التغييرات البصرية الصغيرة.</p>
         <p xml:lang="ca">Aquesta versió nova de Hash-o-Matic proporciona traduccions actualitzades i alguns petits canvis visuals.</p>
         <p xml:lang="ca-valencia">Esta versió nova de Hash-o-Matic proporciona traduccions actualitzades i alguns petits canvis visuals.</p>
+        <p xml:lang="es">Esta nueva versión de Hash-o-Matic proporciona traducciones actualizadas y algunos pequeños cambios visuales.</p>
         <p xml:lang="he">המהדורה החדשה הזאת של Hash-o-Matic מספקת תרגומים עדכניים וכמה שינויים חזותיים קטנים.</p>
         <p xml:lang="ia">Iste nove version de Hash-o-Matic forni traductiones actualisate e alcun parve cambiamentos visual.</p>
         <p xml:lang="ka">Hash-o-Matic-ის ეს ახალი ვერსია მოგაწვდით განახლებულ თარგმანებს და რამდენიმე პატარა ვიზუალურ ცვლილებას.</p>
@@ -316,7 +317,10 @@
       <url>https://carlschwan.eu/2024/02/28/independent-releases/</url>
       <description>
         <p>Initial release of Hash-o-Matic containing a hash generator mode, a file comparison mode and a verification mode.</p>
+        <p xml:lang="ar">الإصدار الأولي من مولّد التلبيدات الذي يحتوي على وضع مولد التجزئة، ووضع مقارنة الملفات، ووضع التحقق.</p>
         <p xml:lang="ca">Versió inicial del Hash-o-Matic que conté un mode generador de resums, un mode de comparació de fitxers i un mode de verificació.</p>
+        <p xml:lang="ca-valencia">Versió inicial de Hash-o-Matic que conté un mode generador de resums, un mode de comparació de fitxers i un mode de verificació.</p>
+        <p xml:lang="es">Versión inicial de Hash-o-Matic que contiene un modo de generador de hash, un modo de comparación de archivos y un modo de verificación.</p>
         <p xml:lang="ia">Version initial de Hash-o-Matic continente un modo de generator de hash, un modo de comparation de file e un modo de verification. </p>
         <p xml:lang="ka">Hash-o-Matic-ის საწყისი ვერსია ჰეშის გენერატორის რეჟიმით, ფაილის შედარების რეჟიმით და გადამოწმების რეჟიმით.</p>
         <p xml:lang="lt">Pradinė Hash-o-Matic laida, kurioje yra maišos generatoriaus veiksena, failų palyginimo veiksena bei tikrinimo veiksena.</p>
