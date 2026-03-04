@@ -1,14 +1,14 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the hash-o-matic package.
 #
-# SPDX-FileCopyrightText: 2023 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2026 Alexander Yavorsky <kekcuha@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: hash-o-matic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2023-12-05 16:24+0300\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"PO-Revision-Date: 2026-02-26 19:56+0200\n"
+"Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Александр Яворский"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "Ваши адреса электронной почты"
 
 #: hashhelper.cpp:66
 #, kde-format
@@ -35,42 +35,44 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
+"Этот файл подписан в соответствии со стандартом VS-NfD с использованием "
+"ключа <a href=\"%1\">%2</a>."
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr ""
+msgstr "Этот файл подписан ключом <a href=\"%1\">%2</a>."
 
 #: hashhelper.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "The key details are not available."
-msgstr ""
+msgstr "Детали ключа недоступны."
 
 #: hashhelper.cpp:77
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr ""
+msgstr "Этот файл подписан в соответствии с VS-NfD пользователем %1."
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr ""
+msgstr "Этот файл подписан %1."
 
 #: hashhelper.cpp:82
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was revoked."
-msgstr ""
+msgstr "Ключ <a href=\"%1\">%1</a> был отозван."
 
 #: hashhelper.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr ""
+msgstr "Ключ <a href=\"%1\">истёк</a>."
 
 #: hashhelper.cpp:89
 #, kde-format
@@ -78,6 +80,7 @@ msgctxt "@label"
 msgid ""
 "The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
 msgstr ""
+"Подпись действительна, но достоверность <a href=\"%1\">ключа</a> неизвестна."
 
 #: hashhelper.cpp:91
 #, kde-format
@@ -85,12 +88,15 @@ msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
 msgstr ""
+"Подпись действительна, а <a href=\"%1\">ключ</a> имеет условное доверие."
 
 #: hashhelper.cpp:93
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
 msgstr ""
+"Подпись действительна, а <a href=\"%1\">ключ</a> является полностью "
+"доверенным."
 
 #: hashhelper.cpp:95
 #, kde-format
@@ -98,84 +104,87 @@ msgctxt "@label"
 msgid ""
 "The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
 msgstr ""
+"Подпись действительна, а <a href=\"%1\">ключ</a> является абсолютно "
+"доверенным."
 
 #: hashhelper.cpp:97
 #, kde-format
 msgctxt "@label"
 msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
 msgstr ""
+"Подпись действительна, но <a href=\"%1\">ключ</a> не заслуживает доверия."
 
 #: hashhelper.cpp:101
 #, kde-format
 msgctxt "@label"
 msgid "The signature is invalid."
-msgstr ""
+msgstr "Неверная подпись."
 
 #: hashhelper.cpp:159
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", ,"
 
 #: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr ""
+msgstr "Hash-o-matic не поддерживает папки."
 
 #: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr ""
+msgstr "Файл не существует или не читаемый."
 
 #: main.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Hash-o-matic"
-msgstr ""
+msgstr "Hash-o-matic"
 
 #: main.cpp:99
 #, kde-format
 msgid "Check hashes for your files"
-msgstr ""
+msgstr "Проверка контрольных сумм файлов"
 
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr ""
+msgstr "© Сообщество KDE, 2021-2024"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Сопровождающий"
 
 #: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
-msgstr ""
+msgstr "Вычисление контрольных сумм файла"
 
 #: main.cpp:110
 #, kde-format
 msgid "Local file url"
-msgstr ""
+msgstr "URL локального файла"
 
 #: qml/ComparePage.qml:18
 #, kde-format
 msgctxt "@title"
 msgid "Compare files"
-msgstr ""
+msgstr "Сравнение файлов"
 
 #: qml/ComparePage.qml:30
 #, kde-format
 msgctxt "@title"
 msgid "Compare Two Files"
-msgstr ""
+msgstr "Сравнение двух файлов"
 
 #: qml/ComparePage.qml:43
 #, kde-format
@@ -188,205 +197,205 @@ msgstr "Файл 1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Select file"
-msgstr ""
+msgstr "Выбрать файл"
 
 #: qml/ComparePage.qml:57
 #, kde-format
 msgctxt "@title:group"
 msgid "File 2"
-msgstr ""
+msgstr "Файл 2"
 
 #: qml/ComparePage.qml:90
 #, kde-format
 msgid "They match!"
-msgstr ""
+msgstr "Они совпадают."
 
 #: qml/ComparePage.qml:90
 #, kde-format
 msgid "They don't match!"
-msgstr ""
+msgstr "Они не совпадают."
 
 #: qml/ComparePage.qml:138 qml/ComparePage.qml:151
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr ""
+msgstr "Перетащите файл сюда для сравнения"
 
 #: qml/GeneratePage.qml:19
 #, kde-format
 msgctxt "@title"
 msgid "Generate Hash"
-msgstr ""
+msgstr "Вычисление контрольной суммы"
 
 #: qml/GeneratePage.qml:31
 #, kde-format
 msgid "Display Checksums"
-msgstr ""
+msgstr "Показать контрольные суммы"
 
 #: qml/GeneratePage.qml:55
 #, kde-format
 msgctxt "@title:group"
 msgid "Hashes"
-msgstr ""
+msgstr "Контрольные суммы"
 
 #: qml/GeneratePage.qml:63
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "MD5:"
-msgstr ""
+msgstr "MD5:"
 
 #: qml/GeneratePage.qml:66 qml/GeneratePage.qml:81 qml/GeneratePage.qml:96
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "Копировать контрольную сумму"
 
 #: qml/GeneratePage.qml:70 qml/GeneratePage.qml:85 qml/GeneratePage.qml:100
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr ""
+msgstr "Контрольная сумма скопирована в буфер обмена"
 
 #: qml/GeneratePage.qml:78
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 #: qml/GeneratePage.qml:93
 #, kde-format
 msgctxt "Hashing algorithm"
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA-256:"
 
 #: qml/GeneratePage.qml:128
 #, kde-format
 msgid "Drag items here to share them"
-msgstr ""
+msgstr "Перетащите сюда элементы для общего доступа"
 
 #: qml/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File"
-msgstr ""
+msgstr "&Файл"
 
 #: qml/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open…"
-msgstr ""
+msgstr "Открыть…"
 
 #: qml/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr ""
+msgstr "О программе Hash-o-matic"
 
 #: qml/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
-msgstr ""
+msgstr "Выход"
 
 #: qml/GlobalMenu.qml:38
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View"
-msgstr ""
+msgstr "Вид"
 
 #: qml/GlobalMenu.qml:41 qml/Main.qml:70
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Generate"
-msgstr ""
+msgstr "Создать"
 
 #: qml/GlobalMenu.qml:46
 #, kde-format
 msgid "Compare"
-msgstr ""
+msgstr "Сравнение"
 
 #: qml/GlobalMenu.qml:51
 #, kde-format
 msgid "Verify"
-msgstr ""
+msgstr "Проверить"
 
 #: qml/Main.qml:54
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "О программе"
 
 #: qml/Main.qml:59
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "О KDE"
 
 #: qml/Main.qml:78
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Compare"
-msgstr ""
+msgstr "Сравнение"
 
 #: qml/Main.qml:86
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Verify"
-msgstr ""
+msgstr "Проверить"
 
 #: qml/VerifyPage.qml:18
 #, kde-format
 msgctxt "@title"
 msgid "Verify Hash"
-msgstr ""
+msgstr "Проверка контрольной суммы"
 
 #: qml/VerifyPage.qml:30
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr ""
+msgstr "Проверка контрольных сумм и подписей"
 
 #: qml/VerifyPage.qml:30
 #, kde-format
 msgid "Verify checksums"
-msgstr ""
+msgstr "Проверка контрольных сумм"
 
 #: qml/VerifyPage.qml:44
 #, kde-format
 msgctxt "@title:group"
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #: qml/VerifyPage.qml:58
 #, kde-format
 msgctxt "@title:group"
 msgid "Checksum Verification"
-msgstr ""
+msgstr "Проверка контрольной суммы"
 
 #: qml/VerifyPage.qml:65
 #, kde-format
 msgctxt "@label"
 msgid "Checksum"
-msgstr ""
+msgstr "Контрольная сумма"
 
 #: qml/VerifyPage.qml:89
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr ""
+msgstr "Контрольная сумма совпадает с файлом."
 
 #: qml/VerifyPage.qml:89
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr ""
+msgstr "Контрольная сумма не совпадает с файлом."
 
 #: qml/VerifyPage.qml:95
 #, kde-format
 msgctxt "@title:group"
 msgid "Signature Verification"
-msgstr ""
+msgstr "Проверка подписей"
 
 #: qml/VerifyPage.qml:102
 #, kde-format
 msgctxt "@action:button"
 msgid "Select signature file"
-msgstr ""
+msgstr "Выбор файла подписи"
 
 #: qml/VerifyPage.qml:169
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr ""
+msgstr "Перетащите объекты сюда для проверки"
