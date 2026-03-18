@@ -323,6 +323,7 @@
         <p xml:lang="sl">Ta nova izdaja Hash-o-Matica ponuja posodobljene prevode in nekaj manjših vizualnih sprememb.</p>
         <p xml:lang="tr">Haşmatik’in bu yeni sürümü, güncellenmiş çeviriler ve bazı küçük görsel değişiklikler içeriyor.</p>
         <p xml:lang="uk">У цьому новому випуску Hash-o-Matic ви знайдете оновлені переклади та деякі незначні візуальні зміни.</p>
+        <p xml:lang="zh-TW">這個 Hash-o-Matic 新版本包含翻譯更新和一些視覺上的微調。</p>
       </description>
     </release>
     <release version="1.0.0" date="2024-03-01">
@@ -346,6 +347,7 @@
         <p xml:lang="sl">Začetna izdaja programa Hash-o-Matic, ki je vsebovala način generatorja zgoščevalnih vrednosti, način primerjave datotek in način preverjanja.</p>
         <p xml:lang="tr">Haşmatik’in ilk sürümü, bir sağlama oluşturma kipi, dosya karşılaştırma kipi ve doğrulama kipi içermektedir.</p>
         <p xml:lang="uk">У початковому випуску Hash-o-Matic передбачено режим породження хешів, режим порівняння файлів та режим перевірки.</p>
+        <p xml:lang="zh-TW">Hash-o-Matic 的最初版本，包含雜湊值產生模式、檔案比對模式與檢查模式。</p>
       </description>
     </release>
   </releases>
