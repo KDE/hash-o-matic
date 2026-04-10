@@ -32,12 +32,14 @@ msgid ""
 "This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
 "a>."
 msgstr ""
+"Tento súbor bol podpísaný v súlade s VS-NfD pomocou kľúča <a href=\"%1\">%2</"
+"a>."
 
 #: hashhelper.cpp:71
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
-msgstr ""
+msgstr "Tento súbor bol podpísaný pomocou kľúča <a href=\"%1\">%2</a>."
 
 #: hashhelper.cpp:74
 #, kde-format
@@ -49,13 +51,13 @@ msgstr "Podrobnosti o kľúči nie sú k dispozícii."
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed VS-NfD compliant by %1."
-msgstr ""
+msgstr "Tento súbor bol podpísaný v súlade s VS-NfD používateľom %1."
 
 #: hashhelper.cpp:79
 #, kde-format
 msgctxt "@label"
 msgid "This file has been signed by %1."
-msgstr ""
+msgstr "Tento súbor bol podpísaný používateľom %1."
 
 #: hashhelper.cpp:82
 #, kde-format
@@ -67,7 +69,7 @@ msgstr "Platnosť <a href=\"%1\">kľúča</a> bola zrušená."
 #, kde-format
 msgctxt "@label"
 msgid "The <a href=\"%1\">key</a> was expired."
-msgstr ""
+msgstr "<a href=\"%1\">Kľúč</a> expiroval."
 
 #: hashhelper.cpp:89
 #, kde-format
@@ -119,12 +121,12 @@ msgstr ", "
 #: hashhelper.cpp:196
 #, kde-format
 msgid "Hash-o-matic doesn't support directories."
-msgstr ""
+msgstr "Hash-o-matic nepodporuje priečinky."
 
 #: hashhelper.cpp:268
 #, kde-format
 msgid "The file doesn't exist or is not readable."
-msgstr ""
+msgstr "Súbor neexistuje alebo nie je čitateľný."
 
 #: main.cpp:96
 #, kde-format
@@ -157,7 +159,7 @@ msgstr "Správca"
 #: main.cpp:109
 #, kde-format
 msgid "Generate hashes for file"
-msgstr ""
+msgstr "Generovať kontrolné súčty pre súbor"
 
 #: main.cpp:110
 #, kde-format
@@ -198,17 +200,17 @@ msgstr "Súbor 2"
 #: qml/ComparePage.qml:90
 #, kde-format
 msgid "They match!"
-msgstr ""
+msgstr "Zhodujú sa!"
 
 #: qml/ComparePage.qml:90
 #, kde-format
 msgid "They don't match!"
-msgstr ""
+msgstr "Nezhodujú sa!"
 
 #: qml/ComparePage.qml:138 qml/ComparePage.qml:151
 #, kde-format
 msgid "Drag file here to compare it"
-msgstr ""
+msgstr "Presuňte sem súbor na porovnanie"
 
 #: qml/GeneratePage.qml:19
 #, kde-format
@@ -236,12 +238,12 @@ msgstr "MD5:"
 #: qml/GeneratePage.qml:66 qml/GeneratePage.qml:81 qml/GeneratePage.qml:96
 #, kde-format
 msgid "Copy hash"
-msgstr ""
+msgstr "Kopírovať kontrolný súčet"
 
 #: qml/GeneratePage.qml:70 qml/GeneratePage.qml:85 qml/GeneratePage.qml:100
 #, kde-format
 msgid "Hash copied into the clipboard"
-msgstr ""
+msgstr "Kontrolný súčet skopírovaný do schránky"
 
 #: qml/GeneratePage.qml:78
 #, kde-format
@@ -276,7 +278,7 @@ msgstr "Otvoriť..."
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Hash-o-matic"
-msgstr ""
+msgstr "O programe Hash-o-matic"
 
 #: qml/GlobalMenu.qml:30
 #, kde-format
@@ -338,12 +340,12 @@ msgstr "Verify Hash"
 #: qml/VerifyPage.qml:30
 #, kde-format
 msgid "Verify checksums and signatures"
-msgstr ""
+msgstr "Overiť kontrolné súčty a podpisy"
 
 #: qml/VerifyPage.qml:30
 #, kde-format
 msgid "Verify checksums"
-msgstr ""
+msgstr "Overiť kontrolné súčty"
 
 #: qml/VerifyPage.qml:44
 #, kde-format
@@ -366,12 +368,12 @@ msgstr "Kontrolný súčet"
 #: qml/VerifyPage.qml:89
 #, kde-format
 msgid "Checksum match with the file!"
-msgstr ""
+msgstr "Kontrolný súčet sa zhoduje so súborom!"
 
 #: qml/VerifyPage.qml:89
 #, kde-format
 msgid "Checksum doesn't match with the file!"
-msgstr ""
+msgstr "Kontrolný súčet sa nezhoduje so súborom!"
 
 #: qml/VerifyPage.qml:95
 #, kde-format
@@ -388,7 +390,7 @@ msgstr "Vybrať podpis súbor"
 #: qml/VerifyPage.qml:169
 #, kde-format
 msgid "Drag items here to verify them"
-msgstr ""
+msgstr "Presuňte sem položky na overenie"
 
 #~ msgid "(c) KDE Community 2021"
 #~ msgstr "(c) KDE komunita 2021"
