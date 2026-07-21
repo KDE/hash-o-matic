@@ -152,7 +152,7 @@ msgstr "Comprova els resums de fitxers"
 #: main.cpp:103
 #, kde-format
 msgid "© 2021-2024 KDE Community"
-msgstr "© 2021-2024 Comunitat KDE"
+msgstr "© 2021-2024 La comunitat KDE"
 
 #: main.cpp:104
 #, kde-format
